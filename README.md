@@ -33,32 +33,30 @@ vocabe/
 
 ---
 
-## 🐳 Setup con Docker
+## 🖥️ Setup locale per sviluppo
 
-### 1️⃣ Build dell’immagine
+Per utilizzare la versione corretta di node:
 
 ```bash
-docker compose build
+nvm install 20.19.1
+nvm use 20.19.1
 ```
 
-### 2️⃣ Avvio in modalità sviluppo
+N.B. Per switchare versione di Node serve un terminale aperto da Admin.
+
+### 1️⃣ Installa le dipendenze
 
 ```bash
-docker compose up
+npm install
+```
+
+### 2️⃣ Avvia Next.js in modalità sviluppo
+
+```bash
+npm run dev
 ```
 
 Apri il browser su 👉 [http://localhost:3000](http://localhost:3000)
-
----
-
-## 🔄 Hot reload (modifiche in tempo reale)
-
-I file del progetto vengono montati come volume dentro il container.
-Se su Windows le modifiche **non ricaricano automaticamente**, attiva il **polling** modificando lo script in `package.json`:
-
-```json
-"dev": "next dev --turbo --watch-options-poll=1000"
-```
 
 ---
 
