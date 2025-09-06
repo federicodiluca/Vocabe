@@ -1,0 +1,29 @@
+# dipendenze
+/node_modules
+
+# output Next.js
+/.next
+/out
+
+# lockfile, se non vuoi versionarlo
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# log vari
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# editor/IDE
+.vscode
+.idea
+.DS_Store
+
+# system files
+Thumbs.db

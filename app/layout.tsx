@@ -1,9 +1,9 @@
 import "./globals.css";
-import { ReactNode, useEffect } from "react";
+import { ReactNode } from "react";
 
 export const metadata = {
     title: "Vocabe",
-    description: "Una parola al giorno in italiano"
+    description: "Una parola al giorno in italiano",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   });
                 });
               }
-            `
+            `,
                     }}
                 />
             </body>
