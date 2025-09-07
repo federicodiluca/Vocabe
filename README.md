@@ -1,118 +1,69 @@
-# 📘 Vocabe
+# React + TypeScript + Vite
 
-Vocabe è una **web app minimal** che mostra una *parola italiana al giorno*, con definizione ed esempi d’uso.
-L’utente può spuntare la parola come “fatta” e mantenerne lo stato grazie al `localStorage`.
-L’app è **PWA-ready**: può essere installata su smartphone come applicazione standalone.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Tecnologie usate
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-* [Next.js 14](https://nextjs.org/) — React framework
-* [TailwindCSS](https://tailwindcss.com/) — styling
-* [TypeScript](https://www.typescriptlang.org/) — typing
-* **PWA** (manifest + service worker)
-* **Docker + Docker Compose** — ambiente portabile
+## Expanding the ESLint configuration
 
----
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-## 📂 Struttura progetto
-
-```
-vocabe/
- ├─ app/              # codice Next.js (layout.tsx, page.tsx, globals.css)
- ├─ public/           # file statici (words.json, manifest.json, sw.js, icons)
- ├─ package.json      # dipendenze
- ├─ tailwind.config.js
- ├─ postcss.config.js
- ├─ tsconfig.json
- ├─ Dockerfile
- ├─ docker-compose.yml
- └─ .gitignore
-```
-
----
-
-## 🖥️ Setup locale per sviluppo
-
-Per utilizzare la versione corretta di node:
-
-```bash
-nvm install 20.19.1
-nvm use 20.19.1
-```
-
-N.B. Per switchare versione di Node serve un terminale aperto da Admin.
-
-### 1️⃣ Installa le dipendenze
-
-```bash
-npm install
-```
-
-### 2️⃣ Avvia Next.js in modalità sviluppo
-
-```bash
-npm run dev
-```
-
-Apri il browser su 👉 [http://localhost:3000](http://localhost:3000)
-
----
-
-## 📦 Build in produzione
-
-Per buildare la versione ottimizzata:
-
-```bash
-docker compose -f docker-compose.yml down
-docker build -t vocabe-prod -f Dockerfile .
-docker run -p 3000:3000 vocabe-prod npm run build && npm start
-```
-
----
-
-## 📱 PWA (Installabile su smartphone)
-
-* `manifest.json` definisce nome/icona/colori.
-* `sw.js` gestisce il caching offline.
-* Su Android/iOS, puoi aggiungere **Vocabe** alla schermata home e usarla come app standalone.
-
----
-
-## 📝 Gestione delle parole
-
-Le parole sono definite in **`public/words.json`**:
-
-```json
-[
+```js
+export default tseslint.config([
+  globalIgnores(['dist']),
   {
-    "date": "2025-09-04",
-    "word": "ineffabile",
-    "definition": "Che non si può esprimere a parole.",
-    "examples": ["Una bellezza ineffabile.", "Un'emozione ineffabile."]
-  }
-]
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+
+      // Remove tseslint.configs.recommended and replace with this
+      ...tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      ...tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      ...tseslint.configs.stylisticTypeChecked,
+
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
 ```
 
-➡️ basta aggiungere nuove entry con la data per arricchire il dizionario.
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
----
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-## ⚙️ Comandi rapidi
-
-| Comando                   | Descrizione                           |
-| ------------------------- | ------------------------------------- |
-| `docker compose build`    | Builda l’immagine                     |
-| `docker compose up`       | Avvia l’app in modalità sviluppo      |
-| `docker compose down`     | Stoppa i container                    |
-| `docker system prune -af` | Pulisce cache e immagini inutilizzate |
-
----
-
-## 📌 TODO Futuri
-
-* Archivio parole passate
-* Notifiche push giornaliere
-* Gamification (badge, streak giornalieri)
-* Deploy su [Vercel](https://vercel.com/) o [Railway](https://railway.app/)
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
