@@ -1,0 +1,82 @@
+[
+    {
+        "term": "effimero",
+        "meaning": "Che dura un tempo brevissimo, passeggero, fugace.",
+        "examples": [
+            "Un successo effimero.",
+            "La bellezza è spesso effimera."
+        ]
+    },
+    {
+        "term": "ineluttabile",
+        "meaning": "Che non si può evitare né impedire.",
+        "examples": [
+            "Il destino è ineluttabile.",
+            "Una conseguenza ineluttabile."
+        ]
+    },
+    {
+        "term": "sagace",
+        "meaning": "Dotato di acutezza e prontezza di ingegno.",
+        "examples": [
+            "Un osservatore sagace.",
+            "Una scelta sagace in quel contesto."
+        ]
+    },
+    {
+        "term": "prolifico",
+        "meaning": "Che produce o crea molto in poco tempo.",
+        "examples": [
+            "Uno scrittore prolifico.",
+            "Un periodo prolifico di idee."
+        ]
+    },
+    {
+        "term": "ostico",
+        "meaning": "Difficile da comprendere o affrontare.",
+        "examples": [
+            "Un testo ostico.",
+            "Un problema ostico di matematica."
+        ]
+    },
+    {
+        "term": "eloquente",
+        "meaning": "Che esprime con efficacia e forza i propri pensieri.",
+        "examples": [
+            "Un discorso eloquente.",
+            "Un gesto eloquente."
+        ]
+    },
+    {
+        "term": "ermetico",
+        "meaning": "Difficile da interpretare o comprendere; chiuso ermeticamente.",
+        "examples": [
+            "Un linguaggio ermetico.",
+            "Un contenitore ermetico."
+        ]
+    },
+    {
+        "term": "superfluo",
+        "meaning": "Non necessario, inutile.",
+        "examples": [
+            "Parole superflue.",
+            "Oggetti superflui accumulati."
+        ]
+    },
+    {
+        "term": "meticoloso",
+        "meaning": "Che presta grande attenzione ai dettagli.",
+        "examples": [
+            "Un lavoro meticoloso.",
+            "Una persona meticolosa nella scrittura."
+        ]
+    },
+    {
+        "term": "tenace",
+        "meaning": "Che non si lascia scoraggiare facilmente, perseverante.",
+        "examples": [
+            "Un atleta tenace.",
+            "Una tenacia che porta al successo."
+        ]
+    }
+]
