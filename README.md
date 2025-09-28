@@ -1,15 +1,20 @@
 # Vocabe 📚
 
 Vocabe è una semplice **web app PWA** che mostra una **parola italiana al giorno**, con:
+
 - Significato
 - Esempi di utilizzo
 - Possibilità di segnare la parola come "fatta"
 
 ## Tecnologie
+
 - [Vite](https://vitejs.dev/) + [React](https://react.dev/) + TypeScript
 - LocalStorage per salvare lo stato "fatto"
 
 ## Avvio locale
+
+Make sure you're using `node 20.19.1`.
+
 ```bash
 npm install
 npm run dev
