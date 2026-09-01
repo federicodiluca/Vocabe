@@ -1,0 +1,64 @@
+export type WordCategory =
+  | 'comune'
+  | 'letteraria'
+  | 'scientifica'
+  | 'antica'
+  | 'regionale'
+  | 'straniera'
+
+export type Word = {
+  /** stable slug, used as key in progress state — never reuse or renumber */
+  id: string
+  term: string
+  /** part of speech, e.g. "agg." / "s.m." / "v.tr." */
+  pos?: string
+  meaning: string
+  examples: string[]
+  synonyms?: string[]
+  etymology?: string
+  /** a quote, literary use or fun fact tied to the word */
+  curiosity?: string
+  category?: WordCategory
+  /** 1 = accessibile, 2 = medio, 3 = ostico */
+  difficulty?: 1 | 2 | 3
+}
+
+/** Leitner box for spaced recall: 1 (soon) .. 5 (mastered) */
+export type RecallBox = 1 | 2 | 3 | 4 | 5
+
+export type LearnedEntry = {
+  /** ISO date (local) when first marked as learned */
+  learnedOn: string
+  box: RecallBox
+  /** ISO date (local) the recall quiz is next due */
+  dueOn: string
+  /** count of correct / wrong recall answers so far */
+  correct: number
+  wrong: number
+}
+
+export type ThemeSetting = 'system' | 'light' | 'dark'
+
+export type Settings = {
+  theme: ThemeSetting
+  /** local reminder time "HH:mm" — used by native notifications later */
+  reminderTime: string
+  reminderEnabled: boolean
+}
+
+export type ProgressState = {
+  version: number
+  /** wordId -> entry */
+  learned: Record<string, LearnedEntry>
+  streak: {
+    current: number
+    longest: number
+    /** ISO date (local) of the last day an action counted toward the streak */
+    lastActiveOn: string | null
+  }
+  /** earned badge ids */
+  badges: string[]
+  settings: Settings
+  /** ISO date (local) the app was first opened */
+  startedOn: string
+}
