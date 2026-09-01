@@ -1,34 +1,47 @@
-# Vocabe 📚
+# Vocabe 📖
 
-Vocabe è una semplice **web app PWA** che mostra una **parola italiana al giorno**, con:
+Una **parola italiana al giorno**: significato, esempi, etimologia e curiosità.
+Poche cose ogni giorno, un piccolo ripasso, e la vista di quanto hai imparato — senza account, senza database.
 
-- Significato
-- Esempi di utilizzo
-- Possibilità di segnare la parola come "fatta"
+App **freemium** (rewarded ads + sblocco "Pro" una tantum) pensata per **Google Play Store** e **web** (PWA).
+`src/core` e `src/ui` sono il template riutilizzabile per le prossime app.
 
-## Tecnologie
+## Stack
 
-- [Vite](https://vitejs.dev/) + [React](https://react.dev/) + TypeScript
-- LocalStorage per salvare lo stato "fatto"
+- **Vite + React 19 + TypeScript**
+- **Tailwind CSS v4**
+- **vite-plugin-pwa** (offline, installabile)
+- **react-router**
+- Stato utente in un unico blob JSON `vocabe:v1` — `localStorage` sul web, Capacitor Preferences nell'app Android (adapter in `src/core/storage`)
+- Ripasso: mini algoritmo di Leitner (`src/core/srs`)
 
-## Avvio locale
+## Struttura
 
-Make sure you're using `node 20.19.1`.
+```
+src/
+  app/        shell, routing, tema
+  core/       logica pura e riusabile: content, storage, srs, streak, badges, share, date
+  state/      ProgressContext (stato + azioni + persistenza)
+  features/   daily · recall · progress · settings
+  ui/         componenti condivisi
+  data/       words.json (dataset curato)
+scripts/      validate-words.ts
+```
+
+## Sviluppo
+
+Node `20.19.1`.
 
 ```bash
 npm install
 npm run dev
-````
-
-## Build
-
-```bash
-npm run build
-npm run preview
+npm run words:validate   # controlla il dataset
+npm run build && npm run preview
 ```
 
-## Prossimi step
+## Roadmap
 
-* Aggiungere più parole alla lista
-* UI migliorata (es. Tailwind CSS)
-* Packaging mobile con Capacitor
+- **Fase 1 — MVP** ✅ parola del giorno · segna come imparata · storico con ricerca
+- **Fase 2 — retention** ✅ streak · badge · tema chiaro/scuro · quiz di ripasso · ⏳ notifiche native
+- **Fase 3 — viralità** ✅ condivisione con grafica (immagine PNG generata) · ⏳ sfida amici · curiosità
+- **Fase 4 — premium** categorie · quiz avanzati · chatbot IA · packaging Capacitor + AdMob + IAP

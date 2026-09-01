@@ -1,0 +1,194 @@
+import type { ProgressState, Word } from '@/core/types'
+import { displayStreak } from '@/core/streak/streak'
+import { dayNumber } from '@/core/date'
+
+/** Share image size — Instagram feed portrait (4:5). */
+const W = 1080
+const H = 1350
+
+const SERIF = "'Georgia', 'Times New Roman', serif"
+const SANS = "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+
+const COLORS = {
+  paper: '#faf7f2',
+  raised: '#ffffff',
+  ink: '#1c1917',
+  soft: '#57534e',
+  line: '#e7e2d9',
+  brand: '#b45309',
+}
+
+function wrap(
+  ctx: CanvasRenderingContext2D,
+  text: string,
+  maxWidth: number,
+  maxLines: number,
+): string[] {
+  const words = text.trim().split(/\s+/)
+  const lines: string[] = []
+  let line = ''
+  let i = 0
+  for (; i < words.length; i++) {
+    const test = line ? `${line} ${words[i]}` : words[i]
+    if (line && ctx.measureText(test).width > maxWidth) {
+      lines.push(line)
+      line = words[i]
+      if (lines.length === maxLines - 1) {
+        i++
+        break
+      }
+    } else {
+      line = test
+    }
+  }
+  // whatever is left goes on the last line
+  const tail = words.slice(i).join(' ')
+  line = line && tail ? `${line} ${tail}` : line || tail
+  const truncated = ctx.measureText(line).width > maxWidth
+  if (truncated) {
+    while (line && ctx.measureText(`${line}…`).width > maxWidth) {
+      line = line.replace(/\s*\S*$/, '')
+    }
+    line = line.replace(/[.,;:]?$/, '') + '…'
+  }
+  lines.push(line)
+  return lines
+}
+
+/** Fit a single line to a width by stepping the font size down. */
+function fitLine(ctx: CanvasRenderingContext2D, text: string, max: number, start: number, min: number) {
+  let size = start
+  do {
+    ctx.font = `700 ${size}px ${SERIF}`
+    if (ctx.measureText(text).width <= max) break
+    size -= 4
+  } while (size > min)
+  return size
+}
+
+export async function renderShareCard(word: Word, state: ProgressState): Promise<Blob> {
+  if ('fonts' in document) {
+    try {
+      await (document as Document & { fonts: FontFaceSet }).fonts.ready
+    } catch {
+      /* fine, system fonts */
+    }
+  }
+
+  const canvas = document.createElement('canvas')
+  canvas.width = W
+  canvas.height = H
+  const ctx = canvas.getContext('2d')!
+  const pad = 96
+
+  ctx.fillStyle = COLORS.paper
+  ctx.fillRect(0, 0, W, H)
+
+  // frame
+  ctx.strokeStyle = COLORS.line
+  ctx.lineWidth = 2
+  roundRect(ctx, 44, 44, W - 88, H - 88, 36)
+  ctx.stroke()
+
+  // header
+  ctx.textBaseline = 'alphabetic'
+  ctx.fillStyle = COLORS.brand
+  ctx.font = `700 30px ${SANS}`
+  ctx.save()
+  ctx.translate(pad, 132)
+  drawTracked(ctx, 'VOCABE', 6)
+  ctx.restore()
+
+  const n = dayNumber() - 20_000
+  ctx.fillStyle = COLORS.soft
+  ctx.font = `600 30px ${SANS}`
+  ctx.textAlign = 'right'
+  ctx.fillText(`#${n}`, W - pad, 132)
+  ctx.textAlign = 'left'
+
+  // term
+  let y = 360
+  const termSize = fitLine(ctx, word.term, W - pad * 2, 116, 60)
+  ctx.fillStyle = COLORS.ink
+  ctx.font = `700 ${termSize}px ${SERIF}`
+  ctx.fillText(word.term, pad, y)
+
+  if (word.pos) {
+    y += 56
+    ctx.fillStyle = COLORS.soft
+    ctx.font = `italic 36px ${SERIF}`
+    ctx.fillText(word.pos, pad, y)
+  }
+
+  // brand rule
+  y += 52
+  ctx.strokeStyle = COLORS.brand
+  ctx.lineWidth = 4
+  ctx.beginPath()
+  ctx.moveTo(pad, y)
+  ctx.lineTo(pad + 96, y)
+  ctx.stroke()
+
+  // meaning
+  y += 76
+  ctx.fillStyle = COLORS.ink
+  ctx.font = `400 44px ${SANS}`
+  for (const ln of wrap(ctx, word.meaning, W - pad * 2, 4)) {
+    ctx.fillText(ln, pad, y)
+    y += 62
+  }
+
+  // example
+  if (word.examples[0]) {
+    y += 26
+    ctx.strokeStyle = COLORS.line
+    ctx.lineWidth = 4
+    const exTop = y - 40
+    ctx.font = `italic 38px ${SERIF}`
+    ctx.fillStyle = COLORS.soft
+    const exLines = wrap(ctx, word.examples[0], W - pad * 2 - 40, 3)
+    exLines.forEach((ln, i) => {
+      ctx.fillText(ln, pad + 40, y + i * 54)
+    })
+    ctx.beginPath()
+    ctx.moveTo(pad, exTop)
+    ctx.lineTo(pad, y + (exLines.length - 1) * 54 + 12)
+    ctx.stroke()
+  }
+
+  // footer
+  const streak = displayStreak(state.streak)
+  const learned = Object.keys(state.learned).length
+  ctx.fillStyle = COLORS.ink
+  ctx.font = `700 32px ${SANS}`
+  ctx.fillText('vocabe.app', pad, H - 110)
+
+  ctx.fillStyle = COLORS.soft
+  ctx.font = `500 30px ${SANS}`
+  ctx.textAlign = 'right'
+  const tag = streak > 0 ? `serie di ${streak} giorni` : `${learned} parole imparate`
+  ctx.fillText(tag, W - pad, H - 110)
+  ctx.textAlign = 'left'
+
+  return await new Promise<Blob>((resolve, reject) =>
+    canvas.toBlob((b) => (b ? resolve(b) : reject(new Error('toBlob failed'))), 'image/png'),
+  )
+}
+
+function roundRect(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, r: number) {
+  ctx.beginPath()
+  ctx.moveTo(x + r, y)
+  ctx.arcTo(x + w, y, x + w, y + h, r)
+  ctx.arcTo(x + w, y + h, x, y + h, r)
+  ctx.arcTo(x, y + h, x, y, r)
+  ctx.arcTo(x, y, x + w, y, r)
+  ctx.closePath()
+}
+
+function drawTracked(ctx: CanvasRenderingContext2D, text: string, spacing: number) {
+  let x = 0
+  for (const ch of text) {
+    ctx.fillText(ch, x, 0)
+    x += ctx.measureText(ch).width + spacing
+  }
+}
