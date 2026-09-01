@@ -3,6 +3,7 @@ import { getWord } from '@/core/content/words'
 import { useProgress } from '@/state/context'
 import { displayStreak } from '@/core/streak/streak'
 import { BADGES } from '@/core/badges/badges'
+import { Icon } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
 import { WordDetails } from '@/features/daily/WordDetails'
 
@@ -41,7 +42,7 @@ export function ProgressPage() {
     <div className="space-y-6 pt-2">
       <div className="flex gap-3">
         <Stat value={entries.length} label="parole imparate" />
-        <Stat value={displayStreak(state.streak)} label="streak 🔥" />
+        <Stat value={displayStreak(state.streak)} label="streak" />
         <Stat value={state.streak.longest} label="record" />
       </div>
 
@@ -58,8 +59,9 @@ export function ProgressPage() {
                   has ? 'border-brand bg-brand-soft' : 'border-line opacity-60',
                 )}
               >
-                <div className="font-semibold">
-                  {has ? '🏅' : '🔒'} {b.name}
+                <div className="flex items-center gap-1.5 font-semibold">
+                  <Icon name={has ? 'medal' : 'lock'} size={16} />
+                  {b.name}
                 </div>
                 <div className="text-xs text-ink-soft">{b.hint}</div>
               </div>

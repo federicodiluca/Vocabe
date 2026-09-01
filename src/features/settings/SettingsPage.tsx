@@ -35,9 +35,9 @@ export function SettingsPage() {
   async function onImportFile(file: File) {
     try {
       replaceState(parseImported(await file.text()))
-      flash('Progressi importati ✅')
+      flash('Progressi importati')
     } catch {
-      flash('File non valido ❌')
+      flash('File non valido')
     }
   }
 

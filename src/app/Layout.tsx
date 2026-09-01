@@ -2,13 +2,14 @@ import { NavLink, Outlet } from 'react-router-dom'
 import { useProgress } from '@/state/context'
 import { displayStreak } from '@/core/streak/streak'
 import { isDue } from '@/core/srs/leitner'
+import { Icon, type IconName } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
 
-const tabs = [
-  { to: '/', label: 'Oggi', icon: '📖', end: true },
-  { to: '/ripasso', label: 'Ripasso', icon: '🧩' },
-  { to: '/progressi', label: 'Progressi', icon: '📊' },
-  { to: '/impostazioni', label: 'Impostazioni', icon: '⚙️' },
+const tabs: { to: string; label: string; icon: IconName; end?: boolean }[] = [
+  { to: '/', label: 'Oggi', icon: 'book', end: true },
+  { to: '/ripasso', label: 'Ripasso', icon: 'cards' },
+  { to: '/progressi', label: 'Progressi', icon: 'chart' },
+  { to: '/impostazioni', label: 'Impostazioni', icon: 'sliders' },
 ]
 
 export function Layout() {
@@ -22,12 +23,13 @@ export function Layout() {
         <span className="font-serif text-xl font-semibold tracking-tight">Vocabe</span>
         <span
           className={cn(
-            'rounded-full px-3 py-1 text-sm font-semibold',
+            'inline-flex items-center gap-1 rounded-full px-3 py-1 text-sm font-semibold',
             streak > 0 ? 'bg-brand-soft text-brand' : 'text-ink-soft',
           )}
           title="Giorni consecutivi"
         >
-          🔥 {streak}
+          <Icon name="flame" size={16} strokeWidth={1.7} />
+          {streak}
         </span>
       </header>
 
@@ -44,15 +46,15 @@ export function Layout() {
               end={t.end}
               className={({ isActive }) =>
                 cn(
-                  'relative flex flex-1 flex-col items-center gap-0.5 rounded-xl py-1.5 text-xs font-medium transition',
+                  'relative flex flex-1 flex-col items-center gap-1 rounded-xl py-1.5 text-xs font-medium transition',
                   isActive ? 'text-brand' : 'text-ink-soft',
                 )
               }
             >
-              <span className="text-lg leading-none">{t.icon}</span>
+              <Icon name={t.icon} size={22} />
               {t.label}
               {t.to === '/ripasso' && dueCount > 0 && (
-                <span className="absolute right-3 top-0 min-w-4 rounded-full bg-brand px-1 text-[10px] font-bold leading-4 text-white">
+                <span className="absolute right-2 top-0 min-w-4 rounded-full bg-brand px-1 text-[10px] font-bold leading-4 text-white">
                   {dueCount}
                 </span>
               )}

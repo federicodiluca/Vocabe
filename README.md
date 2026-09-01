@@ -43,5 +43,5 @@ npm run build && npm run preview
 
 - **Fase 1 — MVP** ✅ parola del giorno · segna come imparata · storico con ricerca
 - **Fase 2 — retention** ✅ streak · badge · tema chiaro/scuro · quiz di ripasso · ⏳ notifiche native
-- **Fase 3 — viralità** condivisione con grafica · sfida amici · curiosità
+- **Fase 3 — viralità** ✅ condivisione con grafica (immagine PNG generata) · ⏳ sfida amici · curiosità
 - **Fase 4 — premium** categorie · quiz avanzati · chatbot IA · packaging Capacitor + AdMob + IAP

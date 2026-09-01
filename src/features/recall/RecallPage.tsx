@@ -4,6 +4,7 @@ import { useProgress } from '@/state/context'
 import { isDue } from '@/core/srs/leitner'
 import { Button } from '@/ui/Button'
 import { Card } from '@/ui/Card'
+import { Icon } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
 import type { Word } from '@/core/types'
 
@@ -46,7 +47,7 @@ export function RecallPage() {
   if (quiz.length === 0) {
     return (
       <Card className="mt-6 text-center">
-        <p className="text-4xl">🧠</p>
+        <Icon name="bulb" size={40} className="mx-auto text-brand" strokeWidth={1.4} />
         <p className="mt-3 font-semibold">Nessun ripasso in sospeso</p>
         <p className="mt-1 text-sm text-ink-soft">
           Torna quando le parole che hai imparato saranno pronte per essere ripassate.
@@ -58,7 +59,7 @@ export function RecallPage() {
   if (i >= quiz.length) {
     return (
       <Card className="mt-6 text-center">
-        <p className="text-4xl">🎉</p>
+        <Icon name="trophy" size={40} className="mx-auto text-brand" strokeWidth={1.4} />
         <p className="mt-3 font-semibold">
           Ripasso completato: {score}/{quiz.length}
         </p>

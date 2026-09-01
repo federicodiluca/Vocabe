@@ -1,4 +1,5 @@
 import type { Word } from '@/core/types'
+import { Icon } from '@/ui/Icon'
 
 const CATEGORY_LABEL: Record<NonNullable<Word['category']>, string> = {
   comune: 'comune',
@@ -37,8 +38,9 @@ export function WordDetails({ word }: { word: Word }) {
       )}
 
       {word.curiosity && (
-        <p className="rounded-2xl bg-brand-soft/60 p-4 text-sm leading-relaxed text-ink">
-          ✨ {word.curiosity}
+        <p className="flex gap-2 rounded-2xl bg-brand-soft/60 p-4 text-sm leading-relaxed text-ink">
+          <Icon name="sparkle" size={18} className="mt-0.5 shrink-0 text-brand" />
+          <span>{word.curiosity}</span>
         </p>
       )}
 
