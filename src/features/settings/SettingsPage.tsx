@@ -85,8 +85,8 @@ export function SettingsPage() {
             />
           </label>
           <p className="text-xs text-ink-soft">
-            Le notifiche puntuali arrivano nell’app per Android. Sul web il promemoria è
-            un semplice avviso quando riapri la scheda.
+            Nell’app Android ricevi una notifica puntuale ogni giorno. Sul web questa
+            impostazione resta salvata ma non ha ancora effetto.
           </p>
         </Card>
       </section>

@@ -39,9 +39,26 @@ npm run words:validate   # controlla il dataset
 npm run build && npm run preview
 ```
 
+## App Android (Capacitor)
+
+Richiede **Android Studio** (con Android SDK) installato e avviato almeno una volta.
+
+```bash
+npm run cap:sync   # build web + copia in android/ + sincronizza i plugin
+npm run cap:open   # apre il progetto in Android Studio (Run ▶ per lanciarlo su device/emulatore)
+```
+
+Su Android: storage in `Preferences` nativo (non `localStorage`) e promemoria giornaliero reale via `LocalNotifications`
+(l'utente deve concedere il permesso la prima volta — gestito automaticamente quando attiva il promemoria in Impostazioni).
+Le icone in `android/app/src/main/res/mipmap-*` sono ancora quelle di default di Capacitor: da rifare con
+[`@capacitor/assets`](https://github.com/ionic-team/capacitor-assets) prima della pubblicazione.
+
+**Nota versioni**: Capacitor 8 richiede Node ≥22; il progetto è fissato a Node 20.19.1, quindi si usa **Capacitor 7**
+(supportato fino a fine 2025). Da valutare l'aggiornamento di Node quando si passa a Capacitor 8.
+
 ## Roadmap
 
 - **Fase 1 — MVP** ✅ parola del giorno · segna come imparata · storico con ricerca
-- **Fase 2 — retention** ✅ streak · badge · tema chiaro/scuro · quiz di ripasso · ⏳ notifiche native
+- **Fase 2 — retention** ✅ streak · badge · tema chiaro/scuro · quiz di ripasso · notifiche native (Android)
 - **Fase 3 — viralità** ✅ condivisione con grafica (immagine PNG generata) · ⏳ sfida amici · curiosità
 - **Fase 4 — premium** categorie · quiz avanzati · chatbot IA · packaging Capacitor + AdMob + IAP
