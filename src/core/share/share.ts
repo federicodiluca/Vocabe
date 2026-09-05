@@ -1,16 +1,9 @@
-import type { ProgressState, Word } from '@/core/types'
-import { displayStreak } from '@/core/streak/streak'
+import type { Word } from '@/core/types'
 import { siteUrl } from '@/core/site'
 
-/** Short shareable text — no spoiler of the meaning. */
-export function shareText(word: Word, state: ProgressState): string {
-  const streak = displayStreak(state.streak)
-  const learned = Object.keys(state.learned).length
-  const stats =
-    streak > 0
-      ? `${learned} parole imparate, serie di ${streak} giorni.`
-      : `${learned} parole imparate finora.`
-  return [`Oggi su Vocabe ho imparato «${word.term}».`, stats, siteUrl()].join('\n')
+/** Short shareable text — the meaning stays in the image, not here. */
+export function shareText(word: Word): string {
+  return `«${word.term}» — la parola di oggi su Vocabe.\n${siteUrl()}`
 }
 
 export type ImageShareResult = 'shared' | 'unsupported' | 'cancelled' | 'failed'

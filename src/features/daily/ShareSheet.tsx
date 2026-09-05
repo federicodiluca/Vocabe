@@ -40,7 +40,7 @@ export function ShareSheet({ word, open, onClose }: { word: Word; open: boolean;
 
   async function onShare() {
     if (!blob) return
-    const text = shareText(word, state)
+    const text = shareText(word)
     const r = await shareImageFile(blob, text)
     if (r === 'unsupported' || r === 'failed') {
       downloadBlob(blob, `vocabe-${word.id}.png`)
@@ -76,7 +76,7 @@ export function ShareSheet({ word, open, onClose }: { word: Word; open: boolean;
         <Button
           variant="ghost"
           className="w-full"
-          onClick={async () => setNote((await copyText(shareText(word, state))) ? 'Testo copiato' : 'Copia non riuscita')}
+          onClick={async () => setNote((await copyText(shareText(word))) ? 'Testo copiato' : 'Copia non riuscita')}
         >
           Copia solo testo
         </Button>
@@ -84,7 +84,7 @@ export function ShareSheet({ word, open, onClose }: { word: Word; open: boolean;
 
       {note && <p className="mt-3 text-center text-sm text-ink-soft">{note}</p>}
       <p className="mt-1 text-center text-xs text-ink-soft">
-        Su telefono il tasto “Condividi” apre direttamente Instagram, WhatsApp e le storie.
+        Su telefono “Condividi” apre il menu del sistema con immagine e testo.
       </p>
     </Sheet>
   )
