@@ -1,5 +1,6 @@
 import type { ProgressState } from '@/core/types'
 import { displayStreak } from '@/core/streak/streak'
+import { siteUrl } from '@/core/site'
 
 export type Challenge = {
   /** who sent it (may be empty) */
@@ -60,8 +61,7 @@ export function decodeChallenge(token: string): Challenge | null {
 }
 
 export function challengeUrl(c: Challenge): string {
-  const base = `${window.location.origin}${import.meta.env.BASE_URL}`
-  return `${base}?sfida=${encodeChallenge(c)}`
+  return `${siteUrl()}?sfida=${encodeChallenge(c)}`
 }
 
 export function challengeText(c: Challenge): string {

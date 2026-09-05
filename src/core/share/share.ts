@@ -1,18 +1,9 @@
-import type { ProgressState, Word } from '@/core/types'
-import { displayStreak } from '@/core/streak/streak'
-import { dayNumber } from '@/core/date'
+import type { Word } from '@/core/types'
+import { siteUrl } from '@/core/site'
 
-/** Wordle-style shareable line — no spoiler of the meaning. */
-export function shareText(word: Word, state: ProgressState): string {
-  const n = dayNumber() - 20_000 // small, friendly running number
-  const streak = displayStreak(state.streak)
-  const learned = Object.keys(state.learned).length
-  const serie = streak > 0 ? ` — serie di ${streak} giorni` : ''
-  return [
-    `Vocabe #${n}: oggi ho imparato «${word.term}»${serie}`,
-    `${learned} parole imparate finora.`,
-    'https://vocabe.app',
-  ].join('\n')
+/** Short shareable text — the meaning stays in the image, not here. */
+export function shareText(word: Word): string {
+  return `«${word.term}» — la parola di oggi su Vocabe.\n${siteUrl()}`
 }
 
 export type ImageShareResult = 'shared' | 'unsupported' | 'cancelled' | 'failed'
