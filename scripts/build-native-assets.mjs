@@ -1,7 +1,12 @@
 /*
  * Builds the source images that @capacitor/assets turns into every Android/iOS
- * icon and splash size. Run `npm run assets:build` (regenerates assets/*.png),
- * then `npx @capacitor/assets generate`.
+ * icon and splash size, plus the Android notification icon directly.
+ *
+ *   npm run assets:build                         # regenerates assets/*.png + ic_stat_notification
+ *   npx -y @capacitor/assets@latest generate     # fans them out into android/ and ios/
+ *
+ * @capacitor/assets is run on demand via npx (not a dependency — it drags in
+ * a lot of vulnerable build-time deps).
  */
 import sharp from 'sharp'
 import { readFileSync, mkdirSync } from 'node:fs'

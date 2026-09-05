@@ -5,8 +5,9 @@ Branch `feature/store-release`. Qui `MONETIZATION` è `true` (`src/core/features
 ## Già fatto su questo branch
 
 - `MONETIZATION = true`.
-- Icone e splash Android + iOS generati da `assets/` con `@capacitor/assets`.
-  Rigenerare: `npm run assets:build && npx @capacitor/assets generate`.
+- Icone e splash Android + iOS generati da `assets/` con `@capacitor/assets` (via npx,
+  non è una dipendenza). Rigenerare:
+  `npm run assets:build && npx -y @capacitor/assets@latest generate`.
 - Piattaforma **iOS** aggiunta (`ios/`). Serve un Mac per il resto.
 - `android/app/build.gradle`: `signingConfigs.release` che legge da `android/key.properties`
   (git-ignored); finché non c'è, la release usa la chiave di debug.
