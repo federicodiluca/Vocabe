@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://federicodiluca.github.io/vocabe/sitemap.xml

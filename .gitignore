@@ -26,3 +26,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# La cartella ios/ vive solo su feature/store-release (lavoro native).
+/ios/
