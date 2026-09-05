@@ -16,9 +16,6 @@ async function bootstrap() {
     setStorageAdapter(createNativeAdapter(await preloadNativeValue()))
   }
 
-  // Entitlement status arrives async and updates the UI via useIsPro — don't block first paint on it.
-  void initIap()
-
   createRoot(document.getElementById('root')!).render(
     <StrictMode>
       <ProgressProvider>
@@ -28,6 +25,11 @@ async function bootstrap() {
       </ProgressProvider>
     </StrictMode>,
   )
+
+  // The web IAP SDK is a sizeable chunk (~230 KB gzip) — fetch it once the page has
+  // settled rather than competing with the initial render for bandwidth.
+  const idle = window.requestIdleCallback ?? ((cb: () => void) => setTimeout(cb, 1500))
+  idle(() => void initIap())
 }
 
 bootstrap()

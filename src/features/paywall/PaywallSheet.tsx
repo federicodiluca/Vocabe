@@ -1,6 +1,5 @@
-import { useState } from 'react'
-import { Capacitor } from '@capacitor/core'
-import { iap } from '@/core/iap'
+import { useEffect, useState } from 'react'
+import { iap, initIap } from '@/core/iap'
 import { useIsPro } from '@/core/iap/useIsPro'
 import { Button } from '@/ui/Button'
 import { Icon } from '@/ui/Icon'
@@ -16,10 +15,16 @@ export function PaywallSheet({ open, onClose }: { open: boolean; onClose: () => 
   const isPro = useIsPro()
   const [busy, setBusy] = useState(false)
   const [note, setNote] = useState<string | null>(null)
+  const [ready, setReady] = useState(false)
   const price = iap().proPriceLabel()
+
+  useEffect(() => {
+    if (open) initIap().then(() => setReady(true))
+  }, [open])
 
   async function onBuy() {
     setBusy(true)
+    await initIap()
     const r = await iap().purchasePro()
     setBusy(false)
     if (r === 'purchased') setNote('Grazie! Vocabe Pro è attivo.')
@@ -28,6 +33,7 @@ export function PaywallSheet({ open, onClose }: { open: boolean; onClose: () => 
 
   async function onRestore() {
     setBusy(true)
+    await initIap()
     const r = await iap().restore()
     setBusy(false)
     setNote(r === 'restored' ? 'Acquisto ripristinato.' : 'Nessun acquisto da ripristinare su questo account.')
@@ -62,8 +68,10 @@ export function PaywallSheet({ open, onClose }: { open: boolean; onClose: () => 
       </Button>
 
       {note && <p className="mt-3 text-center text-sm text-ink-soft">{note}</p>}
-      {!Capacitor.isNativePlatform() && (
-        <p className="mt-3 text-center text-xs text-ink-soft">Disponibile solo nell’app Android.</p>
+      {!price && (
+        <p className="mt-3 text-center text-xs text-ink-soft">
+          {ready ? 'Il negozio non è disponibile al momento. Riprova più tardi.' : 'Apertura del negozio…'}
+        </p>
       )}
     </Sheet>
   )

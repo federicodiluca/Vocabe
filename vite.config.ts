@@ -29,10 +29,31 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
+        // The RevenueCat Web Billing SDK is a large, rarely-needed chunk (only paying
+        // customers ever fetch it) — skip it at install time and cache it on first use.
+        globIgnores: ['**/iap-web-sdk-*.js'],
+        runtimeCaching: [
+          {
+            urlPattern: /iap-web-sdk-.*\.js$/,
+            handler: 'CacheFirst',
+            options: { cacheName: 'iap-web-sdk' },
+          },
+        ],
       },
     }),
   ],
   resolve: {
     alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('@revenuecat/purchases-js') || id.includes('@revenuecat/purchases-ui-js')) {
+            return 'iap-web-sdk'
+          }
+        },
+      },
+    },
   },
 })
