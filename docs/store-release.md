@@ -18,6 +18,9 @@ Branch `feature/store-release`. Qui `MONETIZATION` è `true` (`src/core/features
   (`VITE_REVENUECAT_API_KEY_IOS` / `_ANDROID`).
 - `ios/App/App/Info.plist`: `NSUserTrackingUsageDescription`, `GADApplicationIdentifier`
   (id di test), un `SKAdNetworkItems` con la sola rete Google.
+- **Shell nativa**: `@capacitor/splash-screen` (nascosto da JS a mount, sfondo scuro) +
+  `@capacitor/status-bar` (stile che segue il tema, in `ThemeEffect`). Icona notifica
+  Android `ic_stat_notification` (bianca, 5 densità) generata da `scripts/build-native-assets.mjs`.
 
 ## Da fare — comune
 

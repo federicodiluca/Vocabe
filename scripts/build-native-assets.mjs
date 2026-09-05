@@ -11,6 +11,7 @@ import { dirname, resolve } from 'node:path'
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const src = readFileSync(resolve(root, 'scripts/icon-source.svg')) // full icon, dark background
 const glyph = readFileSync(resolve(root, 'scripts/icon-glyph.svg')) // the "V" only, transparent
+const mono = readFileSync(resolve(root, 'scripts/icon-mono.svg')) // white "V", for the status-bar notification icon
 mkdirSync(resolve(root, 'assets'), { recursive: true })
 const out = (name) => resolve(root, 'assets', name)
 
@@ -41,4 +42,13 @@ const splash = await sharp({ create: { width: 2732, height: 2732, channels: 4, b
 await sharp(splash).toFile(out('splash.png'))
 await sharp(splash).toFile(out('splash-dark.png'))
 
-console.log('assets/: icon-only, icon-foreground, icon-background, splash, splash-dark')
+// Android status-bar notification icon: white silhouette, one PNG per density.
+// @capacitor/assets doesn't cover this, so write straight into the Android project.
+const NOTIF = { mdpi: 24, hdpi: 36, xhdpi: 48, xxhdpi: 72, xxxhdpi: 96 }
+for (const [density, px] of Object.entries(NOTIF)) {
+  const dir = resolve(root, 'android/app/src/main/res', `drawable-${density}`)
+  mkdirSync(dir, { recursive: true })
+  await sharp(mono).resize(px, px).png().toFile(resolve(dir, 'ic_stat_notification.png'))
+}
+
+console.log('assets/: icons, splash · android: ic_stat_notification (5 densità)')
