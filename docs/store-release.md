@@ -1,37 +1,47 @@
 # Pubblicazione su Play Store e App Store
 
-Branch di lavoro: `feature/store-release`. Su questo branch si accende
-`MONETIZATION` (`src/core/features.ts`) e si completano gli step qui sotto.
+Branch `feature/store-release`. Qui `MONETIZATION` è `true` (`src/core/features.ts`).
 
-## Comune
+## Già fatto su questo branch
 
-- [ ] Pagina **privacy policy** pubblica e raggiungibile (i dati stanno solo sul
-      dispositivo, ma le store la richiedono per ads e acquisti). Può stare su
-      `federicodiluca.github.io/vocabe/privacy/`.
+- `MONETIZATION = true`.
+- Icone e splash Android + iOS generati da `assets/` con `@capacitor/assets`.
+  Rigenerare: `npm run assets:build && npx @capacitor/assets generate`.
+- Piattaforma **iOS** aggiunta (`ios/`). Serve un Mac per il resto.
+- `android/app/build.gradle`: `signingConfigs.release` che legge da `android/key.properties`
+  (git-ignored); finché non c'è, la release usa la chiave di debug.
+- Pagina **privacy** statica: `public/privacy/` → `/vocabe/privacy/`, linkata dalle opzioni
+  e nel sitemap.
+- `.gitignore`: `key.properties`, `*.keystore`, `*.jks`, i file dei servizi Google.
+
+## Da fare — comune
+
 - [ ] Account **RevenueCat** + Stripe collegato; prodotto one-time + entitlement `pro`.
-- [ ] `MONETIZATION = true` in `src/core/features.ts`.
-- [ ] Aggiornare i link alle store nel sito e nel README quando sono online.
+- [ ] Chiavi in `.env`: `VITE_REVENUECAT_API_KEY_ANDROID`, `VITE_REVENUECAT_API_KEY_WEB`.
+- [ ] Verificare il testo della privacy con i servizi realmente attivati.
 
-## Android (Capacitor già in `android/`)
+## Da fare — Android
 
-- [ ] Android Studio + SDK installati e aperti almeno una volta.
-- [ ] Icone adaptive: `@capacitor/assets` a partire da `scripts/icon-source.svg`
-      (le `npm run icons:build` coprono solo la PWA).
-- [ ] `applicationId` in `android/app/build.gradle` (ora `app.vocabe.mobile`).
-- [ ] Keystore di release + `signingConfigs`. **Non committare il keystore.**
-- [ ] `versionCode` / `versionName`.
-- [ ] Account **AdMob**: unità rewarded reale; sostituire il valore di test in
-      `android/app/build.gradle` (`manifestPlaceholders.admobAppId`) e in
-      `.env` (`VITE_ADMOB_REWARDED_UNIT_ID_ANDROID`).
-- [ ] Chiave RevenueCat Android in `.env` (`VITE_REVENUECAT_API_KEY_ANDROID`).
-- [ ] `npm run cap:sync`, poi bundle `.aab` da Android Studio.
-- [ ] Play Console: scheda, screenshot, content rating, data safety, test interno.
-- [ ] Nota: Capacitor 8 richiede Node ≥ 22 (ora si usa 7 su Node 20).
+- [ ] Android Studio + SDK installati.
+- [ ] Account **AdMob**: unità rewarded reale → in `.env`
+      (`VITE_ADMOB_REWARDED_UNIT_ID_ANDROID`) e come `-PADMOB_APP_ID=…` o in
+      `android/gradle.properties` (sostituisce l'id di test nel manifest).
+- [ ] Generare il **keystore** di release (`keytool -genkey -v -keystore vocabe-release.keystore
+      -alias vocabe -keyalg RSA -keysize 2048 -validity 10000`), tenerlo fuori dal repo,
+      creare `android/key.properties`.
+- [ ] `versionCode` / `versionName` in `android/app/build.gradle`.
+- [ ] `npm run cap:sync`, poi in Android Studio: Build → Generate Signed Bundle (`.aab`).
+- [ ] Play Console: scheda, screenshot, content rating, data safety
+      (indicare AdMob + acquisti), URL privacy `…/vocabe/privacy/`, test interno.
 
-## iOS
+## Da fare — iOS (su Mac)
 
-- [ ] Mac con **Xcode** (obbligatorio per il build).
-- [ ] `npm i @capacitor/ios && npx cap add ios`.
-- [ ] Bundle id, team di sviluppo, signing.
+- [ ] `sudo gem install cocoapods`, poi `npx cap sync ios`.
+- [ ] Xcode: team di sviluppo, bundle id `app.vocabe.mobile`, signing.
 - [ ] Chiave RevenueCat iOS + prodotto su App Store Connect.
-- [ ] App Store Connect: scheda, screenshot, privacy, revisione.
+- [ ] App Store Connect: scheda, screenshot, privacy nutrition labels, revisione.
+
+## Note
+
+- Capacitor 7 (Capacitor 8 richiede Node ≥ 22; ora si usa Node 20).
+- `npm run cap:sync` sincronizza entrambe le piattaforme.
