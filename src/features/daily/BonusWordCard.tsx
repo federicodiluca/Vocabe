@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { bonusWordForDay } from '@/core/content/words'
 import { useProgress } from '@/state/context'
 import { useIsPro } from '@/core/iap/useIsPro'
+import { MONETIZATION } from '@/core/features'
 import { ads, initAds } from '@/core/ads'
 import { Button } from '@/ui/Button'
 import { Card } from '@/ui/Card'
@@ -40,7 +41,7 @@ export function BonusWordCard() {
         Parola bonus
       </div>
 
-      {revealed || isPro ? (
+      {revealed || isPro || !MONETIZATION ? (
         <>
           <h2 className="mb-4 font-serif text-2xl font-semibold">{bonusWord.term}</h2>
           <WordDetails word={bonusWord} />

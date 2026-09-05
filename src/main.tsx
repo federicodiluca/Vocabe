@@ -9,6 +9,7 @@ import { router } from '@/app/router'
 import { setStorageAdapter } from '@/core/storage/store'
 import { createNativeAdapter, preloadNativeValue } from '@/core/storage/nativeAdapter'
 import { initIap } from '@/core/iap'
+import { MONETIZATION } from '@/core/features'
 import './index.css'
 
 async function bootstrap() {
@@ -26,10 +27,12 @@ async function bootstrap() {
     </StrictMode>,
   )
 
-  // The web IAP SDK is a sizeable chunk (~230 KB gzip) — fetch it once the page has
-  // settled rather than competing with the initial render for bandwidth.
-  const idle = window.requestIdleCallback ?? ((cb: () => void) => setTimeout(cb, 1500))
-  idle(() => void initIap())
+  // The web IAP SDK is a sizeable chunk (~230 KB gzip) — only load it, and only on
+  // idle, when monetization is actually turned on.
+  if (MONETIZATION) {
+    const idle = window.requestIdleCallback ?? ((cb: () => void) => setTimeout(cb, 1500))
+    idle(() => void initIap())
+  }
 }
 
 bootstrap()

@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import { useProgress } from '@/state/context'
 import { exportState, parseImported } from '@/core/storage/store'
 import { useIsPro } from '@/core/iap/useIsPro'
+import { MONETIZATION } from '@/core/features'
 import type { ThemeSetting } from '@/core/types'
 import { Button } from '@/ui/Button'
 import { Card } from '@/ui/Card'
@@ -48,26 +49,28 @@ export function SettingsPage() {
 
   return (
     <div className="space-y-6 pt-2">
-      <section>
-        <button
-          onClick={() => setPaywallOpen(true)}
-          className={cn(
-            'flex w-full items-center justify-between rounded-2xl border p-4 text-left transition',
-            isPro ? 'border-brand bg-brand-soft' : 'border-line bg-paper-raised',
-          )}
-        >
-          <span>
-            <span className="flex items-center gap-1.5 font-serif text-lg font-semibold">
-              <Icon name="sparkle" size={18} className={isPro ? 'text-brand' : undefined} />
-              Vocabe Pro
+      {MONETIZATION && (
+        <section>
+          <button
+            onClick={() => setPaywallOpen(true)}
+            className={cn(
+              'flex w-full items-center justify-between rounded-2xl border p-4 text-left transition',
+              isPro ? 'border-brand bg-brand-soft' : 'border-line bg-paper-raised',
+            )}
+          >
+            <span>
+              <span className="flex items-center gap-1.5 font-serif text-lg font-semibold">
+                <Icon name="sparkle" size={18} className={isPro ? 'text-brand' : undefined} />
+                Vocabe Pro
+              </span>
+              <span className="text-sm text-ink-soft">
+                {isPro ? 'Attivo — grazie del supporto' : 'Via la pubblicità, tutto sbloccato'}
+              </span>
             </span>
-            <span className="text-sm text-ink-soft">
-              {isPro ? 'Attivo — grazie del supporto' : 'Via la pubblicità, tutto sbloccato'}
-            </span>
-          </span>
-          {!isPro && <span className="text-sm font-semibold text-brand">Scopri</span>}
-        </button>
-      </section>
+            {!isPro && <span className="text-sm font-semibold text-brand">Scopri</span>}
+          </button>
+        </section>
+      )}
 
       <section>
         <h2 className="mb-2 text-sm font-semibold text-ink-soft">Tema</h2>
