@@ -1,10 +1,13 @@
 import { useRef, useState } from 'react'
 import { useProgress } from '@/state/context'
 import { exportState, parseImported } from '@/core/storage/store'
+import { useIsPro } from '@/core/iap/useIsPro'
 import type { ThemeSetting } from '@/core/types'
 import { Button } from '@/ui/Button'
 import { Card } from '@/ui/Card'
+import { Icon } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
+import { PaywallSheet } from '@/features/paywall/PaywallSheet'
 
 const THEMES: { value: ThemeSetting; label: string }[] = [
   { value: 'system', label: 'Sistema' },
@@ -14,8 +17,10 @@ const THEMES: { value: ThemeSetting; label: string }[] = [
 
 export function SettingsPage() {
   const { state, updateSettings, replaceState, resetAll } = useProgress()
+  const isPro = useIsPro()
   const fileRef = useRef<HTMLInputElement>(null)
   const [msg, setMsg] = useState<string | null>(null)
+  const [paywallOpen, setPaywallOpen] = useState(false)
 
   function flash(text: string) {
     setMsg(text)
@@ -43,6 +48,27 @@ export function SettingsPage() {
 
   return (
     <div className="space-y-6 pt-2">
+      <section>
+        <button
+          onClick={() => setPaywallOpen(true)}
+          className={cn(
+            'flex w-full items-center justify-between rounded-2xl border p-4 text-left transition',
+            isPro ? 'border-brand bg-brand-soft' : 'border-line bg-paper-raised',
+          )}
+        >
+          <span>
+            <span className="flex items-center gap-1.5 font-serif text-lg font-semibold">
+              <Icon name="sparkle" size={18} className={isPro ? 'text-brand' : undefined} />
+              Vocabe Pro
+            </span>
+            <span className="text-sm text-ink-soft">
+              {isPro ? 'Attivo — grazie del supporto' : 'Via la pubblicità, tutto sbloccato'}
+            </span>
+          </span>
+          {!isPro && <span className="text-sm font-semibold text-brand">Scopri</span>}
+        </button>
+      </section>
+
       <section>
         <h2 className="mb-2 text-sm font-semibold text-ink-soft">Tema</h2>
         <div className="flex gap-2">
@@ -85,8 +111,8 @@ export function SettingsPage() {
             />
           </label>
           <p className="text-xs text-ink-soft">
-            Le notifiche puntuali arrivano nell’app per Android. Sul web il promemoria è
-            un semplice avviso quando riapri la scheda.
+            Nell’app Android ricevi una notifica puntuale ogni giorno. Sul web questa
+            impostazione resta salvata ma non ha ancora effetto.
           </p>
         </Card>
       </section>
@@ -130,6 +156,8 @@ export function SettingsPage() {
       <p className="pt-4 text-center text-xs text-ink-soft">
         Vocabe · i tuoi dati restano su questo dispositivo
       </p>
+
+      <PaywallSheet open={paywallOpen} onClose={() => setPaywallOpen(false)} />
     </div>
   )
 }

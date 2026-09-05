@@ -8,7 +8,11 @@
       "Un successo effimero, dimenticato nel giro di una stagione.",
       "La bellezza dei fiori di ciliegio è effimera."
     ],
-    "synonyms": ["fugace", "transitorio", "caduco"],
+    "synonyms": [
+      "fugace",
+      "transitorio",
+      "caduco"
+    ],
     "etymology": "Dal greco 'ephḗmeros', «che dura un solo giorno».",
     "curiosity": "In biologia gli efemerotteri sono insetti il cui adulto vive anche solo poche ore.",
     "category": "letteraria",
@@ -23,7 +27,11 @@
       "Considerava la sconfitta ineluttabile ormai da settimane.",
       "Un declino ineluttabile per l'azienda."
     ],
-    "synonyms": ["inevitabile", "fatale", "inarrestabile"],
+    "synonyms": [
+      "inevitabile",
+      "fatale",
+      "inarrestabile"
+    ],
     "etymology": "Dal latino 'ineluctabilis', da 'luctari' «lottare»: contro cui non si può lottare.",
     "category": "letteraria",
     "difficulty": 3
@@ -37,7 +45,11 @@
       "Un'osservazione sagace che spiazzò tutti.",
       "Si dimostrò un negoziatore sagace."
     ],
-    "synonyms": ["acuto", "perspicace", "arguto"],
+    "synonyms": [
+      "acuto",
+      "perspicace",
+      "arguto"
+    ],
     "etymology": "Dal latino 'sagax', legato a 'sagire' «percepire acutamente».",
     "category": "comune",
     "difficulty": 2
@@ -51,7 +63,11 @@
       "Uno scrittore prolifico: tre romanzi in due anni.",
       "Un periodo prolifico di idee."
     ],
-    "synonyms": ["fecondo", "fertile", "produttivo"],
+    "synonyms": [
+      "fecondo",
+      "fertile",
+      "produttivo"
+    ],
     "etymology": "Dal latino tardo 'prolificus', da 'proles' «prole» e 'facere' «fare».",
     "category": "comune",
     "difficulty": 1
@@ -65,7 +81,11 @@
       "Un testo ostico, pieno di riferimenti impliciti.",
       "La chimica organica gli è sempre stata ostica."
     ],
-    "synonyms": ["arduo", "ostacoloso", "arcigno"],
+    "synonyms": [
+      "arduo",
+      "ostacoloso",
+      "arcigno"
+    ],
     "etymology": "Dal latino 'hosticus' «nemico», da 'hostis».",
     "category": "comune",
     "difficulty": 1
@@ -79,7 +99,11 @@
       "Un oratore eloquente, capace di tenere la sala per un'ora.",
       "Un silenzio eloquente calò sulla stanza."
     ],
-    "synonyms": ["persuasivo", "efficace", "significativo"],
+    "synonyms": [
+      "persuasivo",
+      "efficace",
+      "significativo"
+    ],
     "etymology": "Dal latino 'eloquens', participio di 'eloqui' «esprimersi».",
     "category": "comune",
     "difficulty": 1
@@ -93,7 +117,11 @@
       "Un linguaggio ermetico, quasi cifrato.",
       "Un contenitore ermetico per il caffè."
     ],
-    "synonyms": ["oscuro", "impenetrabile", "sigillato"],
+    "synonyms": [
+      "oscuro",
+      "impenetrabile",
+      "sigillato"
+    ],
     "etymology": "Da Ermete Trismegisto, figura mitica dell'alchimia: «chiuso come un vaso alchemico».",
     "curiosity": "Dà il nome all'Ermetismo, corrente poetica italiana del primo Novecento.",
     "category": "letteraria",
@@ -108,7 +136,11 @@
       "Tagliò dal discorso ogni parola superflua.",
       "Spese superflue accumulate mese dopo mese."
     ],
-    "synonyms": ["inutile", "ridondante", "eccedente"],
+    "synonyms": [
+      "inutile",
+      "ridondante",
+      "eccedente"
+    ],
     "etymology": "Dal latino 'superfluus' «che trabocca», da 'super' e 'fluere' «scorrere».",
     "category": "comune",
     "difficulty": 1
@@ -122,7 +154,11 @@
       "Una revisione meticolosa, riga per riga.",
       "È meticoloso nel tenere in ordine gli appunti."
     ],
-    "synonyms": ["scrupoloso", "puntiglioso", "accurato"],
+    "synonyms": [
+      "scrupoloso",
+      "puntiglioso",
+      "accurato"
+    ],
     "etymology": "Dal latino 'meticulosus' «pauroso», da 'metus' «paura»: originariamente «timoroso».",
     "category": "comune",
     "difficulty": 1
@@ -136,7 +172,11 @@
       "Una resistenza tenace fino all'ultimo minuto.",
       "Una macchia tenace, difficile da mandare via."
     ],
-    "synonyms": ["ostinato", "perseverante", "caparbio"],
+    "synonyms": [
+      "ostinato",
+      "perseverante",
+      "caparbio"
+    ],
     "etymology": "Dal latino 'tenax', da 'tenere' «tenere, trattenere».",
     "category": "comune",
     "difficulty": 1
@@ -150,7 +190,10 @@
       "La penicillina è un classico esempio di serendipità.",
       "Ha trovato lavoro per pura serendipità, a una cena tra amici."
     ],
-    "synonyms": ["fortuna", "combinazione"],
+    "synonyms": [
+      "fortuna",
+      "combinazione"
+    ],
     "etymology": "Coniata nel 1754 da Horace Walpole dalla fiaba persiana dei tre principi di Serendippo.",
     "curiosity": "'Serendippo' è l'antico nome dello Sri Lanka.",
     "category": "straniera",
@@ -165,7 +208,11 @@
       "La rabbia gli obnubilò ogni lucidità.",
       "La stanchezza mi obnubila i pensieri."
     ],
-    "synonyms": ["offuscare", "annebbiare", "ottenebrare"],
+    "synonyms": [
+      "offuscare",
+      "annebbiare",
+      "ottenebrare"
+    ],
     "etymology": "Dal latino 'obnubilare', da 'nubes' «nuvola».",
     "category": "letteraria",
     "difficulty": 3
@@ -179,7 +226,11 @@
       "Rispose con un lapidario «No».",
       "Un giudizio lapidario che chiuse la discussione."
     ],
-    "synonyms": ["conciso", "sentenzioso", "epigrafico"],
+    "synonyms": [
+      "conciso",
+      "sentenzioso",
+      "epigrafico"
+    ],
     "etymology": "Dal latino 'lapidarius', relativo alle iscrizioni sulla pietra ('lapis'), per forza brevi.",
     "category": "letteraria",
     "difficulty": 2
@@ -193,7 +244,11 @@
       "Si aggrappò a un cavillo procedurale per rinviare tutto.",
       "Basta cavilli: rispondi alla domanda."
     ],
-    "synonyms": ["sofisma", "pretesto", "sottigliezza"],
+    "synonyms": [
+      "sofisma",
+      "pretesto",
+      "sottigliezza"
+    ],
     "etymology": "Dal latino 'cavilla' «scherno, sofisma».",
     "category": "comune",
     "difficulty": 2
@@ -207,7 +262,11 @@
       "Ha procrastinato la telefonata per tutta la settimana.",
       "Smettila di procrastinare e comincia."
     ],
-    "synonyms": ["rinviare", "differire", "posticipare"],
+    "synonyms": [
+      "rinviare",
+      "differire",
+      "posticipare"
+    ],
     "etymology": "Dal latino 'procrastinare', da 'cras' «domani».",
     "category": "comune",
     "difficulty": 2
@@ -221,7 +280,11 @@
       "Affrontò la crisi con una flemma disarmante.",
       "Con quella flemma non finiremo mai in tempo."
     ],
-    "synonyms": ["calma", "posatezza", "imperturbabilità"],
+    "synonyms": [
+      "calma",
+      "posatezza",
+      "imperturbabilità"
+    ],
     "etymology": "Dal greco 'phlégma' «umore», uno dei quattro umori della medicina antica.",
     "category": "comune",
     "difficulty": 2
@@ -235,7 +298,11 @@
       "Analizzò il caso con notevole acume.",
       "Le mancava l'acume per cogliere l'ironia."
     ],
-    "synonyms": ["perspicacia", "sagacia", "penetrazione"],
+    "synonyms": [
+      "perspicacia",
+      "sagacia",
+      "penetrazione"
+    ],
     "etymology": "Dal latino 'acumen' «punta», da 'acus' «ago».",
     "category": "comune",
     "difficulty": 2
@@ -249,7 +316,11 @@
       "Una battuta caustica sul suo capo.",
       "Recensioni caustiche ma sempre argomentate."
     ],
-    "synonyms": ["mordace", "corrosivo", "sarcastico"],
+    "synonyms": [
+      "mordace",
+      "corrosivo",
+      "sarcastico"
+    ],
     "etymology": "Dal greco 'kaustikós' «che brucia», da 'kaíein' «bruciare».",
     "category": "comune",
     "difficulty": 2
@@ -263,7 +334,10 @@
       "Ascoltava con un'empatia rara.",
       "Il romanzo suscita empatia anche per i personaggi minori."
     ],
-    "synonyms": ["immedesimazione", "partecipazione"],
+    "synonyms": [
+      "immedesimazione",
+      "partecipazione"
+    ],
     "etymology": "Dal greco 'empátheia' «sentire dentro», calco del tedesco 'Einfühlung'.",
     "category": "comune",
     "difficulty": 1
@@ -277,7 +351,11 @@
       "Lo prese la nostalgia della casa dei nonni.",
       "Una nostalgia dolce, quasi piacevole."
     ],
-    "synonyms": ["rimpianto", "struggimento", "malinconia"],
+    "synonyms": [
+      "rimpianto",
+      "struggimento",
+      "malinconia"
+    ],
     "etymology": "Coniata nel 1688 dal medico Johannes Hofer: dal greco 'nóstos' «ritorno» e 'álgos' «dolore».",
     "curiosity": "Nacque come termine clinico per descrivere il mal di casa dei soldati svizzeri mercenari.",
     "category": "comune",
@@ -292,7 +370,11 @@
       "Assistette i malati con abnegazione per anni.",
       "Un lavoro svolto con abnegazione e senza clamore."
     ],
-    "synonyms": ["altruismo", "dedizione", "sacrificio"],
+    "synonyms": [
+      "altruismo",
+      "dedizione",
+      "sacrificio"
+    ],
     "etymology": "Dal latino 'abnegare' «negare, rifiutare» (a sé stessi).",
     "category": "letteraria",
     "difficulty": 3
@@ -306,7 +388,11 @@
       "Un accento peculiare, riconoscibile subito.",
       "Ogni regione ha piatti peculiari."
     ],
-    "synonyms": ["caratteristico", "specifico", "distintivo"],
+    "synonyms": [
+      "caratteristico",
+      "specifico",
+      "distintivo"
+    ],
     "etymology": "Dal latino 'peculiaris', da 'peculium' «piccolo patrimonio personale».",
     "category": "comune",
     "difficulty": 2
@@ -320,7 +406,11 @@
       "Fu reticente sulle ragioni delle sue dimissioni.",
       "Un testimone reticente."
     ],
-    "synonyms": ["evasivo", "riservato", "omissivo"],
+    "synonyms": [
+      "evasivo",
+      "riservato",
+      "omissivo"
+    ],
     "etymology": "Dal latino 'reticens', da 'reticere' «tacere del tutto».",
     "category": "comune",
     "difficulty": 2
@@ -334,7 +424,11 @@
       "Un epigono minore del neorealismo.",
       "Gli epigoni ne ripeterono lo stile per decenni."
     ],
-    "synonyms": ["imitatore", "seguace", "continuatore"],
+    "synonyms": [
+      "imitatore",
+      "seguace",
+      "continuatore"
+    ],
     "etymology": "Dal greco 'epígonos' «nato dopo»; nel mito, i figli dei Sette contro Tebe.",
     "category": "letteraria",
     "difficulty": 3
@@ -348,7 +442,11 @@
       "Spetta al giudice dirimere la questione.",
       "Una prova che dirime ogni incertezza."
     ],
-    "synonyms": ["risolvere", "comporre", "definire"],
+    "synonyms": [
+      "risolvere",
+      "comporre",
+      "definire"
+    ],
     "etymology": "Dal latino 'dirimere' «separare, dividere», da 'dis-' ed 'emere' «prendere».",
     "category": "comune",
     "difficulty": 3
@@ -362,7 +460,11 @@
       "Un sorriso sardonico attraversò il suo volto.",
       "Commentò con una risata sardonica."
     ],
-    "synonyms": ["beffardo", "sarcastico", "sprezzante"],
+    "synonyms": [
+      "beffardo",
+      "sarcastico",
+      "sprezzante"
+    ],
     "etymology": "Dal greco 'sardónios', legato a un'erba di Sardegna che, ingerita, contraeva il volto in un ghigno.",
     "category": "letteraria",
     "difficulty": 3
@@ -376,7 +478,11 @@
       "Una previsione troppo aleatoria per farci affidamento.",
       "Un guadagno aleatorio, legato al meteo."
     ],
-    "synonyms": ["incerto", "casuale", "rischioso"],
+    "synonyms": [
+      "incerto",
+      "casuale",
+      "rischioso"
+    ],
     "etymology": "Dal latino 'aleatorius', da 'alea' «dado, gioco d'azzardo».",
     "curiosity": "«Alea iacta est», «il dado è tratto», è la frase attribuita a Cesare al Rubicone.",
     "category": "comune",
@@ -391,7 +497,11 @@
       "Nuovi dati corroborano l'ipotesi iniziale.",
       "La testimonianza corrobora la ricostruzione dell'accusa."
     ],
-    "synonyms": ["avvalorare", "rafforzare", "confermare"],
+    "synonyms": [
+      "avvalorare",
+      "rafforzare",
+      "confermare"
+    ],
     "etymology": "Dal latino 'corroborare', da 'robur' «forza, quercia».",
     "category": "comune",
     "difficulty": 2
@@ -405,7 +515,11 @@
       "Un ritardo esiziale per l'intera operazione.",
       "Condizioni esiziali per il raccolto."
     ],
-    "synonyms": ["funesto", "rovinoso", "letale"],
+    "synonyms": [
+      "funesto",
+      "rovinoso",
+      "letale"
+    ],
     "etymology": "Dal latino 'exitialis', da 'exitium' «rovina, fine».",
     "category": "letteraria",
     "difficulty": 3
@@ -419,7 +533,11 @@
       "Un corso propedeutico all'analisi matematica.",
       "Esercizi propedeutici alla corsa."
     ],
-    "synonyms": ["preparatorio", "introduttivo", "preliminare"],
+    "synonyms": [
+      "preparatorio",
+      "introduttivo",
+      "preliminare"
+    ],
     "etymology": "Dal greco 'propaideúō' «istruisco prima».",
     "category": "comune",
     "difficulty": 2
@@ -433,7 +551,11 @@
       "Un coacervo di norme contraddittorie.",
       "La relazione era un coacervo di dati senza filo logico."
     ],
-    "synonyms": ["guazzabuglio", "accozzaglia", "ammasso"],
+    "synonyms": [
+      "guazzabuglio",
+      "accozzaglia",
+      "ammasso"
+    ],
     "etymology": "Dal latino 'coacervus', da 'acervus' «mucchio».",
     "category": "letteraria",
     "difficulty": 3
@@ -447,7 +569,11 @@
       "Una critica blanda, quasi una carezza.",
       "Un esercizio fisico blando, adatto a tutti."
     ],
-    "synonyms": ["lieve", "tenue", "moderato"],
+    "synonyms": [
+      "lieve",
+      "tenue",
+      "moderato"
+    ],
     "etymology": "Dal latino 'blandus' «carezzevole, lusinghiero».",
     "category": "comune",
     "difficulty": 1
@@ -461,7 +587,11 @@
       "Non poté esimersi dal partecipare.",
       "Si esime sempre dalle incombenze più noiose."
     ],
-    "synonyms": ["sottrarsi", "esonerarsi", "dispensarsi"],
+    "synonyms": [
+      "sottrarsi",
+      "esonerarsi",
+      "dispensarsi"
+    ],
     "etymology": "Dal latino 'eximere' «togliere fuori», da 'ex-' ed 'emere' «prendere».",
     "category": "comune",
     "difficulty": 2
@@ -475,7 +605,11 @@
       "Un sentiero acclive fino al rifugio.",
       "L'ultimo tratto, molto acclive, li mise alla prova."
     ],
-    "synonyms": ["ripido", "erto", "in salita"],
+    "synonyms": [
+      "ripido",
+      "erto",
+      "in salita"
+    ],
     "etymology": "Dal latino 'acclivis', da 'clivus' «pendio». Il contrario è 'declive'.",
     "category": "letteraria",
     "difficulty": 3
@@ -489,7 +623,11 @@
       "Una risposta esaustiva a tutte le obiezioni.",
       "Un manuale esaustivo sul tema."
     ],
-    "synonyms": ["completo", "esauriente", "approfondito"],
+    "synonyms": [
+      "completo",
+      "esauriente",
+      "approfondito"
+    ],
     "etymology": "Dal latino 'exhaurire' «vuotare del tutto», da 'haurire' «attingere».",
     "category": "comune",
     "difficulty": 1
@@ -503,7 +641,11 @@
       "Un discorso vacuo, tutto forma e niente idee.",
       "Uno sguardo vacuo, perso nel nulla."
     ],
-    "synonyms": ["vuoto", "inconsistente", "futile"],
+    "synonyms": [
+      "vuoto",
+      "inconsistente",
+      "futile"
+    ],
     "etymology": "Dal latino 'vacuus' «vuoto».",
     "category": "letteraria",
     "difficulty": 2
@@ -517,7 +659,11 @@
       "I prodromi della crisi erano visibili da mesi.",
       "Mal di testa e stanchezza come prodromi dell'influenza."
     ],
-    "synonyms": ["avvisaglia", "preludio", "sintomo"],
+    "synonyms": [
+      "avvisaglia",
+      "preludio",
+      "sintomo"
+    ],
     "etymology": "Dal greco 'pródromos' «che corre avanti».",
     "category": "letteraria",
     "difficulty": 3
@@ -531,7 +677,11 @@
       "Si annovera tra i migliori della sua generazione.",
       "La città annovera tre teatri storici."
     ],
-    "synonyms": ["includere", "contare", "comprendere"],
+    "synonyms": [
+      "includere",
+      "contare",
+      "comprendere"
+    ],
     "etymology": "Da 'a-' e 'novero' «conto, elenco», dal latino 'numerus'.",
     "category": "comune",
     "difficulty": 2
@@ -545,7 +695,11 @@
       "Un passo leggiadro, quasi una danza.",
       "Versi leggiadri e musicali."
     ],
-    "synonyms": ["aggraziato", "grazioso", "elegante"],
+    "synonyms": [
+      "aggraziato",
+      "grazioso",
+      "elegante"
+    ],
     "etymology": "Dal provenzale antico 'leujados', da una base che indica «leggerezza».",
     "curiosity": "È parola cara alla lirica: ricorre in Petrarca e in Leopardi.",
     "category": "letteraria",
@@ -560,7 +714,11 @@
       "La sua acquiescenza fu scambiata per approvazione.",
       "Nessuna protesta: solo silenziosa acquiescenza."
     ],
-    "synonyms": ["assenso", "rassegnazione", "arrendevolezza"],
+    "synonyms": [
+      "assenso",
+      "rassegnazione",
+      "arrendevolezza"
+    ],
     "etymology": "Dal latino 'acquiescere' «trovare quiete, acconsentire».",
     "category": "letteraria",
     "difficulty": 3
@@ -574,7 +732,11 @@
       "Colline brulle bruciate dal sole.",
       "Un cortile brullo, senza un albero."
     ],
-    "synonyms": ["spoglio", "arido", "nudo"],
+    "synonyms": [
+      "spoglio",
+      "arido",
+      "nudo"
+    ],
     "etymology": "Di origine incerta, forse onomatopeica o dal longobardo.",
     "category": "comune",
     "difficulty": 1
@@ -588,7 +750,11 @@
       "Basta tergiversare: accetti o no?",
       "Tergiversò finché la scadenza non fu passata."
     ],
-    "synonyms": ["temporeggiare", "cincischiare", "esitare"],
+    "synonyms": [
+      "temporeggiare",
+      "cincischiare",
+      "esitare"
+    ],
     "etymology": "Dal latino 'tergiversari', da 'tergum' «schiena» e 'vertere' «voltare»: voltare le spalle.",
     "category": "comune",
     "difficulty": 2
@@ -602,7 +768,11 @@
       "Un sentiero irto di rovi.",
       "Un percorso irto di ostacoli burocratici."
     ],
-    "synonyms": ["ispido", "pieno", "irsuto"],
+    "synonyms": [
+      "ispido",
+      "pieno",
+      "irsuto"
+    ],
     "etymology": "Dal latino 'hirtus' «ispido, ruvido».",
     "category": "letteraria",
     "difficulty": 2
@@ -616,7 +786,11 @@
       "Le due testimonianze collimano in ogni dettaglio.",
       "I conti non collimano per pochi centesimi."
     ],
-    "synonyms": ["coincidere", "corrispondere", "concordare"],
+    "synonyms": [
+      "coincidere",
+      "corrispondere",
+      "concordare"
+    ],
     "etymology": "Dal latino scientifico 'collimare', errore di lettura per 'collineare' «mirare in linea retta».",
     "category": "comune",
     "difficulty": 3
@@ -630,7 +804,11 @@
       "Un esimio studioso di diritto romano.",
       "«Esimio professore» è formula d'apertura di lettere formali."
     ],
-    "synonyms": ["illustre", "eminente", "insigne"],
+    "synonyms": [
+      "illustre",
+      "eminente",
+      "insigne"
+    ],
     "etymology": "Dal latino 'eximius' «scelto, eccezionale», da 'eximere' «togliere fuori (dalla massa)».",
     "category": "letteraria",
     "difficulty": 2
@@ -644,7 +822,11 @@
       "Funzionari conniventi chiusero un occhio.",
       "Un silenzio connivente da parte di tutti."
     ],
-    "synonyms": ["complice", "colluso", "compiacente"],
+    "synonyms": [
+      "complice",
+      "colluso",
+      "compiacente"
+    ],
     "etymology": "Dal latino 'connivens', da 'connivere' «chiudere gli occhi».",
     "category": "comune",
     "difficulty": 3
@@ -658,7 +840,11 @@
       "Una porcellana diafana, quasi trasparente.",
       "Un incarnato diafano da convalescente."
     ],
-    "synonyms": ["translucido", "trasparente", "etereo"],
+    "synonyms": [
+      "translucido",
+      "trasparente",
+      "etereo"
+    ],
     "etymology": "Dal greco 'diaphanḗs' «che traspare», da 'diá' «attraverso» e 'phaínō' «mostro».",
     "category": "letteraria",
     "difficulty": 2
@@ -672,7 +858,10 @@
       "Il rumore si faceva vieppiù insistente.",
       "Vieppiù convinto, alzò la voce."
     ],
-    "synonyms": ["sempre più", "maggiormente"],
+    "synonyms": [
+      "sempre più",
+      "maggiormente"
+    ],
     "etymology": "Composto di 'vie' (dal latino 'via', «di molto») e 'più'.",
     "category": "antica",
     "difficulty": 3
@@ -686,9 +875,6062 @@
       "Le sanzioni esacerbarono la crisi.",
       "Quelle parole non fecero che esacerbare gli animi."
     ],
-    "synonyms": ["inasprire", "aggravare", "acuire"],
+    "synonyms": [
+      "inasprire",
+      "aggravare",
+      "acuire"
+    ],
     "etymology": "Dal latino 'exacerbare', da 'acerbus' «acerbo, aspro».",
     "category": "comune",
     "difficulty": 2
+  },
+  {
+    "id": "perentorio",
+    "term": "perentorio",
+    "pos": "agg.",
+    "meaning": "Che non ammette repliche, dilazioni o obiezioni.",
+    "examples": [
+      "Un tono perentorio che chiuse la discussione.",
+      "Un termine perentorio per la consegna."
+    ],
+    "synonyms": [
+      "categorico",
+      "tassativo",
+      "inappellabile"
+    ],
+    "etymology": "Dal latino 'peremptorius', da 'perimere' «distruggere, annullare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "inveterato",
+    "term": "inveterato",
+    "pos": "agg.",
+    "meaning": "Diventato abituale col tempo, radicato in profondità.",
+    "examples": [
+      "Un fumatore inveterato.",
+      "Un'abitudine inveterata difficile da scalfire."
+    ],
+    "synonyms": [
+      "radicato",
+      "cronico",
+      "incallito"
+    ],
+    "etymology": "Dal latino 'inveteratus', da 'vetus' «vecchio»: invecchiato dentro.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "loquace",
+    "term": "loquace",
+    "pos": "agg.",
+    "meaning": "Che parla molto e volentieri.",
+    "examples": [
+      "Diventa loquace solo dopo il secondo caffè.",
+      "Un testimone insolitamente loquace."
+    ],
+    "synonyms": [
+      "chiacchierone",
+      "verboso",
+      "ciarliero"
+    ],
+    "etymology": "Dal latino 'loquax', da 'loqui' «parlare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "spregiudicato",
+    "term": "spregiudicato",
+    "pos": "agg.",
+    "meaning": "Che agisce senza pregiudizi o scrupoli, spesso con spregio delle convenzioni.",
+    "examples": [
+      "Un investitore spregiudicato.",
+      "Scelte spregiudicate che pagarono nel breve periodo."
+    ],
+    "synonyms": [
+      "disinvolto",
+      "senza scrupoli",
+      "audace"
+    ],
+    "etymology": "Da 's-' privativo e 'pregiudizio'.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "malleabile",
+    "term": "malleabile",
+    "pos": "agg.",
+    "meaning": "Che si lascia modellare facilmente, in senso proprio o figurato.",
+    "examples": [
+      "L'oro è un metallo molto malleabile.",
+      "Un carattere malleabile, facile da convincere."
+    ],
+    "synonyms": [
+      "duttile",
+      "plasmabile",
+      "adattabile"
+    ],
+    "etymology": "Dal latino medievale 'malleabilis', da 'malleus' «martello».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "onnicomprensivo",
+    "term": "onnicomprensivo",
+    "pos": "agg.",
+    "meaning": "Che include tutto, senza lasciare fuori nulla.",
+    "examples": [
+      "Una riforma onnicomprensiva del sistema fiscale.",
+      "Un elenco onnicomprensivo dei casi possibili."
+    ],
+    "synonyms": [
+      "esaustivo",
+      "totale",
+      "globale"
+    ],
+    "etymology": "Da 'omni-' (tutto) e 'comprensivo'.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "ineffabile",
+    "term": "ineffabile",
+    "pos": "agg.",
+    "meaning": "Che non si può esprimere a parole, per intensità o mistero.",
+    "examples": [
+      "Una gioia ineffabile alla nascita del figlio.",
+      "Un silenzio ineffabile davanti al panorama."
+    ],
+    "synonyms": [
+      "indicibile",
+      "inesprimibile",
+      "indescrivibile"
+    ],
+    "etymology": "Dal latino 'ineffabilis', da 'effari' «esprimere a parole».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "burbero",
+    "term": "burbero",
+    "pos": "agg.",
+    "meaning": "Scontroso e rude nei modi, ma spesso non nella sostanza.",
+    "examples": [
+      "Il nonno era burbero ma generosissimo.",
+      "Un capo burbero che in fondo ti proteggeva."
+    ],
+    "synonyms": [
+      "scontroso",
+      "brusco",
+      "arcigno"
+    ],
+    "etymology": "Probabile derivazione onomatopeica, imparentata con 'borbottare'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "circospetto",
+    "term": "circospetto",
+    "pos": "agg.",
+    "meaning": "Cauto e prudente, attento a valutare ogni conseguenza.",
+    "examples": [
+      "Rispose in modo circospetto alle domande dei giornalisti.",
+      "Un investitore circospetto, mai impulsivo."
+    ],
+    "synonyms": [
+      "cauto",
+      "guardingo",
+      "prudente"
+    ],
+    "etymology": "Dal latino 'circumspectus', da 'circum' «intorno» e 'spicere' «guardare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "veemente",
+    "term": "veemente",
+    "pos": "agg.",
+    "meaning": "Che si manifesta con grande intensità e forza, spesso passionale.",
+    "examples": [
+      "Un discorso veemente contro la corruzione.",
+      "Una protesta veemente davanti al palazzo."
+    ],
+    "synonyms": [
+      "impetuoso",
+      "focoso",
+      "violento"
+    ],
+    "etymology": "Dal latino 'vehemens', forse da 'vehere' «trasportare» inteso come «fuori di sé».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "atavico",
+    "term": "atavico",
+    "pos": "agg.",
+    "meaning": "Trasmesso da generazioni lontane, radicato nell'origine più antica.",
+    "examples": [
+      "Una paura atavica del buio.",
+      "Un legame atavico con la terra dei nonni."
+    ],
+    "synonyms": [
+      "ancestrale",
+      "primordiale",
+      "radicato"
+    ],
+    "etymology": "Dal latino 'atavus' «antenato lontano».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "inconcludente",
+    "term": "inconcludente",
+    "pos": "agg.",
+    "meaning": "Che non porta a nessun risultato o conclusione.",
+    "examples": [
+      "Una riunione inconcludente durata due ore.",
+      "Un dibattito inconcludente su Twitter."
+    ],
+    "synonyms": [
+      "improduttivo",
+      "sterile",
+      "vano"
+    ],
+    "etymology": "Da 'in-' privativo e 'concludente'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "postumo",
+    "term": "postumo",
+    "pos": "agg.",
+    "meaning": "Che avviene o viene pubblicato dopo la morte di qualcuno.",
+    "examples": [
+      "Un romanzo pubblicato postumo.",
+      "Un riconoscimento postumo al suo lavoro."
+    ],
+    "synonyms": [
+      "successivo alla morte"
+    ],
+    "etymology": "Dal latino 'postumus', superlativo di 'posterus' «che viene dopo».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "iettatorio",
+    "term": "iettatorio",
+    "pos": "agg.",
+    "meaning": "Che porta o si crede porti sfortuna.",
+    "examples": [
+      "Considerava iettatorio parlare di vittoria prima della partita.",
+      "Un gesto iettatorio secondo la tradizione popolare."
+    ],
+    "synonyms": [
+      "portasfortuna",
+      "malaugurante"
+    ],
+    "etymology": "Dal napoletano 'iettatura', da 'iettare' (gettare, il malocchio).",
+    "category": "regionale",
+    "difficulty": 3
+  },
+  {
+    "id": "fedifrago",
+    "term": "fedifrago",
+    "pos": "agg.",
+    "meaning": "Che tradisce la fede data, spergiuro o infedele.",
+    "examples": [
+      "Un alleato fedifrago che cambiò schieramento.",
+      "Definì il socio un fedifrago negli affari."
+    ],
+    "synonyms": [
+      "traditore",
+      "spergiuro",
+      "infedele"
+    ],
+    "etymology": "Dal latino 'fidifragus', da 'fides' «fede» e 'frangere' «rompere».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "encomiabile",
+    "term": "encomiabile",
+    "pos": "agg.",
+    "meaning": "Che merita lode ed elogio.",
+    "examples": [
+      "Uno sforzo encomiabile in condizioni difficili.",
+      "Un gesto encomiabile di solidarietà."
+    ],
+    "synonyms": [
+      "lodevole",
+      "meritevole",
+      "apprezzabile"
+    ],
+    "etymology": "Da 'encomio', dal greco 'enkṓmion' «elogio».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "sibillino",
+    "term": "sibillino",
+    "pos": "agg.",
+    "meaning": "Oscuro e ambiguo, dal significato volutamente non chiaro.",
+    "examples": [
+      "Una risposta sibillina che non chiariva nulla.",
+      "Un messaggio sibillino lasciato sulla scrivania."
+    ],
+    "synonyms": [
+      "ambiguo",
+      "enigmatico",
+      "criptico"
+    ],
+    "etymology": "Dalle Sibille, sacerdotesse dell'antichità che pronunciavano oracoli oscuri.",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "impellente",
+    "term": "impellente",
+    "pos": "agg.",
+    "meaning": "Che urge, che non può essere rimandato.",
+    "examples": [
+      "Un bisogno impellente di cambiare aria.",
+      "Una richiesta impellente dei sindacati."
+    ],
+    "synonyms": [
+      "urgente",
+      "pressante",
+      "improrogabile"
+    ],
+    "etymology": "Dal latino 'impellens', participio di 'impellere' «spingere dentro».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "borioso",
+    "term": "borioso",
+    "pos": "agg.",
+    "meaning": "Pieno di boria, vanitoso e presuntuoso nei modi.",
+    "examples": [
+      "Un manager borioso che non ascoltava nessuno.",
+      "Un tono borioso che infastidiva i colleghi."
+    ],
+    "synonyms": [
+      "presuntuoso",
+      "vanitoso",
+      "supponente"
+    ],
+    "etymology": "Da 'boria', forse dall'arabo 'buhr' «orgoglio».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "adamantino",
+    "term": "adamantino",
+    "pos": "agg.",
+    "meaning": "Duro e incorruttibile come il diamante, in senso morale.",
+    "examples": [
+      "Un'integrità adamantina, mai messa in dubbio.",
+      "Principi adamantini che non cedettero alle pressioni."
+    ],
+    "synonyms": [
+      "incrollabile",
+      "inflessibile",
+      "puro"
+    ],
+    "etymology": "Dal greco 'adamas' «indomabile», radice di 'diamante'.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "querimonia",
+    "term": "querimonia",
+    "pos": "s.f.",
+    "meaning": "Lamento insistente e prolungato, spesso su torti veri o presunti.",
+    "examples": [
+      "Le sue continue querimonie stancavano tutti.",
+      "Una lunga querimonia contro l'amministrazione."
+    ],
+    "synonyms": [
+      "lagnanza",
+      "lamentela",
+      "recriminazione"
+    ],
+    "etymology": "Dal latino 'querimonia', da 'queri' «lamentarsi».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "granitico",
+    "term": "granitico",
+    "pos": "agg.",
+    "meaning": "Solido e compatto come il granito, incrollabile.",
+    "examples": [
+      "Una fede granitica che nulla scalfiva.",
+      "Un'alleanza granitica tra le due famiglie."
+    ],
+    "synonyms": [
+      "saldo",
+      "incrollabile",
+      "solidissimo"
+    ],
+    "etymology": "Da 'granito', roccia dal latino 'granum' «grano», per l'aspetto granulare.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "avulso",
+    "term": "avulso",
+    "pos": "agg.",
+    "meaning": "Staccato, separato dal proprio contesto naturale.",
+    "examples": [
+      "Una frase avulsa dal contesto cambia significato.",
+      "Si sentiva avulso dalla realtà del paese."
+    ],
+    "synonyms": [
+      "distaccato",
+      "isolato",
+      "estraneo"
+    ],
+    "etymology": "Dal latino 'avulsus', participio di 'avellere' «strappare via».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "pletorico",
+    "term": "pletorico",
+    "pos": "agg.",
+    "meaning": "Eccessivo, sovrabbondante oltre il necessario.",
+    "examples": [
+      "Un organico pletorico rispetto al lavoro reale.",
+      "Uno stile pletorico, pieno di aggettivi inutili."
+    ],
+    "synonyms": [
+      "ridondante",
+      "sovrabbondante",
+      "eccessivo"
+    ],
+    "etymology": "Dal greco 'plēthōrikós', da 'plēthos' «abbondanza, pienezza».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "smargiasso",
+    "term": "smargiasso",
+    "pos": "s.m.",
+    "meaning": "Chi si vanta con spavalderia, spesso senza fondamento.",
+    "examples": [
+      "Faceva lo smargiasso davanti agli amici.",
+      "Uno smargiasso che al momento buono sparì."
+    ],
+    "synonyms": [
+      "spaccone",
+      "fanfarone",
+      "gradasso"
+    ],
+    "etymology": "Dallo spagnolo 'esmargizar', forse legato allo spavento ('smargiare' = intimorire).",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "consono",
+    "term": "consono",
+    "pos": "agg.",
+    "meaning": "In armonia, adatto e coerente con qualcosa.",
+    "examples": [
+      "Un abbigliamento consono all'occasione.",
+      "Una risposta consona al livello della domanda."
+    ],
+    "synonyms": [
+      "adeguato",
+      "appropriato",
+      "coerente"
+    ],
+    "etymology": "Dal latino 'consonus', da 'sonus' «suono»: che suona insieme.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "iattura",
+    "term": "iattura",
+    "pos": "s.f.",
+    "meaning": "Disgrazia grave e improvvisa, sciagura.",
+    "examples": [
+      "Perdere il lavoro in quel momento fu una iattura.",
+      "Una serie di iatture colpì la famiglia."
+    ],
+    "synonyms": [
+      "disgrazia",
+      "sciagura",
+      "sventura"
+    ],
+    "etymology": "Dal latino 'iactura' «perdita», da 'iacere' «gettare».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "impavido",
+    "term": "impavido",
+    "pos": "agg.",
+    "meaning": "Che non ha paura, coraggioso di fronte al pericolo.",
+    "examples": [
+      "Un pompiere impavido entrò nell'edificio in fiamme.",
+      "Restò impavido davanti alle minacce."
+    ],
+    "synonyms": [
+      "intrepido",
+      "coraggioso",
+      "audace"
+    ],
+    "etymology": "Dal latino 'impavidus', da 'pavere' «temere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "opinabile",
+    "term": "opinabile",
+    "pos": "agg.",
+    "meaning": "Che si presta a opinioni diverse, non certo o dimostrabile.",
+    "examples": [
+      "Il giudizio estetico è per natura opinabile.",
+      "Una decisione opinabile che divise la giuria."
+    ],
+    "synonyms": [
+      "discutibile",
+      "controverso",
+      "soggettivo"
+    ],
+    "etymology": "Dal latino 'opinabilis', da 'opinari' «avere un'opinione».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "recondito",
+    "term": "recondito",
+    "pos": "agg.",
+    "meaning": "Nascosto, profondo, difficile da raggiungere o scoprire.",
+    "examples": [
+      "I recessi più reconditi della memoria.",
+      "Un motivo recondito dietro la sua scelta."
+    ],
+    "synonyms": [
+      "nascosto",
+      "segreto",
+      "profondo"
+    ],
+    "etymology": "Dal latino 'reconditus', participio di 'recondere' «riporre, nascondere».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "millantatore",
+    "term": "millantatore",
+    "pos": "s.m.",
+    "meaning": "Chi si vanta di qualità o meriti che non ha.",
+    "examples": [
+      "Si scoprì che era solo un millantatore.",
+      "Un millantatore che spacciava titoli falsi."
+    ],
+    "synonyms": [
+      "spaccone",
+      "vanaglorioso",
+      "impostore"
+    ],
+    "etymology": "Da 'millantare' «vantare falsamente», forse dal francese antico.",
+    "category": "comune",
+    "difficulty": 3
+  },
+  {
+    "id": "fugace",
+    "term": "fugace",
+    "pos": "agg.",
+    "meaning": "Che passa e scompare rapidamente.",
+    "examples": [
+      "Un'illusione fugace svanita all'alba.",
+      "Un incontro fugace in aeroporto."
+    ],
+    "synonyms": [
+      "effimero",
+      "passeggero",
+      "breve"
+    ],
+    "etymology": "Dal latino 'fugax', da 'fugere' «fuggire».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "algido",
+    "term": "algido",
+    "pos": "agg.",
+    "meaning": "Estremamente freddo, in senso proprio o di modi distaccati.",
+    "examples": [
+      "Un vento algido scendeva dalle montagne.",
+      "Uno sguardo algido che gelava chiunque."
+    ],
+    "synonyms": [
+      "gelido",
+      "glaciale",
+      "freddissimo"
+    ],
+    "etymology": "Dal latino 'algidus', da 'algere' «avere freddo».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "temerario",
+    "term": "temerario",
+    "pos": "agg.",
+    "meaning": "Che affronta il pericolo con audacia eccessiva, incurante delle conseguenze.",
+    "examples": [
+      "Un tentativo temerario di scalare la parete in solitaria.",
+      "Una scommessa temeraria sui mercati."
+    ],
+    "synonyms": [
+      "audace",
+      "avventato",
+      "spericolato"
+    ],
+    "etymology": "Dal latino 'temerarius', da 'temere' «a caso, senza riflessione».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "improrogabile",
+    "term": "improrogabile",
+    "pos": "agg.",
+    "meaning": "Che non può essere rimandato oltre il termine stabilito.",
+    "examples": [
+      "Una scadenza improrogabile fissata per venerdì.",
+      "Un intervento improrogabile sulla rete idrica."
+    ],
+    "synonyms": [
+      "inderogabile",
+      "perentorio",
+      "non rinviabile"
+    ],
+    "etymology": "Da 'in-' privativo e 'prorogabile', dal latino 'prorogare' «prolungare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "eclettico",
+    "term": "eclettico",
+    "pos": "agg.",
+    "meaning": "Che spazia tra ambiti diversi, capace di scegliere il meglio da ciascuno.",
+    "examples": [
+      "Un artista eclettico tra pittura e musica.",
+      "Una formazione eclettica, tra scienze e lettere."
+    ],
+    "synonyms": [
+      "versatile",
+      "poliedrico",
+      "vario"
+    ],
+    "etymology": "Dal greco 'eklektikós', da 'eklégein' «scegliere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sussiegoso",
+    "term": "sussiegoso",
+    "pos": "agg.",
+    "meaning": "Che mostra un'aria di superiorità formale e distaccata.",
+    "examples": [
+      "Un funzionario sussiegoso dietro lo sportello.",
+      "Rispose con tono sussiegoso alle critiche."
+    ],
+    "synonyms": [
+      "altezzoso",
+      "compassato",
+      "sostenuto"
+    ],
+    "etymology": "Da 'sussiego', atteggiamento di gravità affettata.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "baldanzoso",
+    "term": "baldanzoso",
+    "pos": "agg.",
+    "meaning": "Pieno di sicurezza e audacia, a volte sfrontata.",
+    "examples": [
+      "Un giovane baldanzoso al suo primo colloquio.",
+      "Entrò baldanzoso, certo della vittoria."
+    ],
+    "synonyms": [
+      "spavaldo",
+      "sicuro di sé",
+      "audace"
+    ],
+    "etymology": "Da 'baldanza', dal germanico 'bald' «audace».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "esoso",
+    "term": "esoso",
+    "pos": "agg.",
+    "meaning": "Che chiede prezzi o compensi eccessivi, avido.",
+    "examples": [
+      "Un affitto esoso per una città di provincia.",
+      "Tassi esosi praticati da alcuni intermediari."
+    ],
+    "synonyms": [
+      "ingordo",
+      "eccessivo",
+      "avido"
+    ],
+    "etymology": "Dal latino 'exosus' «odioso», da 'odisse' «odiare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "pusillanime",
+    "term": "pusillanime",
+    "pos": "agg.",
+    "meaning": "Timido e privo di coraggio davanti alle difficoltà.",
+    "examples": [
+      "Un capo pusillanime che evitava ogni scontro.",
+      "Una scelta pusillanime dettata dalla paura."
+    ],
+    "synonyms": [
+      "vile",
+      "codardo",
+      "timoroso"
+    ],
+    "etymology": "Dal latino 'pusillanimis', da 'pusillus' «piccolo» e 'animus' «animo».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "ubiquo",
+    "term": "ubiquo",
+    "pos": "agg.",
+    "meaning": "Presente ovunque contemporaneamente.",
+    "examples": [
+      "La pubblicità è ormai ubiqua sui social.",
+      "Un problema ubiquo in tutti i reparti."
+    ],
+    "synonyms": [
+      "onnipresente",
+      "diffuso"
+    ],
+    "etymology": "Dal latino 'ubique' «dovunque».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "dissennato",
+    "term": "dissennato",
+    "pos": "agg.",
+    "meaning": "Privo di senno, che agisce in modo irragionevole.",
+    "examples": [
+      "Un piano dissennato destinato a fallire.",
+      "Una spesa dissennata fatta d'impulso."
+    ],
+    "synonyms": [
+      "insensato",
+      "scellerato",
+      "folle"
+    ],
+    "etymology": "Da 'dis-' e 'senno', dal germanico 'sinnu' «senso, giudizio».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "esilarante",
+    "term": "esilarante",
+    "pos": "agg.",
+    "meaning": "Che provoca ilarità intensa, buffissimo.",
+    "examples": [
+      "Una scena esilarante del film.",
+      "Un equivoco esilarante alla cena aziendale."
+    ],
+    "synonyms": [
+      "comicissimo",
+      "divertentissimo",
+      "spassoso"
+    ],
+    "etymology": "Dal latino 'exhilarare' «rallegrare», da 'hilaris' «allegro».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "protervo",
+    "term": "protervo",
+    "pos": "agg.",
+    "meaning": "Arrogante e sfrontato, che agisce senza riguardo per gli altri.",
+    "examples": [
+      "Un atteggiamento protervo verso i sottoposti.",
+      "Rispose in modo protervo alle accuse."
+    ],
+    "synonyms": [
+      "arrogante",
+      "insolente",
+      "tracotante"
+    ],
+    "etymology": "Dal latino 'protervus', forse da 'pro-' e 'terere' «logorare» (senza freni).",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "randagio",
+    "term": "randagio",
+    "pos": "agg.",
+    "meaning": "Che vaga senza una meta o un rifugio fisso.",
+    "examples": [
+      "Un cane randagio adottato dal quartiere.",
+      "Anni randagi prima di trovare una casa."
+    ],
+    "synonyms": [
+      "vagabondo",
+      "errante",
+      "senza fissa dimora"
+    ],
+    "etymology": "Di origine incerta, forse legato a 'randa', vela orientabile a piacere.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "pedissequo",
+    "term": "pedissequo",
+    "pos": "agg.",
+    "meaning": "Che segue passo passo, senza alcuna originalità o critica.",
+    "examples": [
+      "Un'imitazione pedissequa dell'originale.",
+      "Applicò le regole in modo pedissequo."
+    ],
+    "synonyms": [
+      "fedele",
+      "meccanico",
+      "acritico"
+    ],
+    "etymology": "Dal latino 'pedisequus', «che segue a piedi», da 'pes' e 'sequi'.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "propalare",
+    "term": "propalare",
+    "pos": "v.tr.",
+    "meaning": "Divulgare, rendere pubblico ciò che era segreto.",
+    "examples": [
+      "Qualcuno propalò la notizia prima del comunicato.",
+      "Non voleva propalare i dettagli della trattativa."
+    ],
+    "synonyms": [
+      "divulgare",
+      "diffondere",
+      "rivelare"
+    ],
+    "etymology": "Dal latino 'propalare', da 'palam' «apertamente».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "afflato",
+    "term": "afflato",
+    "pos": "s.m.",
+    "meaning": "Ispirazione intensa e profonda, spesso di natura artistica o morale.",
+    "examples": [
+      "Scriveva con un afflato quasi religioso.",
+      "Un progetto sostenuto da un forte afflato ideale."
+    ],
+    "synonyms": [
+      "ispirazione",
+      "slancio",
+      "afflato creativo"
+    ],
+    "etymology": "Dal latino 'afflatus', da 'afflare' «soffiare verso».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "categorico",
+    "term": "categorico",
+    "pos": "agg.",
+    "meaning": "Netto, che non ammette dubbi o eccezioni.",
+    "examples": [
+      "Un rifiuto categorico alla proposta.",
+      "Fu categorico: nessuna proroga."
+    ],
+    "synonyms": [
+      "perentorio",
+      "netto",
+      "tassativo"
+    ],
+    "etymology": "Dal greco 'katēgorikós', da 'katēgorein' «affermare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "grigiore",
+    "term": "grigiore",
+    "pos": "s.m.",
+    "meaning": "Monotonia opprimente, mancanza di vivacità o entusiasmo.",
+    "examples": [
+      "Il grigiore delle giornate invernali in ufficio.",
+      "Voleva scappare dal grigiore della provincia."
+    ],
+    "synonyms": [
+      "monotonia",
+      "squallore",
+      "piattezza"
+    ],
+    "etymology": "Da 'grigio', accrescitivo per intensità.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "imperterrito",
+    "term": "imperterrito",
+    "pos": "agg.",
+    "meaning": "Che non si lascia intimorire, continua imperturbabile.",
+    "examples": [
+      "Proseguì imperterrito nonostante le critiche.",
+      "Rimase imperterrito davanti alle minacce."
+    ],
+    "synonyms": [
+      "imperturbabile",
+      "impavido",
+      "indomito"
+    ],
+    "etymology": "Dal latino 'imperterritus', da 'terrere' «spaventare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "vessare",
+    "term": "vessare",
+    "pos": "v.tr.",
+    "meaning": "Opprimere con angherie continue, tormentare.",
+    "examples": [
+      "Il tiranno vessava i contadini con tasse assurde.",
+      "Si sentiva vessato da controlli continui."
+    ],
+    "synonyms": [
+      "opprimere",
+      "tormentare",
+      "angariare"
+    ],
+    "etymology": "Dal latino 'vexare', frequentativo di 'vehere' «scuotere».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "arcigno",
+    "term": "arcigno",
+    "pos": "agg.",
+    "meaning": "Dall'aspetto o dal carattere severo e poco accogliente.",
+    "examples": [
+      "Un custode arcigno all'ingresso del museo.",
+      "Uno sguardo arcigno che scoraggiava domande."
+    ],
+    "synonyms": [
+      "severo",
+      "burbero",
+      "torvo"
+    ],
+    "etymology": "Di origine incerta, forse dal longobardo, imparentato con 'arco' (inarcato, teso).",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "fallace",
+    "term": "fallace",
+    "pos": "agg.",
+    "meaning": "Ingannevole, che trae in errore pur apparendo vero.",
+    "examples": [
+      "Un ragionamento fallace nascosto sotto una logica apparente.",
+      "Promesse fallaci fatte in campagna elettorale."
+    ],
+    "synonyms": [
+      "ingannevole",
+      "illusorio",
+      "menzognero"
+    ],
+    "etymology": "Dal latino 'fallax', da 'fallere' «ingannare».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "impronta",
+    "term": "impronta",
+    "pos": "s.f.",
+    "meaning": "Segno distintivo e duraturo lasciato da qualcosa o qualcuno.",
+    "examples": [
+      "Il suo lavoro ha lasciato un'impronta indelebile.",
+      "L'architetto diede all'edificio un'impronta personale."
+    ],
+    "synonyms": [
+      "segno",
+      "marchio",
+      "traccia"
+    ],
+    "etymology": "Dal latino 'imprimere' «premere dentro».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "insipiente",
+    "term": "insipiente",
+    "pos": "agg.",
+    "meaning": "Privo di saggezza o buon senso, sciocco.",
+    "examples": [
+      "Una scelta insipiente che costò cara.",
+      "Un commento insipiente durante il dibattito."
+    ],
+    "synonyms": [
+      "sciocco",
+      "insensato",
+      "stolto"
+    ],
+    "etymology": "Dal latino 'insipiens', da 'sapere' «avere sapore/senno».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "chimerico",
+    "term": "chimerico",
+    "pos": "agg.",
+    "meaning": "Fantastico e irrealizzabile, frutto di pura immaginazione.",
+    "examples": [
+      "Un progetto chimerico privo di fondi reali.",
+      "Speranze chimeriche di successo immediato."
+    ],
+    "synonyms": [
+      "utopico",
+      "illusorio",
+      "fantastico"
+    ],
+    "etymology": "Dalla Chimera, mostro mitologico ibrido e impossibile.",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "avallare",
+    "term": "avallare",
+    "pos": "v.tr.",
+    "meaning": "Dare la propria approvazione o garanzia a qualcosa.",
+    "examples": [
+      "Il consiglio avallò la decisione del direttore.",
+      "Non poteva avallare quel comportamento."
+    ],
+    "synonyms": [
+      "approvare",
+      "sostenere",
+      "garantire"
+    ],
+    "etymology": "Dal francese 'avaliser', da 'aval' «garanzia» sui titoli di credito.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "manicheo",
+    "term": "manicheo",
+    "pos": "agg.",
+    "meaning": "Che vede la realtà divisa nettamente tra bene e male, senza sfumature.",
+    "examples": [
+      "Una visione manichea della politica.",
+      "Il film propone una lettura troppo manichea dei fatti."
+    ],
+    "synonyms": [
+      "schematico",
+      "dualistico",
+      "semplicistico"
+    ],
+    "etymology": "Dal manicheismo, dottrina religiosa di Mani basata sul dualismo bene/male.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "sofisma",
+    "term": "sofisma",
+    "pos": "s.m.",
+    "meaning": "Ragionamento falso ma costruito per apparire valido.",
+    "examples": [
+      "Smontò il sofisma dell'avversario in un minuto.",
+      "Un sofisma retorico usato per confondere."
+    ],
+    "synonyms": [
+      "cavillo",
+      "artificio logico",
+      "paralogismo"
+    ],
+    "etymology": "Dal greco 'sophisma', da 'sophízesthai' «escogitare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "tetro",
+    "term": "tetro",
+    "pos": "agg.",
+    "meaning": "Cupo e oscuro, che ispira tristezza o inquietudine.",
+    "examples": [
+      "Un castello tetro avvolto nella nebbia.",
+      "Un'atmosfera tetra pervadeva la sala d'attesa."
+    ],
+    "synonyms": [
+      "cupo",
+      "lugubre",
+      "sinistro"
+    ],
+    "etymology": "Dal latino 'taeter' «ripugnante, orrido».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "epitome",
+    "term": "epitome",
+    "pos": "s.f.",
+    "meaning": "Esempio perfetto e riassuntivo di qualcosa, sua sintesi ideale.",
+    "examples": [
+      "Quel gesto è l'epitome della sua generosità.",
+      "Il locale è l'epitome dello stile anni '60."
+    ],
+    "synonyms": [
+      "quintessenza",
+      "sintesi",
+      "compendio"
+    ],
+    "etymology": "Dal greco 'epitomḗ' «taglio, riassunto», da 'témnein' «tagliare».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "arrembante",
+    "term": "arrembante",
+    "pos": "agg.",
+    "meaning": "Impetuoso e travolgente, che avanza con forza decisa.",
+    "examples": [
+      "Una squadra arrembante nel secondo tempo.",
+      "Un mercato arrembante per le nuove tecnologie."
+    ],
+    "synonyms": [
+      "travolgente",
+      "aggressivo",
+      "irruento"
+    ],
+    "etymology": "Da 'arrembaggio', assalto navale con abbordaggio.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "sagoma",
+    "term": "sagoma",
+    "pos": "s.f.",
+    "meaning": "Figura o profilo di qualcosa; colloquialmente, persona bizzarra e divertente.",
+    "examples": [
+      "La sagoma di una nave all'orizzonte.",
+      "Che sagoma, quel tuo amico!"
+    ],
+    "synonyms": [
+      "profilo",
+      "silhouette",
+      "tipo bizzarro"
+    ],
+    "etymology": "Dal francese antico 'saumon' o dal provenzale, con evoluzione incerta.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "risibile",
+    "term": "risibile",
+    "pos": "agg.",
+    "meaning": "Che fa ridere per la sua evidente scarsa serietà o fondatezza.",
+    "examples": [
+      "Una scusa risibile per giustificare il ritardo.",
+      "Un'offerta risibile rispetto al valore del lavoro."
+    ],
+    "synonyms": [
+      "ridicolo",
+      "irrisorio",
+      "buffo"
+    ],
+    "etymology": "Dal latino 'risibilis', da 'ridere'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "abietto",
+    "term": "abietto",
+    "pos": "agg.",
+    "meaning": "Moralmente spregevole, degradato fino al disprezzo.",
+    "examples": [
+      "Un tradimento abietto nei confronti dell'amico.",
+      "Un comportamento abietto verso i più deboli."
+    ],
+    "synonyms": [
+      "spregevole",
+      "vile",
+      "ignobile"
+    ],
+    "etymology": "Dal latino 'abiectus', participio di 'abicere' «gettare via».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "propugnare",
+    "term": "propugnare",
+    "pos": "v.tr.",
+    "meaning": "Sostenere con convinzione e impegno una causa o un'idea.",
+    "examples": [
+      "Propugnava da anni la riforma della giustizia.",
+      "Un movimento che propugna la sostenibilità."
+    ],
+    "synonyms": [
+      "sostenere",
+      "difendere",
+      "promuovere"
+    ],
+    "etymology": "Dal latino 'propugnare', da 'pugnare' «combattere», in difesa di qualcosa.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "vacillare",
+    "term": "vacillare",
+    "pos": "v.intr.",
+    "meaning": "Oscillare per mancanza di stabilità, in senso proprio o figurato.",
+    "examples": [
+      "La sua fiducia iniziò a vacillare.",
+      "Il tavolo vacillava su un pavimento irregolare."
+    ],
+    "synonyms": [
+      "barcollare",
+      "tentennare",
+      "traballare"
+    ],
+    "etymology": "Dal latino 'vacillare' «traballare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sussulto",
+    "term": "sussulto",
+    "pos": "s.m.",
+    "meaning": "Movimento improvviso causato da spavento o forte emozione.",
+    "examples": [
+      "Un sussulto di orgoglio nell'ultimo miglio della gara.",
+      "Ebbe un sussulto sentendo il suo nome."
+    ],
+    "synonyms": [
+      "scatto",
+      "sobbalzo",
+      "fremito"
+    ],
+    "etymology": "Dal latino 'subsultare', da 'salire' «saltare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "impudente",
+    "term": "impudente",
+    "pos": "agg.",
+    "meaning": "Sfacciato, privo di pudore o rispetto verso le convenzioni.",
+    "examples": [
+      "Una bugia impudente detta senza esitazione.",
+      "Un comportamento impudente in pubblico."
+    ],
+    "synonyms": [
+      "sfacciato",
+      "sfrontato",
+      "spudorato"
+    ],
+    "etymology": "Dal latino 'impudens', da 'pudere' «vergognarsi».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "profluvio",
+    "term": "profluvio",
+    "pos": "s.m.",
+    "meaning": "Flusso abbondante e continuo di qualcosa, spesso parole.",
+    "examples": [
+      "Un profluvio di scuse poco convincenti.",
+      "Un profluvio di dati senza una vera analisi."
+    ],
+    "synonyms": [
+      "fiume",
+      "torrente",
+      "abbondanza"
+    ],
+    "etymology": "Dal latino 'profluvium', da 'profluere' «scorrere via».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "smaliziato",
+    "term": "smaliziato",
+    "pos": "agg.",
+    "meaning": "Che ha perso l'ingenuità, esperto e scaltro.",
+    "examples": [
+      "Un consumatore ormai smaliziato non ci casca più.",
+      "Un turista smaliziato evita le trappole per polli."
+    ],
+    "synonyms": [
+      "scaltro",
+      "esperto",
+      "navigato"
+    ],
+    "etymology": "Da 's-' e 'malizia', nel senso di privarsi dell'ingenuità.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "abborracciato",
+    "term": "abborracciato",
+    "pos": "agg.",
+    "meaning": "Fatto in modo frettoloso e disordinato, senza cura.",
+    "examples": [
+      "Un lavoro abborracciato consegnato all'ultimo minuto.",
+      "Una spiegazione abborracciata che convinse pochi."
+    ],
+    "synonyms": [
+      "raffazzonato",
+      "approssimativo",
+      "sciatto"
+    ],
+    "etymology": "Da 'borra', materiale scadente usato per imbottire in fretta.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "diatriba",
+    "term": "diatriba",
+    "pos": "s.f.",
+    "meaning": "Polemica accesa e prolungata su un argomento controverso.",
+    "examples": [
+      "Una diatriba infinita sui social media.",
+      "La diatriba tra i due soci finì in tribunale."
+    ],
+    "synonyms": [
+      "polemica",
+      "disputa",
+      "controversia"
+    ],
+    "etymology": "Dal greco 'diatribḗ' «discussione», da 'tríbein' «logorare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "immarcescibile",
+    "term": "immarcescibile",
+    "pos": "agg.",
+    "meaning": "Che non appassisce né si deteriora, duraturo nel tempo.",
+    "examples": [
+      "Una fama immarcescibile attraverso i secoli.",
+      "Un legame immarcescibile tra i due paesi."
+    ],
+    "synonyms": [
+      "imperituro",
+      "eterno",
+      "incorruttibile"
+    ],
+    "etymology": "Dal latino 'immarcescibilis', da 'marcescere' «appassire».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "boccheggiante",
+    "term": "boccheggiante",
+    "pos": "agg.",
+    "meaning": "Che respira a fatica; per estensione, in gravi difficoltà, quasi al collasso.",
+    "examples": [
+      "Un'economia boccheggiante dopo la crisi.",
+      "Arrivò al traguardo boccheggiante."
+    ],
+    "synonyms": [
+      "agonizzante",
+      "affannato",
+      "al collasso"
+    ],
+    "etymology": "Da 'boccheggiare', aprire e chiudere la bocca cercando aria.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "increscioso",
+    "term": "increscioso",
+    "pos": "agg.",
+    "meaning": "Spiacevole, che provoca disagio o rammarico.",
+    "examples": [
+      "Un increscioso malinteso rovinò la serata.",
+      "Un episodio increscioso durante la cerimonia."
+    ],
+    "synonyms": [
+      "spiacevole",
+      "penoso",
+      "imbarazzante"
+    ],
+    "etymology": "Da 'in-' e 'crescere' nel senso antico di 'dispiacere' (rincrescere).",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sperticato",
+    "term": "sperticato",
+    "pos": "agg.",
+    "meaning": "Eccessivo, smisurato, oltre ogni misura (spesso riferito a lodi).",
+    "examples": [
+      "Elogi sperticati che suonavano falsi.",
+      "Una sperticata ammirazione per il maestro."
+    ],
+    "synonyms": [
+      "smodato",
+      "eccessivo",
+      "esagerato"
+    ],
+    "etymology": "Da 's-' e 'pertica', nel senso di «fuori misura».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "vanaglorioso",
+    "term": "vanaglorioso",
+    "pos": "agg.",
+    "meaning": "Che si vanta con eccessivo orgoglio dei propri meriti, spesso modesti.",
+    "examples": [
+      "Un discorso vanaglorioso pieno di autocelebrazione.",
+      "Non voleva sembrare vanaglorioso parlando del premio."
+    ],
+    "synonyms": [
+      "borioso",
+      "presuntuoso",
+      "millantatore"
+    ],
+    "etymology": "Da 'vana gloria', gloria priva di reale fondamento.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "controvertibile",
+    "term": "controvertibile",
+    "pos": "agg.",
+    "meaning": "Che può essere messo in discussione, non certo in modo assoluto.",
+    "examples": [
+      "Un dato controvertibile, non ancora confermato.",
+      "Una tesi controvertibile su cui gli storici discutono."
+    ],
+    "synonyms": [
+      "discutibile",
+      "opinabile",
+      "contestabile"
+    ],
+    "etymology": "Dal latino 'controversus', da 'controvertere' «volgere contro».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "sfrontatezza",
+    "term": "sfrontatezza",
+    "pos": "s.f.",
+    "meaning": "Mancanza di pudore o timidezza, spesso fino all'insolenza.",
+    "examples": [
+      "Ebbe la sfrontatezza di chiedere un aumento il primo giorno.",
+      "Rispose con una sfrontatezza sorprendente."
+    ],
+    "synonyms": [
+      "insolenza",
+      "impudenza",
+      "spudoratezza"
+    ],
+    "etymology": "Da 'sfrontato', da 's-' e 'fronte' (senza vergogna in volto).",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "epigrafico",
+    "term": "epigrafico",
+    "pos": "agg.",
+    "meaning": "Sintetico e solenne come un'iscrizione, essenziale e definitivo.",
+    "examples": [
+      "Uno stile epigrafico, poche parole ma incisive.",
+      "Un giudizio epigrafico chiuse la questione."
+    ],
+    "synonyms": [
+      "lapidario",
+      "conciso",
+      "sentenzioso"
+    ],
+    "etymology": "Da 'epigrafe', dal greco 'epigraphḗ' «iscrizione».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "acredine",
+    "term": "acredine",
+    "pos": "s.f.",
+    "meaning": "Astio pungente, risentimento che emerge in tono o parole.",
+    "examples": [
+      "Parlò dell'ex socio con evidente acredine.",
+      "Un commento pieno di acredine sui social."
+    ],
+    "synonyms": [
+      "astio",
+      "livore",
+      "rancore"
+    ],
+    "etymology": "Dal latino 'acredo', da 'acer' «acre, pungente».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "esorbitante",
+    "term": "esorbitante",
+    "pos": "agg.",
+    "meaning": "Che supera di gran lunga la misura normale, eccessivo.",
+    "examples": [
+      "Un prezzo esorbitante per un caffè.",
+      "Uno stipendio esorbitante rispetto al ruolo."
+    ],
+    "synonyms": [
+      "eccessivo",
+      "spropositato",
+      "esagerato"
+    ],
+    "etymology": "Dal latino 'exorbitare', da 'orbita' «uscire dal solco».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "indolente",
+    "term": "indolente",
+    "pos": "agg.",
+    "meaning": "Pigro e apatico, incline a evitare ogni sforzo.",
+    "examples": [
+      "Un impiegato indolente che rimandava tutto.",
+      "Un pomeriggio indolente sul divano."
+    ],
+    "synonyms": [
+      "pigro",
+      "svogliato",
+      "apatico"
+    ],
+    "etymology": "Dal latino 'indolens', da 'dolere' «soffrire»: che non sente dolore, insensibile agli stimoli.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "farraginoso",
+    "term": "farraginoso",
+    "pos": "agg.",
+    "meaning": "Confuso e disordinato, composto da elementi eterogenei.",
+    "examples": [
+      "Un regolamento farraginoso pieno di rimandi.",
+      "Una spiegazione farraginosa difficile da seguire."
+    ],
+    "synonyms": [
+      "confuso",
+      "disordinato",
+      "ingarbugliato"
+    ],
+    "etymology": "Dal latino 'farrago' «miscuglio di cereali per il bestiame».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "avvedutezza",
+    "term": "avvedutezza",
+    "pos": "s.f.",
+    "meaning": "Capacità di prevedere e agire con prudenza e giudizio.",
+    "examples": [
+      "Gestì la crisi con grande avvedutezza.",
+      "Un investimento fatto con avvedutezza."
+    ],
+    "synonyms": [
+      "accortezza",
+      "prudenza",
+      "saggezza"
+    ],
+    "etymology": "Da 'avveduto', participio di 'avvedersi' «accorgersi».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "logorroico",
+    "term": "logorroico",
+    "pos": "agg.",
+    "meaning": "Che parla in modo eccessivo e incontrollato.",
+    "examples": [
+      "Un relatore logorroico che sforò di un'ora.",
+      "Diventa logorroico quando è nervoso."
+    ],
+    "synonyms": [
+      "verboso",
+      "prolisso",
+      "loquace"
+    ],
+    "etymology": "Dal greco 'lógos' «parola» e 'rhéō' «scorrere».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "sussistere",
+    "term": "sussistere",
+    "pos": "v.intr.",
+    "meaning": "Esistere effettivamente, avere fondamento reale.",
+    "examples": [
+      "Il dubbio continua a sussistere.",
+      "Non sussistono le condizioni per procedere."
+    ],
+    "synonyms": [
+      "esistere",
+      "persistere",
+      "reggere"
+    ],
+    "etymology": "Dal latino 'subsistere', da 'sistere' «fermarsi, stare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "inclemente",
+    "term": "inclemente",
+    "pos": "agg.",
+    "meaning": "Privo di clemenza, rigido e severo (spesso riferito al clima o al giudizio).",
+    "examples": [
+      "Un inverno inclemente ha danneggiato i raccolti.",
+      "Una critica inclemente ma onesta."
+    ],
+    "synonyms": [
+      "severo",
+      "rigido",
+      "spietato"
+    ],
+    "etymology": "Dal latino 'inclemens', da 'clemens' «mite».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "vituperare",
+    "term": "vituperare",
+    "pos": "v.tr.",
+    "meaning": "Coprire di biasimo e disprezzo, insultare pubblicamente.",
+    "examples": [
+      "Fu vituperato dalla stampa per settimane.",
+      "Vituperava chiunque non condividesse le sue idee."
+    ],
+    "synonyms": [
+      "denigrare",
+      "biasimare",
+      "disprezzare"
+    ],
+    "etymology": "Dal latino 'vituperare', da 'vitium' «vizio» e 'parare' «preparare».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "pletora",
+    "term": "pletora",
+    "pos": "s.f.",
+    "meaning": "Quantità eccessiva e sovrabbondante di qualcosa.",
+    "examples": [
+      "Una pletora di candidati per un solo posto.",
+      "Una pletora di dati poco utili."
+    ],
+    "synonyms": [
+      "abbondanza",
+      "eccesso",
+      "sovrabbondanza"
+    ],
+    "etymology": "Dal greco 'plēthṓra', da 'plḗthein' «essere pieno».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "recalcitrante",
+    "term": "recalcitrante",
+    "pos": "agg.",
+    "meaning": "Che resiste con ostinazione, riluttante ad obbedire o accettare.",
+    "examples": [
+      "Un cavallo recalcitrante davanti all'ostacolo.",
+      "Un socio recalcitrante di fronte alla fusione."
+    ],
+    "synonyms": [
+      "riluttante",
+      "restio",
+      "ribelle"
+    ],
+    "etymology": "Dal latino 'recalcitrare', da 'calx' «calcagno»: tirare calci indietro.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "inappagato",
+    "term": "inappagato",
+    "pos": "agg.",
+    "meaning": "Non soddisfatto, che non ha trovato realizzazione.",
+    "examples": [
+      "Un desiderio inappagato da anni.",
+      "Si sentiva inappagato nonostante il successo."
+    ],
+    "synonyms": [
+      "insoddisfatto",
+      "irrealizzato",
+      "frustrato"
+    ],
+    "etymology": "Da 'in-' privativo e 'appagare', dal latino 'ad' e 'pax' «pace».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "millanteria",
+    "term": "millanteria",
+    "pos": "s.f.",
+    "meaning": "Vanteria eccessiva e priva di reale fondamento.",
+    "examples": [
+      "Le sue erano solo millanterie senza prove.",
+      "Una millanteria che gli si ritorse contro."
+    ],
+    "synonyms": [
+      "vanteria",
+      "spacconeria",
+      "fanfaronata"
+    ],
+    "etymology": "Da 'millantare', vantare falsamente.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "esimente",
+    "term": "esimente",
+    "pos": "agg.",
+    "meaning": "Che libera da una colpa o da un obbligo, giustificativo.",
+    "examples": [
+      "Una circostanza esimente riconosciuta dal giudice.",
+      "Non c'era alcuna causa esimente per il ritardo."
+    ],
+    "synonyms": [
+      "giustificativo",
+      "scriminante",
+      "assolutorio"
+    ],
+    "etymology": "Dal latino 'eximens', participio di 'eximere' «togliere fuori».",
+    "category": "comune",
+    "difficulty": 3
+  },
+  {
+    "id": "vezzeggiativo",
+    "term": "vezzeggiativo",
+    "pos": "agg.",
+    "meaning": "Che esprime affetto o tenerezza attraverso un tono o una forma dolce.",
+    "examples": [
+      "Lo chiamava con un nomignolo vezzeggiativo.",
+      "Un tono vezzeggiativo riservato solo ai nipoti."
+    ],
+    "synonyms": [
+      "affettuoso",
+      "carezzevole",
+      "tenero"
+    ],
+    "etymology": "Da 'vezzo', dal latino 'vitium' nel senso di abitudine gradevole.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sacrale",
+    "term": "sacrale",
+    "pos": "agg.",
+    "meaning": "Che riguarda il sacro, o che è trattato con solennità quasi religiosa.",
+    "examples": [
+      "Un silenzio quasi sacrale prima del concerto.",
+      "Un rito sacrale tramandato da generazioni."
+    ],
+    "synonyms": [
+      "solenne",
+      "religioso",
+      "rituale"
+    ],
+    "etymology": "Dal latino 'sacralis', da 'sacer' «sacro».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "iperbole",
+    "term": "iperbole",
+    "pos": "s.f.",
+    "meaning": "Esagerazione retorica usata per enfatizzare un concetto.",
+    "examples": [
+      "\"Te l'ho detto un milione di volte\" è un'iperbole.",
+      "Il discorso era pieno di iperboli poco credibili."
+    ],
+    "synonyms": [
+      "esagerazione",
+      "enfasi"
+    ],
+    "etymology": "Dal greco 'hyperbolḗ' «eccesso», da 'hyper' «sopra» e 'bállein' «lanciare».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "asettico",
+    "term": "asettico",
+    "pos": "agg.",
+    "meaning": "Privo di connotazioni emotive o di parte, neutro fino alla freddezza.",
+    "examples": [
+      "Un resoconto asettico dei fatti.",
+      "Un ambiente asettico, quasi impersonale."
+    ],
+    "synonyms": [
+      "neutro",
+      "impersonale",
+      "distaccato"
+    ],
+    "etymology": "Dal greco 'a-' privativo e 'sēptikós' «putrefattivo», col significato medico di «sterile».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sinuoso",
+    "term": "sinuoso",
+    "pos": "agg.",
+    "meaning": "Che procede con curve morbide, in senso proprio o figurato.",
+    "examples": [
+      "Una strada sinuosa tra le colline.",
+      "Un ragionamento sinuoso che evitava la domanda diretta."
+    ],
+    "synonyms": [
+      "tortuoso",
+      "serpeggiante",
+      "ondulato"
+    ],
+    "etymology": "Dal latino 'sinuosus', da 'sinus' «piega, curva».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sussidiario",
+    "term": "sussidiario",
+    "pos": "agg.",
+    "meaning": "Che ha funzione di sostegno o integrazione rispetto a qualcosa di principale.",
+    "examples": [
+      "Un intervento sussidiario dello Stato in casi eccezionali.",
+      "Un ruolo sussidiario rispetto al reparto principale."
+    ],
+    "synonyms": [
+      "accessorio",
+      "integrativo",
+      "di supporto"
+    ],
+    "etymology": "Dal latino 'subsidiarius', da 'subsidium' «riserva, aiuto».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "disquisizione",
+    "term": "disquisizione",
+    "pos": "s.f.",
+    "meaning": "Trattazione approfondita e dettagliata di un argomento.",
+    "examples": [
+      "Una lunga disquisizione sulla teoria dei giochi.",
+      "Si perse in disquisizioni inutili al bar."
+    ],
+    "synonyms": [
+      "dissertazione",
+      "trattazione",
+      "esposizione"
+    ],
+    "etymology": "Dal latino 'disquisitio', da 'disquirere' «esaminare a fondo».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "encomio",
+    "term": "encomio",
+    "pos": "s.m.",
+    "meaning": "Lode pubblica e solenne rivolta a qualcuno per i suoi meriti.",
+    "examples": [
+      "Ricevette un encomio dal sindaco per il coraggio.",
+      "Un encomio militare per l'intervento."
+    ],
+    "synonyms": [
+      "elogio",
+      "lode",
+      "riconoscimento"
+    ],
+    "etymology": "Dal greco 'enkṓmion', da 'en' «in» e 'kômos' «corteo festivo».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "intransigente",
+    "term": "intransigente",
+    "pos": "agg.",
+    "meaning": "Che non scende a compromessi, rigido nei propri principi.",
+    "examples": [
+      "Un giudice intransigente sulle regole.",
+      "Rimase intransigente nonostante le pressioni."
+    ],
+    "synonyms": [
+      "inflessibile",
+      "rigido",
+      "irremovibile"
+    ],
+    "etymology": "Dal latino 'in-' e 'transigere' «venire a patti».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "vacuita",
+    "term": "vacuità",
+    "pos": "s.f.",
+    "meaning": "Mancanza di contenuto o significato, vuotezza.",
+    "examples": [
+      "La vacuità di certi discorsi motivazionali.",
+      "Percepiva la vacuità della vita mondana."
+    ],
+    "synonyms": [
+      "vuotezza",
+      "inconsistenza",
+      "futilità"
+    ],
+    "etymology": "Da 'vacuo', dal latino 'vacuus' «vuoto».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "postulare",
+    "term": "postulare",
+    "pos": "v.tr.",
+    "meaning": "Richiedere come necessario o dare per scontato senza dimostrazione.",
+    "examples": [
+      "La teoria postula l'esistenza di particelle non osservabili.",
+      "Il piano postula un aumento costante della domanda."
+    ],
+    "synonyms": [
+      "presupporre",
+      "richiedere",
+      "esigere"
+    ],
+    "etymology": "Dal latino 'postulare' «chiedere, esigere».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "impostura",
+    "term": "impostura",
+    "pos": "s.f.",
+    "meaning": "Inganno costruito per fingersi ciò che non si è.",
+    "examples": [
+      "L'impostura fu scoperta dopo mesi.",
+      "Accusò il rivale di impostura intellettuale."
+    ],
+    "synonyms": [
+      "inganno",
+      "raggiro",
+      "frode"
+    ],
+    "etymology": "Dal latino tardo 'impostura', da 'imponere' «imporre, ingannare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "scaltro",
+    "term": "scaltro",
+    "pos": "agg.",
+    "meaning": "Astuto e abile nel muoversi tra le situazioni, spesso a proprio vantaggio.",
+    "examples": [
+      "Un negoziatore scaltro che ottenne condizioni migliori.",
+      "Una mossa scaltra per evitare la trappola."
+    ],
+    "synonyms": [
+      "astuto",
+      "furbo",
+      "accorto"
+    ],
+    "etymology": "Dal latino 'excultus', participio di 'excolere' «coltivare, raffinare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "grettezza",
+    "term": "grettezza",
+    "pos": "s.f.",
+    "meaning": "Meschinità e avarizia, anche di vedute oltre che di denaro.",
+    "examples": [
+      "La grettezza con cui trattava i dipendenti.",
+      "Una grettezza di pensiero che limitava ogni progetto."
+    ],
+    "synonyms": [
+      "meschinità",
+      "avarizia",
+      "taccagneria"
+    ],
+    "etymology": "Da 'gretto', forse dal latino 'grex' «gregge» nel senso di volgare.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "pervicace",
+    "term": "pervicace",
+    "pos": "agg.",
+    "meaning": "Ostinato fino alla testardaggine, che persiste nonostante tutto.",
+    "examples": [
+      "Una pervicace volontà di arrivare in fondo.",
+      "Restò pervicace nel suo rifiuto."
+    ],
+    "synonyms": [
+      "ostinato",
+      "caparbio",
+      "testardo"
+    ],
+    "etymology": "Dal latino 'pervicax', da 'pervincere' «vincere fino in fondo».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "declamare",
+    "term": "declamare",
+    "pos": "v.tr.",
+    "meaning": "Recitare o pronunciare con enfasi e tono solenne.",
+    "examples": [
+      "Declamò i versi a memoria davanti al pubblico.",
+      "Declamava slogan senza convinzione."
+    ],
+    "synonyms": [
+      "recitare",
+      "proclamare",
+      "salmodiare"
+    ],
+    "etymology": "Dal latino 'declamare', da 'clamare' «gridare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "provvido",
+    "term": "provvido",
+    "pos": "agg.",
+    "meaning": "Che interviene in modo opportuno e benefico, spesso al momento giusto.",
+    "examples": [
+      "Un provvido intervento evitò il peggio.",
+      "Una provvida pioggia salvò il raccolto."
+    ],
+    "synonyms": [
+      "provvidenziale",
+      "opportuno",
+      "benefico"
+    ],
+    "etymology": "Dal latino 'providus', da 'providere' «provvedere in anticipo».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "malcelato",
+    "term": "malcelato",
+    "pos": "agg.",
+    "meaning": "Nascosto male, che traspare nonostante il tentativo di celarlo.",
+    "examples": [
+      "Un malcelato fastidio nella sua voce.",
+      "Un orgoglio malcelato per il risultato."
+    ],
+    "synonyms": [
+      "appena nascosto",
+      "evidente",
+      "trasparente"
+    ],
+    "etymology": "Da 'mal-' e 'celato', participio di 'celare'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "esalare",
+    "term": "esalare",
+    "pos": "v.tr.",
+    "meaning": "Emettere un odore, un vapore o, in senso figurato, l'ultimo respiro.",
+    "examples": [
+      "Il piatto esalava un profumo intenso di spezie.",
+      "Esalò l'ultimo respiro circondato dai suoi cari."
+    ],
+    "synonyms": [
+      "emanare",
+      "emettere",
+      "spirare"
+    ],
+    "etymology": "Dal latino 'exhalare', da 'halare' «respirare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "riottoso",
+    "term": "riottoso",
+    "pos": "agg.",
+    "meaning": "Incline a ribellarsi e a non sottostare a regole o autorità.",
+    "examples": [
+      "Una classe riottosa difficile da gestire.",
+      "Un cavallo riottoso al morso."
+    ],
+    "synonyms": [
+      "ribelle",
+      "indisciplinato",
+      "recalcitrante"
+    ],
+    "etymology": "Da 'riotta', antica forma di 'rissa, tumulto'.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "esausto",
+    "term": "esausto",
+    "pos": "agg.",
+    "meaning": "Completamente privo di energie, sfinito.",
+    "examples": [
+      "Arrivò a casa esausto dopo il turno doppio.",
+      "Un terreno esausto, sfruttato per troppi anni."
+    ],
+    "synonyms": [
+      "sfinito",
+      "spossato",
+      "sfibrato"
+    ],
+    "etymology": "Dal latino 'exhaustus', participio di 'exhaurire' «vuotare completamente».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "aulico",
+    "term": "aulico",
+    "pos": "agg.",
+    "meaning": "Elevato e solenne, tipico del linguaggio di corte o letterario.",
+    "examples": [
+      "Un linguaggio aulico poco adatto a un post social.",
+      "Uno stile aulico che appesantiva il discorso."
+    ],
+    "synonyms": [
+      "solenne",
+      "elevato",
+      "ricercato"
+    ],
+    "etymology": "Dal latino 'aulicus', da 'aula' «corte regale».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "spavaldo",
+    "term": "spavaldo",
+    "pos": "agg.",
+    "meaning": "Che mostra sicurezza sfrontata, quasi provocatoria.",
+    "examples": [
+      "Un sorriso spavaldo prima della sfida.",
+      "Rispose in modo spavaldo alle minacce."
+    ],
+    "synonyms": [
+      "baldanzoso",
+      "sfrontato",
+      "temerario"
+    ],
+    "etymology": "Forse dallo spagnolo 'espavorido', con evoluzione di significato verso l'audacia.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "irrequieto",
+    "term": "irrequieto",
+    "pos": "agg.",
+    "meaning": "Incapace di stare fermo o tranquillo, agitato.",
+    "examples": [
+      "Un bambino irrequieto durante la lezione.",
+      "Passò una notte irrequieta prima del colloquio."
+    ],
+    "synonyms": [
+      "agitato",
+      "inquieto",
+      "nervoso"
+    ],
+    "etymology": "Da 'in-' privativo e 'requieto', dal latino 'requiescere' «riposare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "postillare",
+    "term": "postillare",
+    "pos": "v.tr.",
+    "meaning": "Aggiungere note o commenti a margine di un testo.",
+    "examples": [
+      "Postillò ogni pagina del contratto con osservazioni.",
+      "Il professore postillava i temi con cura."
+    ],
+    "synonyms": [
+      "annotare",
+      "commentare",
+      "chiosare"
+    ],
+    "etymology": "Da 'postilla', dal latino medievale 'post illa (verba)' «dopo quelle parole».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "ottuso",
+    "term": "ottuso",
+    "pos": "agg.",
+    "meaning": "Lento nel capire, poco acuto di intelletto.",
+    "examples": [
+      "Un commento ottuso che ignorava il contesto.",
+      "Non era ottuso, solo distratto."
+    ],
+    "synonyms": [
+      "tardo",
+      "poco perspicace",
+      "duro di comprendonio"
+    ],
+    "etymology": "Dal latino 'obtusus', participio di 'obtundere' «smussare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "abbagliante",
+    "term": "abbagliante",
+    "pos": "agg.",
+    "meaning": "Che acceca con la sua luminosità, o che colpisce per straordinaria bellezza.",
+    "examples": [
+      "Una luce abbagliante filtrava dalle tende.",
+      "Una bellezza abbagliante che lasciava senza parole."
+    ],
+    "synonyms": [
+      "accecante",
+      "sfolgorante",
+      "splendente"
+    ],
+    "etymology": "Da 'abbagliare', dal latino 'ab-' e 'oculus' «occhio».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "aborrire",
+    "term": "aborrire",
+    "pos": "v.tr.",
+    "meaning": "Provare forte avversione o ripugnanza verso qualcosa.",
+    "examples": [
+      "Aborriva ogni forma di violenza.",
+      "Aborrisce le bugie, anche le più piccole."
+    ],
+    "synonyms": [
+      "detestare",
+      "odiare",
+      "ripugnare"
+    ],
+    "etymology": "Dal latino 'abhorrere', da 'horrere' «rabbrividire».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "accorato",
+    "term": "accorato",
+    "pos": "agg.",
+    "meaning": "Che esprime dolore profondo e sincero.",
+    "examples": [
+      "Un appello accorato ai cittadini.",
+      "Un addio accorato all'aeroporto."
+    ],
+    "synonyms": [
+      "struggente",
+      "commosso",
+      "addolorato"
+    ],
+    "etymology": "Da 'accorare', da 'a-' e 'cuore' (colpire al cuore).",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "affabulazione",
+    "term": "affabulazione",
+    "pos": "s.f.",
+    "meaning": "Costruzione narrativa capace di affascinare e coinvolgere.",
+    "examples": [
+      "Un romanzo di grande affabulazione.",
+      "La sua affabulazione teneva incollato il pubblico."
+    ],
+    "synonyms": [
+      "narrazione",
+      "racconto avvincente"
+    ],
+    "etymology": "Da 'favola', dal latino 'fabula'.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "alacre",
+    "term": "alacre",
+    "pos": "agg.",
+    "meaning": "Pronto e attivo nel lavorare, energico e diligente.",
+    "examples": [
+      "Un alacre lavoro di squadra portò al risultato.",
+      "Si mise al lavoro alacre fin dal mattino."
+    ],
+    "synonyms": [
+      "solerte",
+      "operoso",
+      "attivo"
+    ],
+    "etymology": "Dal latino 'alacer' «vivace, pronto».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "ambiguita",
+    "term": "ambiguità",
+    "pos": "s.f.",
+    "meaning": "Qualità di ciò che si presta a più interpretazioni.",
+    "examples": [
+      "L'ambiguità del testo generò discussioni.",
+      "Rispose con volontaria ambiguità."
+    ],
+    "synonyms": [
+      "equivocità",
+      "incertezza",
+      "doppiezza"
+    ],
+    "etymology": "Dal latino 'ambiguitas', da 'ambigere' «andare intorno, esitare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "ammaliare",
+    "term": "ammaliare",
+    "pos": "v.tr.",
+    "meaning": "Affascinare in modo quasi magico, sedurre.",
+    "examples": [
+      "Ammaliò il pubblico con la sua voce.",
+      "Fu ammaliato dal fascino della città."
+    ],
+    "synonyms": [
+      "affascinare",
+      "sedurre",
+      "incantare"
+    ],
+    "etymology": "Da 'malia', incantesimo, dal latino 'malum' «male» inteso come sortilegio.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "anacronistico",
+    "term": "anacronistico",
+    "pos": "agg.",
+    "meaning": "Fuori dal proprio tempo, superato o inadeguato all'epoca attuale.",
+    "examples": [
+      "Una legge ormai anacronistica.",
+      "Un'idea anacronistica di famiglia."
+    ],
+    "synonyms": [
+      "superato",
+      "datato",
+      "obsoleto"
+    ],
+    "etymology": "Dal greco 'aná' «contro» e 'chrónos' «tempo».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "anelare",
+    "term": "anelare",
+    "pos": "v.intr.",
+    "meaning": "Desiderare intensamente e con impazienza.",
+    "examples": [
+      "Anelava alla libertà dopo anni di lavoro.",
+      "Anelavano a un cambiamento reale."
+    ],
+    "synonyms": [
+      "bramare",
+      "desiderare ardentemente",
+      "aspirare"
+    ],
+    "etymology": "Dal latino 'anhelare' «respirare affannosamente».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "arguzia",
+    "term": "arguzia",
+    "pos": "s.f.",
+    "meaning": "Intelligenza pronta e brillante, spesso unita a spirito ironico.",
+    "examples": [
+      "Rispose con arguzia disarmante.",
+      "Un discorso pieno di arguzia e humour."
+    ],
+    "synonyms": [
+      "spirito",
+      "brillantezza",
+      "ironia intelligente"
+    ],
+    "etymology": "Dal latino 'argutia', da 'arguere' «rendere chiaro».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "auspicabile",
+    "term": "auspicabile",
+    "pos": "agg.",
+    "meaning": "Che è desiderabile e ci si augura possa accadere.",
+    "examples": [
+      "Sarebbe auspicabile un accordo entro l'anno.",
+      "Un esito auspicabile per entrambe le parti."
+    ],
+    "synonyms": [
+      "desiderabile",
+      "sperabile",
+      "opportuno"
+    ],
+    "etymology": "Da 'auspicio', dal latino 'avis' «uccello» e 'specere' «osservare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "avvenente",
+    "term": "avvenente",
+    "pos": "agg.",
+    "meaning": "Di aspetto piacevole e attraente.",
+    "examples": [
+      "Una donna avvenente attirava gli sguardi.",
+      "Un giovane avvenente e sicuro di sé."
+    ],
+    "synonyms": [
+      "attraente",
+      "piacevole",
+      "affascinante"
+    ],
+    "etymology": "Da 'avvenire' nel senso antico di «presentarsi bene».",
+    "category": "letteraria",
+    "difficulty": 1
+  },
+  {
+    "id": "balzano",
+    "term": "balzano",
+    "pos": "agg.",
+    "meaning": "Bizzarro e stravagante, fuori dal comune in modo curioso.",
+    "examples": [
+      "Un'idea balzana venuta di notte.",
+      "Un progetto balzano che nessuno prese sul serio."
+    ],
+    "synonyms": [
+      "strambo",
+      "bizzarro",
+      "stravagante"
+    ],
+    "etymology": "Da 'balzo', forse riferito a un modo di muoversi irregolare.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "beffardo",
+    "term": "beffardo",
+    "pos": "agg.",
+    "meaning": "Che deride con scherno, ironico in modo pungente.",
+    "examples": [
+      "Un sorriso beffardo accompagnò la risposta.",
+      "Il destino fu beffardo con lui quel giorno."
+    ],
+    "synonyms": [
+      "sarcastico",
+      "canzonatorio",
+      "sardonico"
+    ],
+    "etymology": "Da 'beffa', forse di origine onomatopeica.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "bieco",
+    "term": "bieco",
+    "pos": "agg.",
+    "meaning": "Torvo e minaccioso, dall'aspetto o dalle intenzioni sinistre.",
+    "examples": [
+      "Uno sguardo bieco lo seguì per tutta la sala.",
+      "Un piano bieco per estromettere il socio."
+    ],
+    "synonyms": [
+      "torvo",
+      "sinistro",
+      "malvagio"
+    ],
+    "etymology": "Dal germanico, forse imparentato con 'bieco' nel senso di storto/obliquo.",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "cangiante",
+    "term": "cangiante",
+    "pos": "agg.",
+    "meaning": "Che cambia colore o aspetto a seconda della luce o del punto di vista.",
+    "examples": [
+      "Un tessuto cangiante dai riflessi verdi e blu.",
+      "Un umore cangiante, difficile da prevedere."
+    ],
+    "synonyms": [
+      "mutevole",
+      "cambiante",
+      "iridescente"
+    ],
+    "etymology": "Da 'cangiare', forma antica di 'cambiare'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "capzioso",
+    "term": "capzioso",
+    "pos": "agg.",
+    "meaning": "Costruito per ingannare con apparente logica, insidioso.",
+    "examples": [
+      "Una domanda capziosa pensata per confondere.",
+      "Un argomento capzioso smontato in aula."
+    ],
+    "synonyms": [
+      "ingannevole",
+      "insidioso",
+      "sofistico"
+    ],
+    "etymology": "Dal latino 'captiosus', da 'capere' «prendere, catturare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "cesellato",
+    "term": "cesellato",
+    "pos": "agg.",
+    "meaning": "Lavorato con estrema precisione e cura nei dettagli.",
+    "examples": [
+      "Una prosa cesellata parola per parola.",
+      "Un gioiello cesellato a mano."
+    ],
+    "synonyms": [
+      "rifinito",
+      "curato",
+      "raffinato"
+    ],
+    "etymology": "Da 'cesello', strumento per incidere metalli.",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "cianciare",
+    "term": "cianciare",
+    "pos": "v.intr.",
+    "meaning": "Parlare a vanvera, di cose futili o senza sostanza.",
+    "examples": [
+      "Passarono il pomeriggio a cianciare al bar.",
+      "Smettila di cianciare e vieni al punto."
+    ],
+    "synonyms": [
+      "chiacchierare",
+      "blaterare",
+      "vaneggiare"
+    ],
+    "etymology": "Di origine onomatopeica, imparentata con 'ciancia'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "coevo",
+    "term": "coevo",
+    "pos": "agg.",
+    "meaning": "Che appartiene alla stessa epoca di qualcos'altro.",
+    "examples": [
+      "Un edificio coevo alla cattedrale.",
+      "Autori coevi che non si conobbero mai."
+    ],
+    "synonyms": [
+      "contemporaneo",
+      "dello stesso periodo"
+    ],
+    "etymology": "Dal latino 'coaevus', da 'co-' e 'aevum' «età».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "cogente",
+    "term": "cogente",
+    "pos": "agg.",
+    "meaning": "Che vincola in modo stringente, obbligatorio e ineludibile.",
+    "examples": [
+      "Una norma cogente per tutti gli Stati membri.",
+      "Un'esigenza cogente di riforma."
+    ],
+    "synonyms": [
+      "vincolante",
+      "obbligatorio",
+      "stringente"
+    ],
+    "etymology": "Dal latino 'cogens', participio di 'cogere' «costringere».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "commiserare",
+    "term": "commiserare",
+    "pos": "v.tr.",
+    "meaning": "Provare o mostrare compassione mista a un senso di superiorità.",
+    "examples": [
+      "Non voleva essere commiserato per la sconfitta.",
+      "Lo commiseravano senza offrire aiuto reale."
+    ],
+    "synonyms": [
+      "compatire",
+      "compiangere"
+    ],
+    "etymology": "Dal latino 'commiserari', da 'miser' «infelice».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "conclamato",
+    "term": "conclamato",
+    "pos": "agg.",
+    "meaning": "Dichiarato apertamente e riconosciuto da tutti come evidente.",
+    "examples": [
+      "Un fallimento ormai conclamato.",
+      "Un talento conclamato fin da giovane."
+    ],
+    "synonyms": [
+      "evidente",
+      "manifesto",
+      "riconosciuto"
+    ],
+    "etymology": "Dal latino 'conclamare' «gridare insieme, proclamare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "contumace",
+    "term": "contumace",
+    "pos": "agg.",
+    "meaning": "Che si sottrae deliberatamente a un obbligo, in particolare processuale.",
+    "examples": [
+      "Fu processato in contumacia.",
+      "Rimase contumace rifiutando ogni convocazione."
+    ],
+    "synonyms": [
+      "assente ingiustificato",
+      "renitente"
+    ],
+    "etymology": "Dal latino 'contumax', da 'contumacia' «ostinazione, ribellione».",
+    "category": "comune",
+    "difficulty": 3
+  },
+  {
+    "id": "convulso",
+    "term": "convulso",
+    "pos": "agg.",
+    "meaning": "Agitato e disordinato, privo di calma o controllo.",
+    "examples": [
+      "Un dibattito convulso senza vera conclusione.",
+      "Movimenti convulsi presi dal panico."
+    ],
+    "synonyms": [
+      "frenetico",
+      "agitato",
+      "scomposto"
+    ],
+    "etymology": "Dal latino 'convulsus', participio di 'convellere' «strappare, scuotere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "corrusco",
+    "term": "corrusco",
+    "pos": "agg.",
+    "meaning": "Che risplende con bagliori intermittenti, scintillante.",
+    "examples": [
+      "Un cielo corrusco di lampi lontani.",
+      "Un'armatura corrusca sotto il sole."
+    ],
+    "synonyms": [
+      "scintillante",
+      "sfolgorante",
+      "fiammeggiante"
+    ],
+    "etymology": "Dal latino 'corruscus' «tremolante, scintillante».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "credenziale",
+    "term": "credenziale",
+    "pos": "s.f.",
+    "meaning": "Titolo o attestato che garantisce fiducia e legittimità.",
+    "examples": [
+      "Le sue credenziali accademiche erano solide.",
+      "Presentò le credenziali diplomatiche."
+    ],
+    "synonyms": [
+      "referenza",
+      "attestato",
+      "titolo"
+    ],
+    "etymology": "Dal latino medievale 'credentialis', da 'credere'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "decoro",
+    "term": "decoro",
+    "pos": "s.m.",
+    "meaning": "Dignità e compostezza nel comportamento o nell'aspetto.",
+    "examples": [
+      "Mantenne il decoro anche nella sconfitta.",
+      "Un abbigliamento adatto al decoro dell'evento."
+    ],
+    "synonyms": [
+      "dignità",
+      "compostezza",
+      "eleganza"
+    ],
+    "etymology": "Dal latino 'decor', da 'decere' «convenire, star bene».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "deferenza",
+    "term": "deferenza",
+    "pos": "s.f.",
+    "meaning": "Rispetto ossequioso mostrato verso una persona o un'autorità.",
+    "examples": [
+      "Si rivolse al maestro con grande deferenza.",
+      "Un tono di deferenza che sfiorava la sottomissione."
+    ],
+    "synonyms": [
+      "rispetto",
+      "ossequio",
+      "riguardo"
+    ],
+    "etymology": "Dal latino 'deferre' «portare, rimettersi al giudizio altrui».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "demagogico",
+    "term": "demagogico",
+    "pos": "agg.",
+    "meaning": "Che fa leva sugli istinti popolari per ottenere consenso, spesso in modo scorretto.",
+    "examples": [
+      "Un discorso demagogico privo di proposte concrete.",
+      "Promesse demagogiche fatte in campagna elettorale."
+    ],
+    "synonyms": [
+      "populista",
+      "propagandistico"
+    ],
+    "etymology": "Dal greco 'dēmagōgós', da 'dêmos' «popolo» e 'ágein' «guidare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "desueto",
+    "term": "desueto",
+    "pos": "agg.",
+    "meaning": "Caduto in disuso, non più praticato o usato comunemente.",
+    "examples": [
+      "Un termine ormai desueto nel linguaggio comune.",
+      "Un'usanza desueta sopravvissuta solo in campagna."
+    ],
+    "synonyms": [
+      "obsoleto",
+      "in disuso",
+      "superato"
+    ],
+    "etymology": "Dal latino 'desuetus', da 'desuescere' «disabituarsi».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "difforme",
+    "term": "difforme",
+    "pos": "agg.",
+    "meaning": "Diverso nella forma o nella sostanza rispetto a un modello atteso.",
+    "examples": [
+      "Una sentenza difforme dalla giurisprudenza precedente.",
+      "Un prodotto difforme dalle specifiche."
+    ],
+    "synonyms": [
+      "diverso",
+      "discordante",
+      "non conforme"
+    ],
+    "etymology": "Dal latino 'dis-' e 'forma'.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "dirompente",
+    "term": "dirompente",
+    "pos": "agg.",
+    "meaning": "Che provoca un cambiamento improvviso e travolgente.",
+    "examples": [
+      "Una tecnologia dirompente per il settore.",
+      "Un effetto dirompente sull'opinione pubblica."
+    ],
+    "synonyms": [
+      "esplosivo",
+      "travolgente",
+      "rivoluzionario"
+    ],
+    "etymology": "Dal latino 'dirumpere' «rompere completamente».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "disamina",
+    "term": "disamina",
+    "pos": "s.f.",
+    "meaning": "Analisi accurata e dettagliata di un argomento.",
+    "examples": [
+      "Una disamina puntuale dei rischi finanziari.",
+      "Serve una disamina più approfondita del problema."
+    ],
+    "synonyms": [
+      "analisi",
+      "esame",
+      "verifica"
+    ],
+    "etymology": "Da 'disaminare', da 'dis-' e 'esaminare'.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "discettare",
+    "term": "discettare",
+    "pos": "v.intr.",
+    "meaning": "Discutere a lungo e con dottrina, spesso con tono accademico.",
+    "examples": [
+      "Discettavano di filosofia fino a notte fonda.",
+      "Amava discettare di politica al bar."
+    ],
+    "synonyms": [
+      "disquisire",
+      "disputare",
+      "dissertare"
+    ],
+    "etymology": "Dal latino 'dissertare', frequentativo di 'disserere' «esporre in ordine».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "discrasia",
+    "term": "discrasia",
+    "pos": "s.f.",
+    "meaning": "Squilibrio o incongruenza tra elementi che dovrebbero essere in armonia.",
+    "examples": [
+      "Una discrasia evidente tra le parole e i fatti.",
+      "Discrasie normative tra le diverse regioni."
+    ],
+    "synonyms": [
+      "squilibrio",
+      "incongruenza",
+      "disarmonia"
+    ],
+    "etymology": "Dal greco 'dyskrasía', da 'dys-' e 'krâsis' «mescolanza».",
+    "category": "comune",
+    "difficulty": 3
+  },
+  {
+    "id": "dissodare",
+    "term": "dissodare",
+    "pos": "v.tr.",
+    "meaning": "Rendere coltivabile un terreno incolto lavorandolo a fondo.",
+    "examples": [
+      "Dissodarono il campo prima della semina.",
+      "Un lavoro lungo per dissodare un terreno mai arato."
+    ],
+    "synonyms": [
+      "arare",
+      "coltivare",
+      "bonificare"
+    ],
+    "etymology": "Da 'dis-' e 'sodo', terreno compatto.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "ditirambico",
+    "term": "ditirambico",
+    "pos": "agg.",
+    "meaning": "Espresso con entusiasmo esagerato ed enfatico, quasi eccessivo.",
+    "examples": [
+      "Una recensione ditirambica priva di critiche.",
+      "Toni ditirambici per un risultato modesto."
+    ],
+    "synonyms": [
+      "entusiastico",
+      "esaltato",
+      "iperbolico"
+    ],
+    "etymology": "Dal 'ditirambo', antico canto greco in onore di Dioniso.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "ecumenico",
+    "term": "ecumenico",
+    "pos": "agg.",
+    "meaning": "Che mira a unire e includere posizioni diverse, universale.",
+    "examples": [
+      "Un approccio ecumenico al dialogo tra culture.",
+      "Un consenso ecumenico raramente visto in aula."
+    ],
+    "synonyms": [
+      "universale",
+      "inclusivo",
+      "unificante"
+    ],
+    "etymology": "Dal greco 'oikoumenikós', da 'oikouménē' «terra abitata».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "edonismo",
+    "term": "edonismo",
+    "pos": "s.m.",
+    "meaning": "Ricerca del piacere come valore fondamentale dell'esistenza.",
+    "examples": [
+      "Una filosofia di vita improntata all'edonismo.",
+      "L'edonismo degli anni '80 raccontato nei film."
+    ],
+    "synonyms": [
+      "ricerca del piacere"
+    ],
+    "etymology": "Dal greco 'hēdonḗ' «piacere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "effluvio",
+    "term": "effluvio",
+    "pos": "s.m.",
+    "meaning": "Emanazione leggera e diffusa di un odore o di un'energia.",
+    "examples": [
+      "Un effluvio di lavanda proveniva dal giardino.",
+      "Un effluvio di nostalgia pervase la stanza."
+    ],
+    "synonyms": [
+      "profumo",
+      "esalazione",
+      "emanazione"
+    ],
+    "etymology": "Dal latino 'effluvium', da 'effluere' «scorrere fuori».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "elucubrazione",
+    "term": "elucubrazione",
+    "pos": "s.f.",
+    "meaning": "Riflessione lunga e faticosa, spesso più teorica che pratica.",
+    "examples": [
+      "Le sue elucubrazioni notturne non portavano a nulla.",
+      "Un'elucubrazione filosofica fine a se stessa."
+    ],
+    "synonyms": [
+      "riflessione",
+      "speculazione",
+      "meditazione"
+    ],
+    "etymology": "Dal latino 'elucubrare' «lavorare a lume di lucerna».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "emulo",
+    "term": "emulo",
+    "pos": "s.m.",
+    "meaning": "Chi cerca di eguagliare o superare qualcuno, prendendolo a modello.",
+    "examples": [
+      "Un emulo del grande maestro rinascimentale.",
+      "I suoi emuli ne copiarono lo stile senza il talento."
+    ],
+    "synonyms": [
+      "imitatore",
+      "rivale",
+      "seguace"
+    ],
+    "etymology": "Dal latino 'aemulus' «che gareggia».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "enfatico",
+    "term": "enfatico",
+    "pos": "agg.",
+    "meaning": "Espresso con forza e sottolineatura eccessiva.",
+    "examples": [
+      "Un tono enfatico poco adatto alla notizia.",
+      "Un gesto enfatico per accompagnare le parole."
+    ],
+    "synonyms": [
+      "esagerato",
+      "solenne",
+      "marcato"
+    ],
+    "etymology": "Dal greco 'emphatikós', da 'emphaínein' «mostrare dentro».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "equanime",
+    "term": "equanime",
+    "pos": "agg.",
+    "meaning": "Che giudica con imparzialità ed equilibrio, senza pregiudizi.",
+    "examples": [
+      "Un arbitro equanime rispettato da entrambe le squadre.",
+      "Mantenne un giudizio equanime nonostante le pressioni."
+    ],
+    "synonyms": [
+      "imparziale",
+      "obiettivo",
+      "equilibrato"
+    ],
+    "etymology": "Dal latino 'aequanimis', da 'aequus' «uguale» e 'animus' «animo».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "eterogeneo",
+    "term": "eterogeneo",
+    "pos": "agg.",
+    "meaning": "Composto da elementi diversi tra loro per natura o qualità.",
+    "examples": [
+      "Un pubblico eterogeneo per età e interessi.",
+      "Un gruppo di lavoro eterogeneo ma affiatato."
+    ],
+    "synonyms": [
+      "vario",
+      "misto",
+      "disomogeneo"
+    ],
+    "etymology": "Dal greco 'heterogenḗs', da 'héteros' «diverso» e 'génos' «genere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "fatuo",
+    "term": "fatuo",
+    "pos": "agg.",
+    "meaning": "Vano e privo di sostanza, sciocco nella sua vanità.",
+    "examples": [
+      "Un complimento fatuo che non convinse nessuno.",
+      "Una fama fatua destinata a svanire in fretta."
+    ],
+    "synonyms": [
+      "vano",
+      "vacuo",
+      "insulso"
+    ],
+    "etymology": "Dal latino 'fatuus' «sciocco, insipido».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "ferale",
+    "term": "ferale",
+    "pos": "agg.",
+    "meaning": "Che porta lutto o rovina, funesto e nefasto.",
+    "examples": [
+      "Un ferale presagio prima della battaglia.",
+      "Una notizia ferale colpì la comunità."
+    ],
+    "synonyms": [
+      "funesto",
+      "nefasto",
+      "luttuoso"
+    ],
+    "etymology": "Dal latino 'feralis', da 'ferus' o legato ai riti funebri romani (feralia).",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "fideistico",
+    "term": "fideistico",
+    "pos": "agg.",
+    "meaning": "Basato sulla fede più che sulla ragione o sulla prova.",
+    "examples": [
+      "Un approccio fideistico alla scienza è pericoloso.",
+      "Un'adesione fideistica al progetto senza verificarne i dati."
+    ],
+    "synonyms": [
+      "dogmatico",
+      "acritico"
+    ],
+    "etymology": "Dal latino 'fides' «fede».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "fittizio",
+    "term": "fittizio",
+    "pos": "agg.",
+    "meaning": "Creato artificialmente, non corrispondente alla realtà effettiva.",
+    "examples": [
+      "Un nome fittizio per proteggere la fonte.",
+      "Un valore fittizio attribuito all'azienda."
+    ],
+    "synonyms": [
+      "artificiale",
+      "simulato",
+      "falso"
+    ],
+    "etymology": "Dal latino 'ficticius', da 'fingere' «modellare, inventare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "flagrante",
+    "term": "flagrante",
+    "pos": "agg.",
+    "meaning": "Colto nell'atto stesso di compiere un'azione, evidente e innegabile.",
+    "examples": [
+      "Fu arrestato in flagrante di reato.",
+      "Una contraddizione flagrante nel suo racconto."
+    ],
+    "synonyms": [
+      "evidente",
+      "manifesto",
+      "palese"
+    ],
+    "etymology": "Dal latino 'flagrans', participio di 'flagrare' «ardere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "florido",
+    "term": "florido",
+    "pos": "agg.",
+    "meaning": "Che gode di grande prosperità o buona salute, rigoglioso.",
+    "examples": [
+      "Un'economia florida negli anni del boom.",
+      "Un aspetto florido nonostante l'età."
+    ],
+    "synonyms": [
+      "prospero",
+      "rigoglioso",
+      "fiorente"
+    ],
+    "etymology": "Dal latino 'floridus', da 'flos' «fiore».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "foriero",
+    "term": "foriero",
+    "pos": "agg.",
+    "meaning": "Che annuncia o preannuncia qualcosa che sta per accadere.",
+    "examples": [
+      "Nuvole nere foriere di tempesta.",
+      "Segnali foriere di un cambiamento politico."
+    ],
+    "synonyms": [
+      "annunciatore",
+      "premonitore",
+      "presago"
+    ],
+    "etymology": "Dal francese antico 'forrier', addetto ad annunciare l'arrivo del sovrano.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "fremente",
+    "term": "fremente",
+    "pos": "agg.",
+    "meaning": "Che trema per forte emozione, agitazione o impazienza.",
+    "examples": [
+      "Una folla fremente attendeva l'inizio del concerto.",
+      "Fremente d'ansia, aprì la busta."
+    ],
+    "synonyms": [
+      "agitato",
+      "trepidante",
+      "vibrante"
+    ],
+    "etymology": "Dal latino 'fremens', participio di 'fremere' «rumoreggiare, agitarsi».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "frugale",
+    "term": "frugale",
+    "pos": "agg.",
+    "meaning": "Sobrio ed essenziale nei consumi, senza sprechi.",
+    "examples": [
+      "Una cena frugale a base di pane e formaggio.",
+      "Uno stile di vita frugale per scelta, non necessità."
+    ],
+    "synonyms": [
+      "sobrio",
+      "essenziale",
+      "parco"
+    ],
+    "etymology": "Dal latino 'frugalis', da 'frux' «frutto, raccolto».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "furente",
+    "term": "furente",
+    "pos": "agg.",
+    "meaning": "Preso da un'ira violenta e incontrollata.",
+    "examples": [
+      "Uscì furente dalla riunione.",
+      "Una tempesta furente si abbatté sulla costa."
+    ],
+    "synonyms": [
+      "infuriato",
+      "furioso",
+      "adirato"
+    ],
+    "etymology": "Dal latino 'furens', participio di 'furere' «essere in preda al furore».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "gaudente",
+    "term": "gaudente",
+    "pos": "agg.",
+    "meaning": "Che vive nella ricerca del piacere e del divertimento.",
+    "examples": [
+      "Una vita gaudente lontana dagli impegni.",
+      "Un gaudente frequentatore di feste."
+    ],
+    "synonyms": [
+      "edonista",
+      "godereccio",
+      "spensierato"
+    ],
+    "etymology": "Dal latino 'gaudens', participio di 'gaudere' «godere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "genuflesso",
+    "term": "genuflesso",
+    "pos": "agg.",
+    "meaning": "Inginocchiato, spesso in segno di sottomissione o devozione.",
+    "examples": [
+      "Rimase genuflesso davanti all'altare.",
+      "Un atteggiamento quasi genuflesso verso i superiori."
+    ],
+    "synonyms": [
+      "inginocchiato",
+      "sottomesso"
+    ],
+    "etymology": "Dal latino 'genu' «ginocchio» e 'flectere' «piegare».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "giulivo",
+    "term": "giulivo",
+    "pos": "agg.",
+    "meaning": "Allegro e sereno, di buon umore in modo spontaneo.",
+    "examples": [
+      "Un'aria giuliva pervadeva la festa.",
+      "Tornò a casa giulivo per la buona notizia."
+    ],
+    "synonyms": [
+      "gioioso",
+      "allegro",
+      "sereno"
+    ],
+    "etymology": "Forse dal provenzale 'jauzir' «gioire», o dal latino 'gaudium'.",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "gravoso",
+    "term": "gravoso",
+    "pos": "agg.",
+    "meaning": "Che pesa molto, in senso fisico o come impegno da sostenere.",
+    "examples": [
+      "Un compito gravoso per una sola persona.",
+      "Un debito gravoso per le casse comunali."
+    ],
+    "synonyms": [
+      "pesante",
+      "oneroso",
+      "impegnativo"
+    ],
+    "etymology": "Dal latino 'gravis' «pesante».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "guazzabuglio",
+    "term": "guazzabuglio",
+    "pos": "s.m.",
+    "meaning": "Insieme confuso e disordinato di cose o idee.",
+    "examples": [
+      "Un guazzabuglio di documenti sulla scrivania.",
+      "Le sue idee erano un guazzabuglio senza filo logico."
+    ],
+    "synonyms": [
+      "coacervo",
+      "confusione",
+      "caos"
+    ],
+    "etymology": "Da 'guazzo', pozza d'acqua, con senso di mescolanza fangosa.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "iattanza",
+    "term": "iattanza",
+    "pos": "s.f.",
+    "meaning": "Ostentazione arrogante di sé stessi o dei propri meriti.",
+    "examples": [
+      "Parlava dei suoi successi con evidente iattanza.",
+      "Un'iattanza che gli alienò molte simpatie."
+    ],
+    "synonyms": [
+      "boria",
+      "spocchia",
+      "arroganza"
+    ],
+    "etymology": "Dal latino 'iactantia', da 'iactare' «vantarsi».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "idoneita",
+    "term": "idoneità",
+    "pos": "s.f.",
+    "meaning": "Qualità di chi o cosa possiede i requisiti adatti a uno scopo.",
+    "examples": [
+      "Superò l'esame di idoneità alla guida.",
+      "Verificarono l'idoneità del terreno alla costruzione."
+    ],
+    "synonyms": [
+      "adeguatezza",
+      "idoneo requisito"
+    ],
+    "etymology": "Dal latino 'idoneus' «adatto».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "illanguidire",
+    "term": "illanguidire",
+    "pos": "v.intr.",
+    "meaning": "Perdere forza e vigore progressivamente.",
+    "examples": [
+      "L'entusiasmo iniziale illanguidì col passare dei mesi.",
+      "La luce illanguidiva all'imbrunire."
+    ],
+    "synonyms": [
+      "indebolirsi",
+      "affievolirsi",
+      "languire"
+    ],
+    "etymology": "Da 'languido', dal latino 'languere' «essere fiacco».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "imbelle",
+    "term": "imbelle",
+    "pos": "agg.",
+    "meaning": "Privo di combattività o coraggio, incapace di reagire.",
+    "examples": [
+      "Un esercito imbelle di fronte all'invasore.",
+      "Una classe dirigente imbelle davanti alla crisi."
+    ],
+    "synonyms": [
+      "debole",
+      "vile",
+      "inerme"
+    ],
+    "etymology": "Dal latino 'imbellis', da 'bellum' «guerra».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "imbevuto",
+    "term": "imbevuto",
+    "pos": "agg.",
+    "meaning": "Pieno e permeato di qualcosa, in senso fisico o culturale.",
+    "examples": [
+      "Cresciuto imbevuto di cultura classica.",
+      "Un panno imbevuto d'acqua."
+    ],
+    "synonyms": [
+      "intriso",
+      "pervaso",
+      "impregnato"
+    ],
+    "etymology": "Da 'imbevere', dal latino 'bibere' «bere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "immanente",
+    "term": "immanente",
+    "pos": "agg.",
+    "meaning": "Che è insito e presente all'interno di una realtà, non esterno ad essa.",
+    "examples": [
+      "Una giustizia immanente nelle cose, secondo alcuni filosofi.",
+      "Un difetto immanente al sistema stesso."
+    ],
+    "synonyms": [
+      "insito",
+      "intrinseco",
+      "inerente"
+    ],
+    "etymology": "Dal latino 'immanens', da 'manere' «restare dentro».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "imperscrutabile",
+    "term": "imperscrutabile",
+    "pos": "agg.",
+    "meaning": "Impossibile da comprendere o interpretare a fondo.",
+    "examples": [
+      "Un volto imperscrutabile durante la trattativa.",
+      "Le vie del destino sono imperscrutabili."
+    ],
+    "synonyms": [
+      "insondabile",
+      "misterioso",
+      "impenetrabile"
+    ],
+    "etymology": "Dal latino 'in-' e 'perscrutari' «esaminare a fondo».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "improbo",
+    "term": "improbo",
+    "pos": "agg.",
+    "meaning": "Che richiede uno sforzo eccessivo e faticoso.",
+    "examples": [
+      "Un lavoro improbo portato a termine in poche settimane.",
+      "Uno sforzo improbo per rimettere in piedi l'azienda."
+    ],
+    "synonyms": [
+      "arduo",
+      "faticosissimo",
+      "gravoso"
+    ],
+    "etymology": "Dal latino 'improbus' «smisurato, eccessivo».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "inane",
+    "term": "inane",
+    "pos": "agg.",
+    "meaning": "Vano e privo di effetto reale, inutile.",
+    "examples": [
+      "Un tentativo inane di fermare la fusione.",
+      "Proteste inani contro una decisione già presa."
+    ],
+    "synonyms": [
+      "vano",
+      "inutile",
+      "infruttuoso"
+    ],
+    "etymology": "Dal latino 'inanis' «vuoto».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "incalzante",
+    "term": "incalzante",
+    "pos": "agg.",
+    "meaning": "Che segue da vicino con insistenza e pressione crescente.",
+    "examples": [
+      "Domande incalzanti dei giornalisti.",
+      "Un ritmo incalzante che non lasciava respiro."
+    ],
+    "synonyms": [
+      "pressante",
+      "serrato",
+      "insistente"
+    ],
+    "etymology": "Da 'incalzare', dal latino 'calx' «tallone».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "incolume",
+    "term": "incolume",
+    "pos": "agg.",
+    "meaning": "Che è uscito indenne da un pericolo, senza danni.",
+    "examples": [
+      "Uscì incolume dall'incidente.",
+      "L'edificio rimase incolume nonostante il terremoto."
+    ],
+    "synonyms": [
+      "illeso",
+      "indenne",
+      "salvo"
+    ],
+    "etymology": "Dal latino 'incolumis' «non danneggiato».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "indefesso",
+    "term": "indefesso",
+    "pos": "agg.",
+    "meaning": "Che non si stanca mai, instancabile nell'impegno.",
+    "examples": [
+      "Un lavoratore indefesso, sempre il primo ad arrivare.",
+      "Un impegno indefesso per la comunità."
+    ],
+    "synonyms": [
+      "instancabile",
+      "infaticabile",
+      "assiduo"
+    ],
+    "etymology": "Dal latino 'indefessus', da 'fessus' «stanco».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "indole",
+    "term": "indole",
+    "pos": "s.f.",
+    "meaning": "Carattere naturale e innato di una persona.",
+    "examples": [
+      "Ha un'indole mite nonostante le apparenze.",
+      "La sua indole ribelle emerse fin da piccolo."
+    ],
+    "synonyms": [
+      "carattere",
+      "temperamento",
+      "natura"
+    ],
+    "etymology": "Dal latino 'indoles', da 'indu-' (dentro) e 'olescere' «crescere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "inebriante",
+    "term": "inebriante",
+    "pos": "agg.",
+    "meaning": "Che provoca un'ebbrezza intensa, esaltante fino allo stordimento.",
+    "examples": [
+      "Un profumo inebriante di gelsomino.",
+      "La velocità aveva un effetto inebriante su di lui."
+    ],
+    "synonyms": [
+      "esaltante",
+      "stordente",
+      "intossicante"
+    ],
+    "etymology": "Da 'inebriare', dal latino 'ebrius' «ubriaco».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "inesausto",
+    "term": "inesausto",
+    "pos": "agg.",
+    "meaning": "Che non si esaurisce mai, continuo e senza fine.",
+    "examples": [
+      "Una fonte inesausta di energia creativa.",
+      "Un entusiasmo inesausto per il progetto."
+    ],
+    "synonyms": [
+      "inesauribile",
+      "incessante",
+      "continuo"
+    ],
+    "etymology": "Dal latino 'in-' e 'exhaustus' «esaurito».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "infingardo",
+    "term": "infingardo",
+    "pos": "agg.",
+    "meaning": "Pigro e svogliato, incline a evitare la fatica.",
+    "examples": [
+      "Un impiegato infingardo sempre in ritardo.",
+      "Trattato da infingardo per un semplice errore."
+    ],
+    "synonyms": [
+      "pigro",
+      "svogliato",
+      "fannullone"
+    ],
+    "etymology": "Da 'infingersi' «fingere», nel senso di simulare impegno.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "ingente",
+    "term": "ingente",
+    "pos": "agg.",
+    "meaning": "Di dimensioni o quantità molto grandi, notevole.",
+    "examples": [
+      "Un danno ingente causato dall'alluvione.",
+      "Una somma ingente investita nel progetto."
+    ],
+    "synonyms": [
+      "enorme",
+      "considerevole",
+      "notevole"
+    ],
+    "etymology": "Dal latino 'ingens' «enorme».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "insano",
+    "term": "insano",
+    "pos": "agg.",
+    "meaning": "Privo di senno, dannoso o irragionevole in modo estremo.",
+    "examples": [
+      "Un gesto insano dettato dalla disperazione.",
+      "Un piano insano che nessuno avrebbe approvato."
+    ],
+    "synonyms": [
+      "folle",
+      "malsano",
+      "dissennato"
+    ],
+    "etymology": "Dal latino 'insanus', da 'sanus' «sano».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "insidioso",
+    "term": "insidioso",
+    "pos": "agg.",
+    "meaning": "Che nasconde un pericolo non immediatamente visibile.",
+    "examples": [
+      "Una domanda insidiosa durante il colloquio.",
+      "Un ghiaccio insidioso nascosto sotto la neve."
+    ],
+    "synonyms": [
+      "subdolo",
+      "pericoloso",
+      "ingannevole"
+    ],
+    "etymology": "Dal latino 'insidiosus', da 'insidiae' «agguato».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "insulso",
+    "term": "insulso",
+    "pos": "agg.",
+    "meaning": "Privo di sapore o di senso, sciocco e privo di interesse.",
+    "examples": [
+      "Una battuta insulsa che non fece ridere nessuno.",
+      "Un film insulso senza trama."
+    ],
+    "synonyms": [
+      "insipido",
+      "sciocco",
+      "banale"
+    ],
+    "etymology": "Dal latino 'insulsus', da 'sal' «sale»: senza sale, senza spirito.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "intemerato",
+    "term": "intemerato",
+    "pos": "agg.",
+    "meaning": "Puro e integro, mai macchiato da colpe.",
+    "examples": [
+      "Una reputazione intemerata in tutta la carriera.",
+      "Difese la sua condotta intemerata."
+    ],
+    "synonyms": [
+      "incontaminato",
+      "integro",
+      "immacolato"
+    ],
+    "etymology": "Dal latino 'intemeratus', da 'temerare' «contaminare».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "intempestivo",
+    "term": "intempestivo",
+    "pos": "agg.",
+    "meaning": "Che avviene nel momento sbagliato, fuori tempo utile.",
+    "examples": [
+      "Un commento intempestivo durante il funerale.",
+      "Un intervento intempestivo che rovinò la sorpresa."
+    ],
+    "synonyms": [
+      "inopportuno",
+      "fuori luogo",
+      "prematuro"
+    ],
+    "etymology": "Dal latino 'intempestivus', da 'tempus' «tempo».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "interlocutorio",
+    "term": "interlocutorio",
+    "pos": "agg.",
+    "meaning": "Non definitivo, che rimanda la decisione finale a un momento successivo.",
+    "examples": [
+      "Una risposta interlocutoria in attesa di ulteriori dati.",
+      "Un incontro interlocutorio prima della firma."
+    ],
+    "synonyms": [
+      "provvisorio",
+      "temporaneo",
+      "non definitivo"
+    ],
+    "etymology": "Dal latino 'interloqui' «parlare durante», intervenire senza concludere.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "intransitabile",
+    "term": "intransitabile",
+    "pos": "agg.",
+    "meaning": "Impossibile o molto difficile da percorrere.",
+    "examples": [
+      "Una strada intransitabile dopo la frana.",
+      "Sentieri intransitabili in inverno."
+    ],
+    "synonyms": [
+      "impraticabile",
+      "inaccessibile"
+    ],
+    "etymology": "Da 'in-' e 'transitabile', dal latino 'transire' «attraversare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "intrepido",
+    "term": "intrepido",
+    "pos": "agg.",
+    "meaning": "Coraggioso davanti al pericolo, senza timore.",
+    "examples": [
+      "Un esploratore intrepido delle terre inesplorate.",
+      "Affrontò intrepido la tempesta."
+    ],
+    "synonyms": [
+      "impavido",
+      "audace",
+      "coraggioso"
+    ],
+    "etymology": "Dal latino 'intrepidus', da 'trepidus' «tremante».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "invalicabile",
+    "term": "invalicabile",
+    "pos": "agg.",
+    "meaning": "Impossibile da superare o attraversare, in senso proprio o figurato.",
+    "examples": [
+      "Un confine invalicabile tra i due regni.",
+      "Un limite morale invalicabile per lui."
+    ],
+    "synonyms": [
+      "insormontabile",
+      "insuperabile",
+      "incolmabile"
+    ],
+    "etymology": "Da 'in-' e 'valicare', attraversare un valico.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "iridescente",
+    "term": "iridescente",
+    "pos": "agg.",
+    "meaning": "Che riflette la luce in colori cangianti, come un arcobaleno.",
+    "examples": [
+      "Le bolle di sapone erano iridescenti al sole.",
+      "Un tessuto iridescente che cambiava tono a ogni movimento."
+    ],
+    "synonyms": [
+      "cangiante",
+      "multicolore",
+      "madreperlaceo"
+    ],
+    "etymology": "Dal latino 'iris, iridis' «arcobaleno».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "labile",
+    "term": "labile",
+    "pos": "agg.",
+    "meaning": "Instabile e destinato a svanire facilmente.",
+    "examples": [
+      "Una memoria labile che confondeva i dettagli.",
+      "Un equilibrio labile tra le due fazioni."
+    ],
+    "synonyms": [
+      "instabile",
+      "fragile",
+      "precario"
+    ],
+    "etymology": "Dal latino 'labilis', da 'labi' «scivolare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "lambiccato",
+    "term": "lambiccato",
+    "pos": "agg.",
+    "meaning": "Eccessivamente elaborato e artificioso, contorto.",
+    "examples": [
+      "Uno stile lambiccato che appesantiva il testo.",
+      "Una spiegazione lambiccata di un concetto semplice."
+    ],
+    "synonyms": [
+      "contorto",
+      "artificioso",
+      "ricercato"
+    ],
+    "etymology": "Da 'lambicco', alambicco, per il senso di distillazione eccessiva del pensiero.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "languore",
+    "term": "languore",
+    "pos": "s.m.",
+    "meaning": "Stato di debolezza fisica o morale, mescolato a malinconia.",
+    "examples": [
+      "Un languore estivo che invitava al riposo.",
+      "Un languore d'amore mai confessato."
+    ],
+    "synonyms": [
+      "stanchezza",
+      "spossatezza",
+      "malinconia"
+    ],
+    "etymology": "Dal latino 'languor', da 'languere' «essere fiacco».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "latente",
+    "term": "latente",
+    "pos": "agg.",
+    "meaning": "Presente ma non ancora manifesto, nascosto in attesa di emergere.",
+    "examples": [
+      "Un conflitto latente tra i due soci.",
+      "Un talento latente scoperto per caso."
+    ],
+    "synonyms": [
+      "nascosto",
+      "sopito",
+      "potenziale"
+    ],
+    "etymology": "Dal latino 'latens', participio di 'latere' «essere nascosto».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "lenire",
+    "term": "lenire",
+    "pos": "v.tr.",
+    "meaning": "Alleviare un dolore fisico o morale.",
+    "examples": [
+      "Un balsamo per lenire il bruciore.",
+      "Nulla poteva lenire il suo dolore."
+    ],
+    "synonyms": [
+      "alleviare",
+      "attenuare",
+      "mitigare"
+    ],
+    "etymology": "Dal latino 'lenire', da 'lenis' «dolce, mite».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "letargico",
+    "term": "letargico",
+    "pos": "agg.",
+    "meaning": "Immerso in un torpore profondo, privo di reattività.",
+    "examples": [
+      "Un'economia letargica da anni.",
+      "Si sentiva letargico dopo il pranzo abbondante."
+    ],
+    "synonyms": [
+      "assopito",
+      "torpido",
+      "sonnolento"
+    ],
+    "etymology": "Dal greco 'lēthargikós', da 'lḗthē' «oblio».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "lezioso",
+    "term": "lezioso",
+    "pos": "agg.",
+    "meaning": "Affettato e ricercato in modo eccessivo e poco naturale.",
+    "examples": [
+      "Un tono lezioso che risultava fastidioso.",
+      "Modi leziosi non adatti al contesto."
+    ],
+    "synonyms": [
+      "affettato",
+      "manierato",
+      "sdolcinato"
+    ],
+    "etymology": "Da 'lezio', vezzo affettato, forse dal francese antico.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "limpidezza",
+    "term": "limpidezza",
+    "pos": "s.f.",
+    "meaning": "Chiarezza e trasparenza, sia fisica che morale.",
+    "examples": [
+      "La limpidezza dell'acqua di montagna.",
+      "Rispose con la limpidezza di chi non ha nulla da nascondere."
+    ],
+    "synonyms": [
+      "trasparenza",
+      "chiarezza",
+      "purezza"
+    ],
+    "etymology": "Dal latino 'limpidus' «chiaro, trasparente».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "livore",
+    "term": "livore",
+    "pos": "s.m.",
+    "meaning": "Astio profondo e velenoso, spesso nascosto sotto la superficie.",
+    "examples": [
+      "Parlò dell'ex collega con evidente livore.",
+      "Un livore covato per anni esplose all'improvviso."
+    ],
+    "synonyms": [
+      "astio",
+      "rancore",
+      "acredine"
+    ],
+    "etymology": "Dal latino 'livor' «colore livido», per estensione «invidia».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "lugubre",
+    "term": "lugubre",
+    "pos": "agg.",
+    "meaning": "Cupo e triste, che evoca il lutto o la morte.",
+    "examples": [
+      "Un canto lugubre accompagnava il corteo.",
+      "Un'atmosfera lugubre nella casa abbandonata."
+    ],
+    "synonyms": [
+      "funebre",
+      "tetro",
+      "sinistro"
+    ],
+    "etymology": "Dal latino 'lugubris', da 'lugere' «piangere, essere in lutto».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "magniloquente",
+    "term": "magniloquente",
+    "pos": "agg.",
+    "meaning": "Che parla in modo pomposo ed enfatico, con toni solenni.",
+    "examples": [
+      "Un discorso magniloquente privo di contenuti reali.",
+      "Uno stile magniloquente poco adatto a un rapporto tecnico."
+    ],
+    "synonyms": [
+      "altisonante",
+      "pomposo",
+      "roboante"
+    ],
+    "etymology": "Dal latino 'magniloquus', da 'magnus' «grande» e 'loqui' «parlare».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "malaugurato",
+    "term": "malaugurato",
+    "pos": "agg.",
+    "meaning": "Sfortunato, avvenuto in un momento infausto.",
+    "examples": [
+      "Un malaugurato incidente rovinò la festa.",
+      "In un malaugurato momento, tutto andò storto."
+    ],
+    "synonyms": [
+      "sfortunato",
+      "infausto",
+      "sciagurato"
+    ],
+    "etymology": "Da 'mal-' e 'augurato', dal latino 'augurium' «presagio».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "manifesto",
+    "term": "manifesto",
+    "pos": "agg.",
+    "meaning": "Evidente e chiaro, che si mostra senza possibilità di dubbio.",
+    "examples": [
+      "Un errore manifesto nel bilancio.",
+      "Un'ingiustizia manifesta agli occhi di tutti."
+    ],
+    "synonyms": [
+      "evidente",
+      "palese",
+      "conclamato"
+    ],
+    "etymology": "Dal latino 'manifestus', da 'manus' «mano» e 'fendere' «colpire».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "meschino",
+    "term": "meschino",
+    "pos": "agg.",
+    "meaning": "Gretto e povero di spirito, incapace di generosità.",
+    "examples": [
+      "Un gesto meschino verso chi lo aveva aiutato.",
+      "Una mentalità meschina che guardava solo al proprio tornaconto."
+    ],
+    "synonyms": [
+      "gretto",
+      "avaro",
+      "spregevole"
+    ],
+    "etymology": "Dall'arabo 'miskin' «povero», passato attraverso lo spagnolo.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "mesto",
+    "term": "mesto",
+    "pos": "agg.",
+    "meaning": "Triste e malinconico, in modo pacato.",
+    "examples": [
+      "Un sorriso mesto accompagnò il saluto.",
+      "Una musica mesta accompagnava i titoli di coda."
+    ],
+    "synonyms": [
+      "triste",
+      "malinconico",
+      "afflitto"
+    ],
+    "etymology": "Dal latino 'maestus' «afflitto».",
+    "category": "letteraria",
+    "difficulty": 1
+  },
+  {
+    "id": "mieloso",
+    "term": "mieloso",
+    "pos": "agg.",
+    "meaning": "Eccessivamente dolce e sdolcinato, fino a risultare falso.",
+    "examples": [
+      "Un tono mieloso che nascondeva secondi fini.",
+      "Complimenti mielosi poco credibili."
+    ],
+    "synonyms": [
+      "sdolcinato",
+      "melenso",
+      "zuccheroso"
+    ],
+    "etymology": "Da 'miele', per analogia con la dolcezza eccessiva.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "mordace",
+    "term": "mordace",
+    "pos": "agg.",
+    "meaning": "Che critica con parole taglienti e pungenti.",
+    "examples": [
+      "Una recensione mordace che non risparmiò nessuno.",
+      "Un umorismo mordace tipico dei suoi articoli."
+    ],
+    "synonyms": [
+      "caustico",
+      "pungente",
+      "tagliente"
+    ],
+    "etymology": "Dal latino 'mordax', da 'mordere' «mordere».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "nefando",
+    "term": "nefando",
+    "pos": "agg.",
+    "meaning": "Talmente malvagio da non poter essere nemmeno nominato.",
+    "examples": [
+      "Un crimine nefando che sconvolse la città.",
+      "Atti nefandi commessi in tempo di guerra."
+    ],
+    "synonyms": [
+      "esecrabile",
+      "abominevole",
+      "orrendo"
+    ],
+    "etymology": "Dal latino 'nefandus', da 'ne-' e 'fari' «dire»: che non si può dire.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "negletto",
+    "term": "negletto",
+    "pos": "agg.",
+    "meaning": "Trascurato e lasciato senza cure o attenzioni.",
+    "examples": [
+      "Un giardino negletto invaso dalle erbacce.",
+      "Si sentiva negletto dai propri stessi familiari."
+    ],
+    "synonyms": [
+      "trascurato",
+      "abbandonato",
+      "dimenticato"
+    ],
+    "etymology": "Dal latino 'neglectus', participio di 'negligere' «trascurare».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "nitido",
+    "term": "nitido",
+    "pos": "agg.",
+    "meaning": "Chiaro e ben definito, privo di sfumature confuse.",
+    "examples": [
+      "Un ricordo ancora nitido dopo anni.",
+      "Un'immagine nitida grazie alla nuova fotocamera."
+    ],
+    "synonyms": [
+      "chiaro",
+      "limpido",
+      "definito"
+    ],
+    "etymology": "Dal latino 'nitidus', da 'nitere' «splendere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "noncurante",
+    "term": "noncurante",
+    "pos": "agg.",
+    "meaning": "Che non presta attenzione o non si preoccupa di qualcosa.",
+    "examples": [
+      "Passò oltre noncurante delle proteste.",
+      "Un atteggiamento noncurante verso i rischi."
+    ],
+    "synonyms": [
+      "indifferente",
+      "disinvolto",
+      "sprezzante"
+    ],
+    "etymology": "Da 'non-' e 'curante', participio di 'curare'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "obliquo",
+    "term": "obliquo",
+    "pos": "agg.",
+    "meaning": "Che devia dalla linea retta o diretta, anche in senso di comportamento.",
+    "examples": [
+      "Una luce obliqua filtrava dalle persiane.",
+      "Un modo obliquo di affrontare il problema, senza dire le cose in faccia."
+    ],
+    "synonyms": [
+      "inclinato",
+      "storto",
+      "indiretto"
+    ],
+    "etymology": "Dal latino 'obliquus'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "obsoleto",
+    "term": "obsoleto",
+    "pos": "agg.",
+    "meaning": "Superato dal progresso o dal cambiamento, non più attuale.",
+    "examples": [
+      "Una tecnologia ormai obsoleta.",
+      "Norme obsolete mai aggiornate."
+    ],
+    "synonyms": [
+      "superato",
+      "desueto",
+      "antiquato"
+    ],
+    "etymology": "Dal latino 'obsoletus', participio di 'obsolescere' «invecchiare, cadere in disuso».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "ombroso",
+    "term": "ombroso",
+    "pos": "agg.",
+    "meaning": "Diffidente e suscettibile, pronto a offendersi.",
+    "examples": [
+      "Un cavallo ombroso, facile a spaventarsi.",
+      "Un carattere ombroso che mal sopportava le critiche."
+    ],
+    "synonyms": [
+      "diffidente",
+      "suscettibile",
+      "permaloso"
+    ],
+    "etymology": "Da 'ombra', per il senso di sospetto verso ciò che si nasconde.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "opimo",
+    "term": "opimo",
+    "pos": "agg.",
+    "meaning": "Abbondante e ricco, riferito soprattutto a guadagni o raccolti.",
+    "examples": [
+      "Un bottino opimo dopo mesi di trattative.",
+      "Un raccolto opimo grazie alle piogge estive."
+    ],
+    "synonyms": [
+      "copioso",
+      "ricco",
+      "abbondante"
+    ],
+    "etymology": "Dal latino 'opimus' «grasso, fertile».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "oscillante",
+    "term": "oscillante",
+    "pos": "agg.",
+    "meaning": "Che varia continuamente tra due posizioni o stati, instabile.",
+    "examples": [
+      "Un umore oscillante da un giorno all'altro.",
+      "Un consenso politico oscillante nei sondaggi."
+    ],
+    "synonyms": [
+      "instabile",
+      "variabile",
+      "altalenante"
+    ],
+    "etymology": "Dal latino 'oscillare', dal nome delle maschere appese ('oscilla') che oscillavano al vento.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "ossequioso",
+    "term": "ossequioso",
+    "pos": "agg.",
+    "meaning": "Eccessivamente rispettoso e deferente, fino alla piaggeria.",
+    "examples": [
+      "Un impiegato ossequioso verso ogni superiore.",
+      "Un tono ossequioso che sfiorava la finzione."
+    ],
+    "synonyms": [
+      "deferente",
+      "servile",
+      "piaggione"
+    ],
+    "etymology": "Da 'ossequio', dal latino 'obsequium' «compiacenza».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "ostinazione",
+    "term": "ostinazione",
+    "pos": "s.f.",
+    "meaning": "Perseveranza rigida in una posizione, nonostante gli ostacoli.",
+    "examples": [
+      "Riuscì grazie a un'ostinazione fuori dal comune.",
+      "Un'ostinazione che rasentava la testardaggine."
+    ],
+    "synonyms": [
+      "caparbietà",
+      "testardaggine",
+      "tenacia"
+    ],
+    "etymology": "Dal latino 'obstinatio', da 'obstinare' «persistere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "palese",
+    "term": "palese",
+    "pos": "agg.",
+    "meaning": "Chiaro e visibile a tutti, senza ambiguità.",
+    "examples": [
+      "Un vantaggio palese per una delle due parti.",
+      "Una menzogna palese, smentita dai fatti."
+    ],
+    "synonyms": [
+      "evidente",
+      "manifesto",
+      "chiaro"
+    ],
+    "etymology": "Dal latino 'palam' «apertamente».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "paludato",
+    "term": "paludato",
+    "pos": "agg.",
+    "meaning": "Solenne fino alla pomposità, eccessivamente formale.",
+    "examples": [
+      "Un linguaggio paludato poco adatto a un post social.",
+      "Un discorso paludato che annoiò la sala."
+    ],
+    "synonyms": [
+      "pomposo",
+      "solenne",
+      "aulico"
+    ],
+    "etymology": "Da 'paludamento', mantello militare romano indossato dai generali.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "parossismo",
+    "term": "parossismo",
+    "pos": "s.m.",
+    "meaning": "Il punto di massima intensità di un fenomeno, spesso emotivo.",
+    "examples": [
+      "La tensione raggiunse il parossismo prima del verdetto.",
+      "Un parossismo di gioia esplose allo stadio."
+    ],
+    "synonyms": [
+      "culmine",
+      "acme",
+      "apice"
+    ],
+    "etymology": "Dal greco 'paroxysmós', da 'paroxýnein' «esasperare».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "pedante",
+    "term": "pedante",
+    "pos": "agg.",
+    "meaning": "Eccessivamente attento ai dettagli formali, in modo pignolo.",
+    "examples": [
+      "Un correttore pedante che segnalava ogni virgola.",
+      "Fu pedante nel ricordare ogni clausola del contratto."
+    ],
+    "synonyms": [
+      "pignolo",
+      "cavilloso",
+      "puntiglioso"
+    ],
+    "etymology": "Dal francese 'pédant', forse dall'italiano 'pedagogo'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "periglioso",
+    "term": "periglioso",
+    "pos": "agg.",
+    "meaning": "Pericoloso, che espone a un rischio grave.",
+    "examples": [
+      "Un'impresa perigliosa affrontata senza esitazione.",
+      "Un cammino periglioso lungo il crinale."
+    ],
+    "synonyms": [
+      "pericoloso",
+      "rischioso",
+      "insidioso"
+    ],
+    "etymology": "Dal latino 'periculosus', da 'periculum' «pericolo».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "perizia",
+    "term": "perizia",
+    "pos": "s.f.",
+    "meaning": "Abilità tecnica e competenza acquisita con l'esperienza.",
+    "examples": [
+      "Restaurò il quadro con grande perizia.",
+      "Una perizia tecnica confermò i danni."
+    ],
+    "synonyms": [
+      "abilità",
+      "competenza",
+      "maestria"
+    ],
+    "etymology": "Dal latino 'peritia', da 'peritus' «esperto».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "piacione",
+    "term": "piacione",
+    "pos": "s.m.",
+    "meaning": "Chi cerca in modo eccessivo il consenso e l'approvazione altrui.",
+    "examples": [
+      "Un politico piacione che diceva sempre ciò che si voleva sentire.",
+      "Fare il piacione non gli portò rispetto."
+    ],
+    "synonyms": [
+      "adulatore",
+      "compiacente",
+      "piaggiatore"
+    ],
+    "etymology": "Da 'piacere', accrescitivo con valore dispregiativo.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "piatire",
+    "term": "piatire",
+    "pos": "v.intr.",
+    "meaning": "Chiedere con insistenza e tono lamentoso.",
+    "examples": [
+      "Piativa un aumento da mesi.",
+      "Continuava a piatire attenzioni dai colleghi."
+    ],
+    "synonyms": [
+      "mendicare",
+      "elemosinare",
+      "supplicare"
+    ],
+    "etymology": "Dal francese antico 'plaidier', discutere una causa.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "pigrizia",
+    "term": "pigrizia",
+    "pos": "s.f.",
+    "meaning": "Tendenza a evitare ogni sforzo o impegno.",
+    "examples": [
+      "La pigrizia lo tenne a letto tutta la mattina.",
+      "Vinse la pigrizia e andò comunque a correre."
+    ],
+    "synonyms": [
+      "indolenza",
+      "svogliatezza",
+      "accidia"
+    ],
+    "etymology": "Dal latino 'pigritia', da 'piger' «pigro».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "pingue",
+    "term": "pingue",
+    "pos": "agg.",
+    "meaning": "Grasso e abbondante, riferito a corpi o guadagni consistenti.",
+    "examples": [
+      "Un pingue compenso per la consulenza.",
+      "Un terreno pingue e fertile."
+    ],
+    "synonyms": [
+      "florido",
+      "abbondante",
+      "corpulento"
+    ],
+    "etymology": "Dal latino 'pinguis' «grasso».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "posato",
+    "term": "posato",
+    "pos": "agg.",
+    "meaning": "Calmo e riflessivo, che agisce senza fretta o impulsività.",
+    "examples": [
+      "Rispose in modo posato alle provocazioni.",
+      "Un atteggiamento posato che rassicurava tutti."
+    ],
+    "synonyms": [
+      "calmo",
+      "pacato",
+      "equilibrato"
+    ],
+    "etymology": "Da 'posare', dal latino 'pausare' «fermarsi».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "precipuo",
+    "term": "precipuo",
+    "pos": "agg.",
+    "meaning": "Principale e più importante rispetto ad altri elementi.",
+    "examples": [
+      "Il compito precipuo del comitato è la vigilanza.",
+      "Una ragione precipua dietro la sua scelta."
+    ],
+    "synonyms": [
+      "principale",
+      "primario",
+      "essenziale"
+    ],
+    "etymology": "Dal latino 'praecipuus', da 'prae-' e 'capere' «prendere prima».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "prezioso",
+    "term": "prezioso",
+    "pos": "agg.",
+    "meaning": "Di grande valore, materiale o affettivo.",
+    "examples": [
+      "Un consiglio prezioso al momento giusto.",
+      "Un gioiello prezioso tramandato in famiglia."
+    ],
+    "synonyms": [
+      "inestimabile",
+      "pregiato",
+      "raro"
+    ],
+    "etymology": "Dal latino 'pretiosus', da 'pretium' «prezzo».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "probita",
+    "term": "probità",
+    "pos": "s.f.",
+    "meaning": "Onestà e rettitudine morale nel comportamento.",
+    "examples": [
+      "Una probità mai messa in discussione in tanti anni.",
+      "Agì con probità anche quando gli conveniva il contrario."
+    ],
+    "synonyms": [
+      "onestà",
+      "rettitudine",
+      "integrità"
+    ],
+    "etymology": "Dal latino 'probitas', da 'probus' «onesto».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "profano",
+    "term": "profano",
+    "pos": "agg.",
+    "meaning": "Estraneo al sacro, o privo di competenza specifica in una materia.",
+    "examples": [
+      "Un uso profano di simboli religiosi.",
+      "Da profano, trovò il concetto difficile da capire."
+    ],
+    "synonyms": [
+      "laico",
+      "inesperto",
+      "non iniziato"
+    ],
+    "etymology": "Dal latino 'profanus', da 'pro' e 'fanum' «tempio»: fuori dal tempio.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "prolisso",
+    "term": "prolisso",
+    "pos": "agg.",
+    "meaning": "Eccessivamente lungo e dettagliato oltre il necessario.",
+    "examples": [
+      "Una risposta prolissa a una domanda semplice.",
+      "Un contratto prolisso pieno di clausole ripetute."
+    ],
+    "synonyms": [
+      "verboso",
+      "dilungato",
+      "ridondante"
+    ],
+    "etymology": "Dal latino 'prolixus' «esteso».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "pronosticare",
+    "term": "pronosticare",
+    "pos": "v.tr.",
+    "meaning": "Prevedere un evento futuro sulla base di segni o indizi presenti.",
+    "examples": [
+      "Gli analisti pronosticano una crescita moderata.",
+      "Nessuno aveva pronosticato quel risultato."
+    ],
+    "synonyms": [
+      "prevedere",
+      "predire",
+      "presagire"
+    ],
+    "etymology": "Dal greco 'prognōstikós', da 'pro-' e 'gignṓskein' «conoscere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "prorompere",
+    "term": "prorompere",
+    "pos": "v.intr.",
+    "meaning": "Manifestarsi improvvisamente e con forza incontenibile.",
+    "examples": [
+      "Proruppe in un pianto liberatorio.",
+      "L'entusiasmo proruppe non appena arrivò la notizia."
+    ],
+    "synonyms": [
+      "scoppiare",
+      "esplodere",
+      "erompere"
+    ],
+    "etymology": "Dal latino 'prorumpere', da 'rumpere' «rompere».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "protratto",
+    "term": "protratto",
+    "pos": "agg.",
+    "meaning": "Prolungato oltre la durata prevista o normale.",
+    "examples": [
+      "Un silenzio protratto creò imbarazzo.",
+      "Un'assenza protratta per motivi di salute."
+    ],
+    "synonyms": [
+      "prolungato",
+      "esteso",
+      "dilatato"
+    ],
+    "etymology": "Dal latino 'protractus', participio di 'protrahere' «tirare avanti».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "putrescente",
+    "term": "putrescente",
+    "pos": "agg.",
+    "meaning": "Che sta marcendo, in decomposizione.",
+    "examples": [
+      "Un odore di frutta putrescente riempiva la cantina.",
+      "Un cumulo di rifiuti putrescenti abbandonato."
+    ],
+    "synonyms": [
+      "marcescente",
+      "in decomposizione",
+      "guasto"
+    ],
+    "etymology": "Dal latino 'putrescere', da 'putris' «marcio».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "querulo",
+    "term": "querulo",
+    "pos": "agg.",
+    "meaning": "Che si lamenta di continuo, con tono lagnoso.",
+    "examples": [
+      "Un tono querulo che stancava dopo poco.",
+      "Una lettera querula piena di rimostranze."
+    ],
+    "synonyms": [
+      "lamentoso",
+      "piagnucoloso",
+      "lagnoso"
+    ],
+    "etymology": "Dal latino 'querulus', da 'queri' «lamentarsi».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "raffazzonato",
+    "term": "raffazzonato",
+    "pos": "agg.",
+    "meaning": "Fatto in modo approssimativo e disordinato, senza cura.",
+    "examples": [
+      "Un piano raffazzonato all'ultimo momento.",
+      "Una traduzione raffazzonata piena di errori."
+    ],
+    "synonyms": [
+      "abborracciato",
+      "approssimativo",
+      "sciatto"
+    ],
+    "etymology": "Da 'fazzone', probabile alterazione dialettale legata a 'confezionare male'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "ragguardevole",
+    "term": "ragguardevole",
+    "pos": "agg.",
+    "meaning": "Notevole per importanza, dimensione o qualità.",
+    "examples": [
+      "Una somma ragguardevole raccolta in poche ore.",
+      "Un risultato ragguardevole per una piccola azienda."
+    ],
+    "synonyms": [
+      "notevole",
+      "considerevole",
+      "importante"
+    ],
+    "etymology": "Da 'ragguardare', antica forma di 'riguardare con attenzione'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "rancido",
+    "term": "rancido",
+    "pos": "agg.",
+    "meaning": "Guasto per l'irrancidimento; in senso figurato, superato e stantio.",
+    "examples": [
+      "Un olio rancido da buttare.",
+      "Idee rancide che non convincevano più nessuno."
+    ],
+    "synonyms": [
+      "stantio",
+      "guasto",
+      "sorpassato"
+    ],
+    "etymology": "Dal latino 'rancidus'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "reciso",
+    "term": "reciso",
+    "pos": "agg.",
+    "meaning": "Netto e deciso, senza esitazioni o mezzi termini.",
+    "examples": [
+      "Un rifiuto reciso a ogni trattativa.",
+      "Rispose in modo reciso, senza lasciare spazio a dubbi."
+    ],
+    "synonyms": [
+      "netto",
+      "deciso",
+      "categorico"
+    ],
+    "etymology": "Dal latino 'recisus', participio di 'recidere' «tagliare via».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "redimere",
+    "term": "redimere",
+    "pos": "v.tr.",
+    "meaning": "Liberare da una colpa o da una condizione negativa, riscattare.",
+    "examples": [
+      "Cercò di redimersi dopo anni di errori.",
+      "Un gesto che redense la sua reputazione."
+    ],
+    "synonyms": [
+      "riscattare",
+      "liberare",
+      "salvare"
+    ],
+    "etymology": "Dal latino 'redimere', da 'emere' «comprare» e 're-' «indietro».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "refrattario",
+    "term": "refrattario",
+    "pos": "agg.",
+    "meaning": "Resistente a un'influenza o incapace di adattarsi a qualcosa.",
+    "examples": [
+      "Refrattario a ogni forma di tecnologia.",
+      "Un materiale refrattario alle alte temperature."
+    ],
+    "synonyms": [
+      "resistente",
+      "ostile",
+      "insensibile"
+    ],
+    "etymology": "Dal latino 'refractarius', da 'refringere' «spezzare, resistere».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "regale",
+    "term": "regale",
+    "pos": "agg.",
+    "meaning": "Degno di un sovrano, maestoso e imponente.",
+    "examples": [
+      "Un portamento regale anche in abiti semplici.",
+      "Un'accoglienza regale per gli ospiti."
+    ],
+    "synonyms": [
+      "maestoso",
+      "regio",
+      "sovrano"
+    ],
+    "etymology": "Dal latino 'regalis', da 'rex' «re».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "remissivo",
+    "term": "remissivo",
+    "pos": "agg.",
+    "meaning": "Incline a cedere e sottomettersi senza opporre resistenza.",
+    "examples": [
+      "Un atteggiamento remissivo davanti alle richieste del capo.",
+      "Troppo remissivo per far valere le proprie ragioni."
+    ],
+    "synonyms": [
+      "arrendevole",
+      "sottomesso",
+      "accondiscendente"
+    ],
+    "etymology": "Dal latino 'remissivus', da 'remittere' «rimettere, cedere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "reprobo",
+    "term": "reprobo",
+    "pos": "agg.",
+    "meaning": "Condannato o disapprovato moralmente, considerato perduto.",
+    "examples": [
+      "Fu trattato come un reprobo dalla famiglia.",
+      "Un'anima reproba secondo la tradizione religiosa."
+    ],
+    "synonyms": [
+      "dannato",
+      "reietto",
+      "condannato"
+    ],
+    "etymology": "Dal latino 'reprobus', da 'reprobare' «disapprovare».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "resiliente",
+    "term": "resiliente",
+    "pos": "agg.",
+    "meaning": "Capace di adattarsi e riprendersi rapidamente dalle difficoltà.",
+    "examples": [
+      "Un'economia resiliente nonostante la crisi.",
+      "È sempre stata una persona resiliente."
+    ],
+    "synonyms": [
+      "elastico",
+      "adattabile",
+      "tenace"
+    ],
+    "etymology": "Dal latino 'resiliens', da 'resilire' «rimbalzare indietro».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "restio",
+    "term": "restio",
+    "pos": "agg.",
+    "meaning": "Riluttante e poco disposto a fare qualcosa.",
+    "examples": [
+      "Restio a cambiare le proprie abitudini.",
+      "Un cavallo restio a ripartire."
+    ],
+    "synonyms": [
+      "riluttante",
+      "recalcitrante",
+      "renitente"
+    ],
+    "etymology": "Dal latino 'restare' «restare fermo».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "riverente",
+    "term": "riverente",
+    "pos": "agg.",
+    "meaning": "Che mostra profondo rispetto verso qualcuno o qualcosa.",
+    "examples": [
+      "Un silenzio riverente accolse l'anziano maestro.",
+      "Si inchinò in modo riverente."
+    ],
+    "synonyms": [
+      "rispettoso",
+      "deferente",
+      "ossequioso"
+    ],
+    "etymology": "Dal latino 'reverens', da 'revereri' «rispettare profondamente».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "rovinoso",
+    "term": "rovinoso",
+    "pos": "agg.",
+    "meaning": "Che causa gravi danni o conseguenze negative.",
+    "examples": [
+      "Una sconfitta rovinosa per la squadra.",
+      "Un investimento rovinoso per i risparmiatori."
+    ],
+    "synonyms": [
+      "disastroso",
+      "dannoso",
+      "esiziale"
+    ],
+    "etymology": "Da 'rovina', dal latino 'ruina', da 'ruere' «crollare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "salace",
+    "term": "salace",
+    "pos": "agg.",
+    "meaning": "Pungente e mordace, spesso con allusioni piccanti.",
+    "examples": [
+      "Una battuta salace che fece arrossire i presenti.",
+      "Commenti salaci sulla vita privata del vip."
+    ],
+    "synonyms": [
+      "piccante",
+      "spinto",
+      "mordace"
+    ],
+    "etymology": "Dal latino 'salax', da 'salire' «saltare», riferito all'istinto animale.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "salvifico",
+    "term": "salvifico",
+    "pos": "agg.",
+    "meaning": "Che porta salvezza, liberazione da un male o pericolo.",
+    "examples": [
+      "Un intervento salvifico all'ultimo minuto.",
+      "Considerava la lettura un'esperienza salvifica."
+    ],
+    "synonyms": [
+      "liberatorio",
+      "provvidenziale",
+      "risolutivo"
+    ],
+    "etymology": "Dal latino 'salvificus', da 'salvus' «salvo» e 'facere' «fare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "sancire",
+    "term": "sancire",
+    "pos": "v.tr.",
+    "meaning": "Stabilire con autorità e definitività, rendere ufficiale.",
+    "examples": [
+      "La legge sancisce l'uguaglianza di fronte alla giustizia.",
+      "L'accordo sancì la fine delle ostilità."
+    ],
+    "synonyms": [
+      "stabilire",
+      "confermare",
+      "ratificare"
+    ],
+    "etymology": "Dal latino 'sancire' «rendere sacro e inviolabile».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "scabroso",
+    "term": "scabroso",
+    "pos": "agg.",
+    "meaning": "Delicato e imbarazzante da trattare, spesso di natura sessuale o morale.",
+    "examples": [
+      "Un argomento scabroso evitato durante la cena.",
+      "Dettagli scabrosi finiti sui giornali."
+    ],
+    "synonyms": [
+      "delicato",
+      "spinoso",
+      "imbarazzante"
+    ],
+    "etymology": "Dal latino 'scaber' «ruvido», per estensione «difficile».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "scellerato",
+    "term": "scellerato",
+    "pos": "agg.",
+    "meaning": "Estremamente malvagio, capace di azioni gravemente riprovevoli.",
+    "examples": [
+      "Un piano scellerato per truffare gli anziani.",
+      "Un gesto scellerato che sconvolse il paese."
+    ],
+    "synonyms": [
+      "malvagio",
+      "criminale",
+      "nefando"
+    ],
+    "etymology": "Dal latino 'sceleratus', da 'scelus' «delitto».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "schietto",
+    "term": "schietto",
+    "pos": "agg.",
+    "meaning": "Sincero e diretto, senza infingimenti.",
+    "examples": [
+      "Un parere schietto, anche se scomodo.",
+      "Un rapporto schietto tra i due soci."
+    ],
+    "synonyms": [
+      "sincero",
+      "franco",
+      "genuino"
+    ],
+    "etymology": "Dal germanico 'sleht' «liscio, diritto».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sciatto",
+    "term": "sciatto",
+    "pos": "agg.",
+    "meaning": "Trascurato nella cura di sé o del proprio lavoro.",
+    "examples": [
+      "Un lavoro sciatto consegnato senza revisione.",
+      "Un aspetto sciatto che tradiva la stanchezza."
+    ],
+    "synonyms": [
+      "trascurato",
+      "sciupato",
+      "raffazzonato"
+    ],
+    "etymology": "Forse dal latino 'exactus' con evoluzione dialettale, o da 'sciupare'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "scisma",
+    "term": "scisma",
+    "pos": "s.m.",
+    "meaning": "Frattura profonda all'interno di un gruppo, spesso religioso o politico.",
+    "examples": [
+      "Uno scisma dentro il partito dopo il congresso.",
+      "Lo scisma d'Oriente divise la Chiesa nel 1054."
+    ],
+    "synonyms": [
+      "scissione",
+      "frattura",
+      "divisione"
+    ],
+    "etymology": "Dal greco 'schísma' «lacerazione», da 'schízein' «dividere».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "scomposto",
+    "term": "scomposto",
+    "pos": "agg.",
+    "meaning": "Privo di controllo e misura, disordinato nei movimenti o nei modi.",
+    "examples": [
+      "Una reazione scomposta alla notizia.",
+      "Gesti scomposti mentre cercava di scusarsi."
+    ],
+    "synonyms": [
+      "disordinato",
+      "sguaiato",
+      "sconveniente"
+    ],
+    "etymology": "Da 's-' e 'composto', participio di 'comporre'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "scrupoloso",
+    "term": "scrupoloso",
+    "pos": "agg.",
+    "meaning": "Estremamente attento e preciso nell'adempiere ai propri doveri.",
+    "examples": [
+      "Un revisore scrupoloso che non lasciava nulla al caso.",
+      "Una preparazione scrupolosa dell'esame."
+    ],
+    "synonyms": [
+      "meticoloso",
+      "accurato",
+      "diligente"
+    ],
+    "etymology": "Dal latino 'scrupulosus', da 'scrupulus' «piccolo sasso, fonte di fastidio».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sedizioso",
+    "term": "sedizioso",
+    "pos": "agg.",
+    "meaning": "Che incita alla ribellione contro l'autorità costituita.",
+    "examples": [
+      "Un discorso sedizioso pronunciato in piazza.",
+      "Volantini sediziosi distribuiti clandestinamente."
+    ],
+    "synonyms": [
+      "ribelle",
+      "sovversivo",
+      "insurrezionale"
+    ],
+    "etymology": "Dal latino 'seditiosus', da 'seditio' «rivolta».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "sfacciato",
+    "term": "sfacciato",
+    "pos": "agg.",
+    "meaning": "Che agisce senza pudore o rispetto per le convenzioni, sfrontato.",
+    "examples": [
+      "Una bugia sfacciata detta con un sorriso.",
+      "Un ragazzo sfacciato che non si scusò mai."
+    ],
+    "synonyms": [
+      "sfrontato",
+      "impudente",
+      "spudorato"
+    ],
+    "etymology": "Da 's-' e 'faccia', nel senso di «senza vergogna in volto».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sfrenato",
+    "term": "sfrenato",
+    "pos": "agg.",
+    "meaning": "Privo di freni o controllo, eccessivo in ogni sua manifestazione.",
+    "examples": [
+      "Un entusiasmo sfrenato per la nuova avventura.",
+      "Una corsa sfrenata verso il traguardo."
+    ],
+    "synonyms": [
+      "incontrollato",
+      "smodato",
+      "scatenato"
+    ],
+    "etymology": "Da 's-' e 'freno', dal latino 'frenum'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sgomento",
+    "term": "sgomento",
+    "pos": "s.m.",
+    "meaning": "Turbamento profondo misto a paura o sorpresa dolorosa.",
+    "examples": [
+      "Lo sgomento si diffuse tra i presenti.",
+      "Guardò la scena con sgomento."
+    ],
+    "synonyms": [
+      "smarrimento",
+      "turbamento",
+      "costernazione"
+    ],
+    "etymology": "Da 'sgomentare', dal latino 'ex-' e 'mens' «mente»: perdere la mente.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sibarita",
+    "term": "sibarita",
+    "pos": "s.m.",
+    "meaning": "Persona incline al lusso e ai piaceri raffinati.",
+    "examples": [
+      "Un sibarita che non rinunciava mai al buon vino.",
+      "Vacanze da sibarita in un resort esclusivo."
+    ],
+    "synonyms": [
+      "edonista",
+      "amante del lusso"
+    ],
+    "etymology": "Dagli abitanti di Sibari, città della Magna Grecia nota per il lusso.",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "simulacro",
+    "term": "simulacro",
+    "pos": "s.m.",
+    "meaning": "Imitazione vuota e priva di sostanza di qualcosa di reale.",
+    "examples": [
+      "Un simulacro di democrazia senza vere elezioni.",
+      "Un simulacro di giustizia che non convinse nessuno."
+    ],
+    "synonyms": [
+      "parvenza",
+      "imitazione",
+      "finzione"
+    ],
+    "etymology": "Dal latino 'simulacrum', da 'simulare' «imitare».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "smodato",
+    "term": "smodato",
+    "pos": "agg.",
+    "meaning": "Privo di misura, eccessivo in modo evidente.",
+    "examples": [
+      "Un consumo smodato di risorse.",
+      "Un'ambizione smodata che lo isolò dagli amici."
+    ],
+    "synonyms": [
+      "eccessivo",
+      "sfrenato",
+      "sproporzionato"
+    ],
+    "etymology": "Da 's-' e 'modo', dal latino 'modus' «misura».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "solerte",
+    "term": "solerte",
+    "pos": "agg.",
+    "meaning": "Diligente e sollecito nel compiere i propri doveri.",
+    "examples": [
+      "Un impiegato solerte sempre disponibile.",
+      "Con solerte attenzione seguì ogni dettaglio."
+    ],
+    "synonyms": [
+      "diligente",
+      "zelante",
+      "premuroso"
+    ],
+    "etymology": "Dal latino 'sollers' «abile, industrioso».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "sommesso",
+    "term": "sommesso",
+    "pos": "agg.",
+    "meaning": "Detto o fatto a bassa voce, discreto e pacato.",
+    "examples": [
+      "Parlò con voce sommessa per non svegliare nessuno.",
+      "Un dissenso sommesso, mai dichiarato apertamente."
+    ],
+    "synonyms": [
+      "dimesso",
+      "pacato",
+      "discreto"
+    ],
+    "etymology": "Dal latino 'submissus', participio di 'submittere' «abbassare».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "sopito",
+    "term": "sopito",
+    "pos": "agg.",
+    "meaning": "Attenuato e reso quiescente, senza essere del tutto scomparso.",
+    "examples": [
+      "Un rancore sopito riemerse alla notizia.",
+      "Un dolore sopito dal tempo ma mai svanito."
+    ],
+    "synonyms": [
+      "assopito",
+      "sedato",
+      "attenuato"
+    ],
+    "etymology": "Dal latino 'sopitus', participio di 'sopire' «assopire».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "sordido",
+    "term": "sordido",
+    "pos": "agg.",
+    "meaning": "Moralmente ripugnante, spesso legato a meschinità o avidità.",
+    "examples": [
+      "Un affare sordido nascosto dietro facciate legali.",
+      "Un ambiente sordido e degradato."
+    ],
+    "synonyms": [
+      "squallido",
+      "ignobile",
+      "abietto"
+    ],
+    "etymology": "Dal latino 'sordidus', da 'sordes' «sporcizia».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "sortilegio",
+    "term": "sortilegio",
+    "pos": "s.m.",
+    "meaning": "Pratica magica per influire su eventi o persone; per estensione, fascino misterioso.",
+    "examples": [
+      "Un antico sortilegio protettivo secondo la leggenda.",
+      "Il paesaggio esercitava un sortilegio su chiunque lo vedesse."
+    ],
+    "synonyms": [
+      "incantesimo",
+      "malia",
+      "fascino"
+    ],
+    "etymology": "Dal latino 'sortilegium', da 'sors' «sorte» e 'legere' «scegliere».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "sottaciuto",
+    "term": "sottaciuto",
+    "pos": "agg.",
+    "meaning": "Taciuto deliberatamente, tenuto nascosto per omissione.",
+    "examples": [
+      "Un dettaglio sottaciuto durante l'audizione.",
+      "Motivi sottaciuti dietro la sua decisione."
+    ],
+    "synonyms": [
+      "taciuto",
+      "omesso",
+      "celato"
+    ],
+    "etymology": "Da 'sotto-' e 'taciuto', participio di 'tacere'.",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "spartano",
+    "term": "spartano",
+    "pos": "agg.",
+    "meaning": "Estremamente sobrio ed essenziale, privo di ogni comodità superflua.",
+    "examples": [
+      "Un arredamento spartano ma funzionale.",
+      "Un allenamento spartano per prepararsi alla gara."
+    ],
+    "synonyms": [
+      "austero",
+      "essenziale",
+      "rigoroso"
+    ],
+    "etymology": "Dagli spartani, popolo dell'antica Grecia noto per l'austerità.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "spudorato",
+    "term": "spudorato",
+    "pos": "agg.",
+    "meaning": "Privo di ogni pudore, che agisce senza vergogna.",
+    "examples": [
+      "Una menzogna spudorata detta in diretta.",
+      "Un plagio spudorato mai riconosciuto."
+    ],
+    "synonyms": [
+      "sfacciato",
+      "impudente",
+      "sfrontato"
+    ],
+    "etymology": "Da 's-' e 'pudore', dal latino 'pudor'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "stemperare",
+    "term": "stemperare",
+    "pos": "v.tr.",
+    "meaning": "Attenuare l'intensità di qualcosa, renderla più mite.",
+    "examples": [
+      "Cercò di stemperare la tensione con una battuta.",
+      "Il tempo stemperò il rancore tra i due fratelli."
+    ],
+    "synonyms": [
+      "attenuare",
+      "mitigare",
+      "smorzare"
+    ],
+    "etymology": "Da 's-' e 'temperare', dal latino 'temperare' «mescolare, regolare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "stentoreo",
+    "term": "stentoreo",
+    "pos": "agg.",
+    "meaning": "Detto di voce: fortissima e potente, capace di farsi sentire ovunque.",
+    "examples": [
+      "Una voce stentorea riecheggiò nella piazza.",
+      "Con tono stentoreo annunciò l'inizio dei lavori."
+    ],
+    "synonyms": [
+      "potente",
+      "tonante",
+      "possente"
+    ],
+    "etymology": "Da Stentore, araldo omerico dalla voce potentissima come cinquanta uomini.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "stigmatizzare",
+    "term": "stigmatizzare",
+    "pos": "v.tr.",
+    "meaning": "Condannare pubblicamente e con forza un comportamento.",
+    "examples": [
+      "Il comitato stigmatizzò l'episodio di violenza.",
+      "Fu stigmatizzato per le sue dichiarazioni."
+    ],
+    "synonyms": [
+      "condannare",
+      "censurare",
+      "biasimare"
+    ],
+    "etymology": "Dal greco 'stígma' «marchio», da cui «marchiare come colpevole».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "strenuo",
+    "term": "strenuo",
+    "pos": "agg.",
+    "meaning": "Che agisce con grande energia e determinazione, spesso in difesa di qualcosa.",
+    "examples": [
+      "Un strenuo difensore dei diritti civili.",
+      "Uno strenuo tentativo di salvare l'azienda."
+    ],
+    "synonyms": [
+      "tenace",
+      "instancabile",
+      "risoluto"
+    ],
+    "etymology": "Dal latino 'strenuus' «energico, valoroso».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "stringente",
+    "term": "stringente",
+    "pos": "agg.",
+    "meaning": "Logicamente rigoroso e cogente, che non lascia scampo a obiezioni.",
+    "examples": [
+      "Un'argomentazione stringente difficile da confutare.",
+      "Criteri stringenti per l'accesso al bando."
+    ],
+    "synonyms": [
+      "rigoroso",
+      "cogente",
+      "serrato"
+    ],
+    "etymology": "Da 'stringere', dal latino 'stringere' «serrare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "subdolo",
+    "term": "subdolo",
+    "pos": "agg.",
+    "meaning": "Che agisce con inganno nascosto, apparentemente innocuo ma pericoloso.",
+    "examples": [
+      "Una manovra subdola per aggirare le regole.",
+      "Un attacco subdolo, mai dichiarato apertamente."
+    ],
+    "synonyms": [
+      "insidioso",
+      "ingannevole",
+      "infido"
+    ],
+    "etymology": "Dal latino 'subdolus', da 'dolus' «inganno».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "suggestionabile",
+    "term": "suggestionabile",
+    "pos": "agg.",
+    "meaning": "Facilmente influenzabile da idee o opinioni altrui.",
+    "examples": [
+      "Un pubblico suggestionabile facile da manipolare.",
+      "Era troppo suggestionabile per giudicare da solo."
+    ],
+    "synonyms": [
+      "influenzabile",
+      "malleabile",
+      "condizionabile"
+    ],
+    "etymology": "Da 'suggestione', dal latino 'suggerere' «suggerire».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "sulfureo",
+    "term": "sulfureo",
+    "pos": "agg.",
+    "meaning": "Inquietante e minaccioso, dall'atmosfera oscura quasi infernale.",
+    "examples": [
+      "Un'aria sulfurea aleggiava sul processo.",
+      "Personaggi sulfurei popolavano il romanzo."
+    ],
+    "synonyms": [
+      "torbido",
+      "inquietante",
+      "diabolico"
+    ],
+    "etymology": "Da 'zolfo', associato tradizionalmente all'inferno.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "superbia",
+    "term": "superbia",
+    "pos": "s.f.",
+    "meaning": "Orgoglio smisurato e disprezzo verso gli altri.",
+    "examples": [
+      "La superbia lo portò a sottovalutare l'avversario.",
+      "Trattava tutti con superbia mal celata."
+    ],
+    "synonyms": [
+      "orgoglio",
+      "alterigia",
+      "arroganza"
+    ],
+    "etymology": "Dal latino 'superbia', da 'super' «sopra».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "supino",
+    "term": "supino",
+    "pos": "agg.",
+    "meaning": "Passivo e privo di reazione critica, accettato senza discussione.",
+    "examples": [
+      "Un'accettazione supina delle decisioni altrui.",
+      "Un'obbedienza supina che non gli faceva onore."
+    ],
+    "synonyms": [
+      "passivo",
+      "remissivo",
+      "acritico"
+    ],
+    "etymology": "Dal latino 'supinus' «rovesciato all'indietro».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "suscettibile",
+    "term": "suscettibile",
+    "pos": "agg.",
+    "meaning": "Facile a offendersi, sensibile fino all'irritabilità.",
+    "examples": [
+      "È suscettibile: sta attento a come glielo dici.",
+      "Un pubblico suscettibile su questi temi."
+    ],
+    "synonyms": [
+      "permaloso",
+      "sensibile",
+      "irritabile"
+    ],
+    "etymology": "Dal latino 'suscipere' «prendere su di sé».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "taciturno",
+    "term": "taciturno",
+    "pos": "agg.",
+    "meaning": "Poco incline a parlare, silenzioso per natura o umore.",
+    "examples": [
+      "Un uomo taciturno che raramente si confidava.",
+      "Rimase taciturno per tutta la cena."
+    ],
+    "synonyms": [
+      "silenzioso",
+      "riservato",
+      "laconico"
+    ],
+    "etymology": "Dal latino 'taciturnus', da 'tacere'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "tangibile",
+    "term": "tangibile",
+    "pos": "agg.",
+    "meaning": "Che si può toccare o percepire concretamente.",
+    "examples": [
+      "Un miglioramento tangibile nei risultati.",
+      "Una tensione tangibile in sala riunioni."
+    ],
+    "synonyms": [
+      "concreto",
+      "percepibile",
+      "reale"
+    ],
+    "etymology": "Dal latino 'tangere' «toccare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "tediare",
+    "term": "tediare",
+    "pos": "v.tr.",
+    "meaning": "Annoiare profondamente con insistenza o ripetitività.",
+    "examples": [
+      "Tediava tutti con gli stessi racconti.",
+      "Non voleva tediare il pubblico con troppi dettagli."
+    ],
+    "synonyms": [
+      "annoiare",
+      "stancare",
+      "importunare"
+    ],
+    "etymology": "Da 'tedio', dal latino 'taedium' «noia».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "temperanza",
+    "term": "temperanza",
+    "pos": "s.f.",
+    "meaning": "Moderazione e equilibrio nei desideri e nei comportamenti.",
+    "examples": [
+      "Affrontò la ricchezza improvvisa con temperanza.",
+      "La temperanza è una delle virtù cardinali."
+    ],
+    "synonyms": [
+      "moderazione",
+      "sobrietà",
+      "equilibrio"
+    ],
+    "etymology": "Dal latino 'temperantia', da 'temperare' «regolare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "tenebroso",
+    "term": "tenebroso",
+    "pos": "agg.",
+    "meaning": "Oscuro e cupo, avvolto nel mistero o nel male.",
+    "examples": [
+      "Un passato tenebroso mai del tutto chiarito.",
+      "Un bosco tenebroso al calar della notte."
+    ],
+    "synonyms": [
+      "oscuro",
+      "cupo",
+      "sinistro"
+    ],
+    "etymology": "Dal latino 'tenebrosus', da 'tenebrae' «tenebre».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "tetraggine",
+    "term": "tetraggine",
+    "pos": "s.f.",
+    "meaning": "Qualità di ciò che è cupo e privo di gioia.",
+    "examples": [
+      "La tetraggine dell'inverno lo deprimeva.",
+      "Un edificio dalla tetraggine opprimente."
+    ],
+    "synonyms": [
+      "cupezza",
+      "tristezza",
+      "squallore"
+    ],
+    "etymology": "Da 'tetro', dal latino 'taeter'.",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "timorato",
+    "term": "timorato",
+    "pos": "agg.",
+    "meaning": "Scrupoloso nel rispettare regole morali o religiose.",
+    "examples": [
+      "Un uomo timorato di Dio, come si diceva un tempo.",
+      "Un funzionario timorato che seguiva ogni procedura."
+    ],
+    "synonyms": [
+      "scrupoloso",
+      "devoto",
+      "osservante"
+    ],
+    "etymology": "Da 'timore', dal latino 'timor'.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "titubante",
+    "term": "titubante",
+    "pos": "agg.",
+    "meaning": "Incerto ed esitante nel decidere o agire.",
+    "examples": [
+      "Rispose in modo titubante alla domanda.",
+      "Passi titubanti sul ghiaccio sottile."
+    ],
+    "synonyms": [
+      "esitante",
+      "incerto",
+      "indeciso"
+    ],
+    "etymology": "Dal latino 'titubans', participio di 'titubare' «vacillare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "torvo",
+    "term": "torvo",
+    "pos": "agg.",
+    "meaning": "Dallo sguardo minaccioso e ostile.",
+    "examples": [
+      "Uno sguardo torvo lo seguì fuori dalla sala.",
+      "Un'espressione torva che non prometteva nulla di buono."
+    ],
+    "synonyms": [
+      "truce",
+      "arcigno",
+      "bieco"
+    ],
+    "etymology": "Dal latino 'torvus' «feroce, minaccioso».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "trasognato",
+    "term": "trasognato",
+    "pos": "agg.",
+    "meaning": "Immerso in uno stato sospeso tra realtà e sogno.",
+    "examples": [
+      "Si svegliò trasognato, incerto se fosse ancora notte.",
+      "Uno sguardo trasognato fissava l'orizzonte."
+    ],
+    "synonyms": [
+      "sognante",
+      "assorto",
+      "rapito"
+    ],
+    "etymology": "Da 'trasognare', da 'trans-' e 'sognare'.",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "tremebondo",
+    "term": "tremebondo",
+    "pos": "agg.",
+    "meaning": "Che trema per paura o freddo, in modo evidente.",
+    "examples": [
+      "Si presentò tremebondo davanti al capo.",
+      "Una voce tremebonda tradiva l'emozione."
+    ],
+    "synonyms": [
+      "tremante",
+      "impaurito",
+      "titubante"
+    ],
+    "etymology": "Dal latino 'tremebundus', da 'tremere' «tremare».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "truce",
+    "term": "truce",
+    "pos": "agg.",
+    "meaning": "Feroce e minaccioso, dall'aspetto o dall'azione violenta.",
+    "examples": [
+      "Un delitto truce sconvolse la piccola comunità.",
+      "Uno sguardo truce accompagnò la minaccia."
+    ],
+    "synonyms": [
+      "feroce",
+      "efferato",
+      "torvo"
+    ],
+    "etymology": "Dal latino 'trux' «feroce, selvaggio».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "turgido",
+    "term": "turgido",
+    "pos": "agg.",
+    "meaning": "Gonfio e pieno; in senso figurato, stile pomposo e ridondante.",
+    "examples": [
+      "Uno stile turgido pieno di aggettivi superflui.",
+      "Vene turgide dopo lo sforzo fisico."
+    ],
+    "synonyms": [
+      "gonfio",
+      "pomposo",
+      "ampolloso"
+    ],
+    "etymology": "Dal latino 'turgidus', da 'turgere' «essere gonfio».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "ubertoso",
+    "term": "ubertoso",
+    "pos": "agg.",
+    "meaning": "Molto fertile e generoso di frutti, riferito a terre o campagne.",
+    "examples": [
+      "Una pianura ubertosa che sfamava l'intera regione.",
+      "Un territorio ubertoso grazie al fiume vicino."
+    ],
+    "synonyms": [
+      "fertile",
+      "fecondo",
+      "rigoglioso"
+    ],
+    "etymology": "Dal latino 'ubertosus', da 'uber' «fertile, abbondante».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "umbratile",
+    "term": "umbratile",
+    "pos": "agg.",
+    "meaning": "Schivo e riservato, incline a evitare la luce dei riflettori.",
+    "examples": [
+      "Un artista umbratile che rifuggiva le interviste.",
+      "Una vita umbratile lontana dal successo mediatico."
+    ],
+    "synonyms": [
+      "schivo",
+      "riservato",
+      "appartato"
+    ],
+    "etymology": "Dal latino 'umbratilis', da 'umbra' «ombra».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "usurpare",
+    "term": "usurpare",
+    "pos": "v.tr.",
+    "meaning": "Impadronirsi illegittimamente di un potere, un titolo o un bene.",
+    "examples": [
+      "Usurpò il trono al legittimo erede.",
+      "Accusato di aver usurpato il ruolo di portavoce."
+    ],
+    "synonyms": [
+      "appropriarsi",
+      "impadronirsi",
+      "sottrarre"
+    ],
+    "etymology": "Dal latino 'usurpare', da 'usus' «uso» e 'rapere' «afferrare».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "vagheggiare",
+    "term": "vagheggiare",
+    "pos": "v.tr.",
+    "meaning": "Desiderare a lungo qualcosa con compiacimento, quasi sognandolo.",
+    "examples": [
+      "Vagheggiava da anni un trasferimento all'estero.",
+      "Vagheggiava una vita diversa, più semplice."
+    ],
+    "synonyms": [
+      "sognare",
+      "agognare",
+      "bramare"
+    ],
+    "etymology": "Da 'vago' nel senso antico di «bello, desiderabile».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "veggente",
+    "term": "veggente",
+    "pos": "s.m./f.",
+    "meaning": "Chi ha o afferma di avere doti profetiche, capace di prevedere il futuro.",
+    "examples": [
+      "Consultò una veggente prima del viaggio.",
+      "Si atteggiava a veggente, ma sbagliava spesso."
+    ],
+    "synonyms": [
+      "profeta",
+      "indovino",
+      "chiaroveggente"
+    ],
+    "etymology": "Dal latino 'videns', participio di 'videre' «vedere».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "venale",
+    "term": "venale",
+    "pos": "agg.",
+    "meaning": "Disposto a farsi corrompere per denaro, privo di scrupoli morali.",
+    "examples": [
+      "Un funzionario venale facile da corrompere.",
+      "Un'anima venale pronta a tutto per un compenso."
+    ],
+    "synonyms": [
+      "corruttibile",
+      "mercenario",
+      "vendibile"
+    ],
+    "etymology": "Dal latino 'venalis', da 'venum' «vendita».",
+    "category": "comune",
+    "difficulty": 2
+  },
+  {
+    "id": "veritiero",
+    "term": "veritiero",
+    "pos": "agg.",
+    "meaning": "Che corrisponde al vero, sincero nei fatti riportati.",
+    "examples": [
+      "Un resoconto veritiero degli eventi.",
+      "Non fu del tutto veritiero nella deposizione."
+    ],
+    "synonyms": [
+      "vero",
+      "autentico",
+      "sincero"
+    ],
+    "etymology": "Dal latino 'veritas' «verità».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "vertiginoso",
+    "term": "vertiginoso",
+    "pos": "agg.",
+    "meaning": "Talmente rapido o elevato da provocare quasi le vertigini.",
+    "examples": [
+      "Un'ascesa vertiginosa nel mondo del lavoro.",
+      "Prezzi saliti a livelli vertiginosi."
+    ],
+    "synonyms": [
+      "rapidissimo",
+      "elevatissimo",
+      "impressionante"
+    ],
+    "etymology": "Da 'vertigine', dal latino 'vertere' «girare».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "vetusto",
+    "term": "vetusto",
+    "pos": "agg.",
+    "meaning": "Molto antico, segnato visibilmente dal tempo.",
+    "examples": [
+      "Un edificio vetusto in attesa di restauro.",
+      "Regole vetuste mai aggiornate."
+    ],
+    "synonyms": [
+      "antico",
+      "vecchio",
+      "annoso"
+    ],
+    "etymology": "Dal latino 'vetustus', da 'vetus' «vecchio».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "vezzo",
+    "term": "vezzo",
+    "pos": "s.m.",
+    "meaning": "Abitudine particolare, spesso lieve manifestazione di affettazione.",
+    "examples": [
+      "Aveva il vezzo di parlare sempre in terza persona.",
+      "Un vezzo linguistico che divertiva gli amici."
+    ],
+    "synonyms": [
+      "abitudine",
+      "manierismo",
+      "ticchio"
+    ],
+    "etymology": "Dal latino 'vitium' «vizio», con evoluzione verso un senso più lieve.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "vigoroso",
+    "term": "vigoroso",
+    "pos": "agg.",
+    "meaning": "Dotato di grande forza e energia, fisica o espressiva.",
+    "examples": [
+      "Una stretta di mano vigorosa.",
+      "Un intervento vigoroso in difesa della proposta."
+    ],
+    "synonyms": [
+      "energico",
+      "robusto",
+      "forte"
+    ],
+    "etymology": "Dal latino 'vigorosus', da 'vigor' «vigore».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "villano",
+    "term": "villano",
+    "pos": "agg.",
+    "meaning": "Maleducato e rozzo nei modi, privo di rispetto verso gli altri.",
+    "examples": [
+      "Una risposta villana a una domanda cortese.",
+      "Fu villano con il cameriere senza motivo."
+    ],
+    "synonyms": [
+      "maleducato",
+      "rozzo",
+      "sgarbato"
+    ],
+    "etymology": "Dal latino 'villanus', abitante della 'villa' (casa colonica), poi con senso dispregiativo.",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "vituperio",
+    "term": "vituperio",
+    "pos": "s.m.",
+    "meaning": "Insulto grave e pubblico, motivo di vergogna.",
+    "examples": [
+      "Fu coperto di vituperio dalla stampa.",
+      "Un vituperio che macchiò la sua reputazione."
+    ],
+    "synonyms": [
+      "oltraggio",
+      "obbrobrio",
+      "onta"
+    ],
+    "etymology": "Dal latino 'vituperium', da 'vitium' «vizio» e 'parare' «preparare».",
+    "category": "letteraria",
+    "difficulty": 3
+  },
+  {
+    "id": "voluttuoso",
+    "term": "voluttuoso",
+    "pos": "agg.",
+    "meaning": "Che procura o esprime intenso piacere sensuale.",
+    "examples": [
+      "Un abbraccio voluttuoso al ritorno.",
+      "Una danza voluttuosa che catturò gli sguardi."
+    ],
+    "synonyms": [
+      "sensuale",
+      "languido",
+      "morbido"
+    ],
+    "etymology": "Dal latino 'voluptuosus', da 'voluptas' «piacere».",
+    "category": "letteraria",
+    "difficulty": 2
+  },
+  {
+    "id": "zelo",
+    "term": "zelo",
+    "pos": "s.m.",
+    "meaning": "Impegno appassionato e diligente verso un compito o una causa.",
+    "examples": [
+      "Svolgeva il proprio lavoro con grande zelo.",
+      "Uno zelo eccessivo che sfiorava l'ossessione."
+    ],
+    "synonyms": [
+      "impegno",
+      "fervore",
+      "dedizione"
+    ],
+    "etymology": "Dal greco 'zêlos' «ardore, emulazione».",
+    "category": "comune",
+    "difficulty": 1
+  },
+  {
+    "id": "zizzania",
+    "term": "zizzania",
+    "pos": "s.f.",
+    "meaning": "Discordia e malumore seminati deliberatamente tra le persone.",
+    "examples": [
+      "Cercava sempre di seminare zizzania tra i colleghi.",
+      "La zizzania familiare durava da generazioni."
+    ],
+    "synonyms": [
+      "discordia",
+      "malanimo",
+      "dissapore"
+    ],
+    "etymology": "Dal greco 'zizánion', erba infestante citata nella parabola evangelica.",
+    "category": "comune",
+    "difficulty": 1
   }
 ]

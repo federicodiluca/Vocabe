@@ -6,6 +6,7 @@ import { Card } from '@/ui/Card'
 import { Icon } from '@/ui/Icon'
 import { WordDetails } from './WordDetails'
 import { ShareSheet } from './ShareSheet'
+import { BonusWordCard } from './BonusWordCard'
 
 const todayLabel = () =>
   new Date().toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long' })
@@ -60,6 +61,8 @@ export function DailyPage() {
           </Button>
         </div>
       )}
+
+      {learned && <BonusWordCard />}
 
       <ShareSheet word={word} open={shareOpen} onClose={() => setShareOpen(false)} />
     </div>

@@ -42,3 +42,24 @@ export function wordForDay(d: Date = new Date()): Word {
   const order = seededShuffle(WORDS, 0x5f3a_21c7 ^ pass)
   return order[((n % len) + len) % len]
 }
+
+/**
+ * A second word for the day, used by the rewarded-ad "bonus word". Uses a
+ * different seed than `wordForDay` so it's never the same word, and prefers
+ * one the reader hasn't learned yet.
+ */
+export function bonusWordForDay(learnedIds: ReadonlySet<string>, d: Date = new Date()): Word | null {
+  const today = wordForDay(d)
+  const pool = WORDS.filter((w) => w.id !== today.id)
+  if (pool.length === 0) return null
+
+  const n = dayNumber(d)
+  const pass = Math.floor(n / pool.length)
+  const order = seededShuffle(pool, 0x9e37_79b9 ^ pass)
+  const start = ((n % order.length) + order.length) % order.length
+  for (let i = 0; i < order.length; i++) {
+    const candidate = order[(start + i) % order.length]
+    if (!learnedIds.has(candidate.id)) return candidate
+  }
+  return order[start]
+}

@@ -1,7 +1,7 @@
 import type { ProgressState, Settings } from '@/core/types'
 import { localDateKey } from '@/core/date'
 
-const KEY = 'vocabe:v1'
+export const KEY = 'vocabe:v1'
 export const STATE_VERSION = 1
 
 export const DEFAULT_SETTINGS: Settings = {
