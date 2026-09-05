@@ -14,6 +14,12 @@ function withBadges(state: ProgressState): ProgressState {
   return earned.length ? { ...state, badges: [...state.badges, ...earned] } : state
 }
 
+/** Record `day` as an active day (for the activity heatmap), keeping the list sorted and unique. */
+function withActiveDay(state: ProgressState, day: string): ProgressState {
+  if (state.activeDays.includes(day)) return state
+  return { ...state, activeDays: [...state.activeDays, day].sort() }
+}
+
 export function ProgressProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<ProgressState>(() => loadState())
   const first = useRef(true)
@@ -32,11 +38,10 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     setState((s) => {
       if (wordId in s.learned) return s
       const today = localDateKey()
-      const next: ProgressState = {
-        ...s,
-        learned: { ...s.learned, [wordId]: newEntry(today) },
-        streak: touchStreak(s.streak, today),
-      }
+      const next: ProgressState = withActiveDay(
+        { ...s, learned: { ...s.learned, [wordId]: newEntry(today) }, streak: touchStreak(s.streak, today) },
+        today,
+      )
       return withBadges(next)
     })
   }, [])
@@ -55,11 +60,14 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       const entry = s.learned[wordId]
       if (!entry) return s
       const today = localDateKey()
-      const next: ProgressState = {
-        ...s,
-        learned: { ...s.learned, [wordId]: grade(entry, correct, today) },
-        streak: touchStreak(s.streak, today),
-      }
+      const next: ProgressState = withActiveDay(
+        {
+          ...s,
+          learned: { ...s.learned, [wordId]: grade(entry, correct, today) },
+          streak: touchStreak(s.streak, today),
+        },
+        today,
+      )
       return withBadges(next)
     })
   }, [])

@@ -17,6 +17,7 @@ export function defaultState(): ProgressState {
     learned: {},
     streak: { current: 0, longest: 0, lastActiveOn: null },
     badges: [],
+    activeDays: [],
     settings: { ...DEFAULT_SETTINGS },
     startedOn: today,
   }
@@ -58,11 +59,23 @@ export function normalize(input: unknown): ProgressState {
   const base = defaultState()
   if (!input || typeof input !== 'object') return base
   const s = input as Partial<ProgressState>
+  const learned = s.learned && typeof s.learned === 'object' ? s.learned : base.learned
+  const streak = { ...base.streak, ...(s.streak ?? {}) }
+
+  let activeDays = Array.isArray(s.activeDays) ? s.activeDays : []
+  if (activeDays.length === 0) {
+    // Backfill for pre-heatmap saves: the days words were learned, plus the last active day.
+    const days = new Set(Object.values(learned).map((e) => e.learnedOn))
+    if (streak.lastActiveOn) days.add(streak.lastActiveOn)
+    activeDays = [...days].sort()
+  }
+
   return {
     version: STATE_VERSION,
-    learned: s.learned && typeof s.learned === 'object' ? s.learned : base.learned,
-    streak: { ...base.streak, ...(s.streak ?? {}) },
+    learned,
+    streak,
     badges: Array.isArray(s.badges) ? s.badges : base.badges,
+    activeDays,
     settings: { ...base.settings, ...(s.settings ?? {}) },
     startedOn: typeof s.startedOn === 'string' ? s.startedOn : base.startedOn,
   }

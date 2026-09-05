@@ -6,6 +6,7 @@ import { BADGES } from '@/core/badges/badges'
 import { Icon } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
 import { WordDetails } from '@/features/daily/WordDetails'
+import { Heatmap } from './Heatmap'
 
 function Stat({ value, label }: { value: string | number; label: string }) {
   return (
@@ -45,6 +46,14 @@ export function ProgressPage() {
         <Stat value={displayStreak(state.streak)} label="streak" />
         <Stat value={state.streak.longest} label="record" />
       </div>
+
+      <section>
+        <h2 className="mb-3 text-sm font-semibold text-ink-soft">Attività</h2>
+        <Heatmap activeDays={state.activeDays} />
+        <p className="mt-2 text-xs text-ink-soft">
+          {state.activeDays.length} {state.activeDays.length === 1 ? 'giorno attivo' : 'giorni attivi'}
+        </p>
+      </section>
 
       <section>
         <h2 className="mb-3 text-sm font-semibold text-ink-soft">Obiettivi</h2>
