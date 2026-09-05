@@ -188,6 +188,7 @@ sorted.forEach((w, i) => {
 const urls = [
   { loc: SITE, priority: '1.0' },
   { loc: `${SITE}parole/`, priority: '0.8' },
+  { loc: `${SITE}privacy/`, priority: '0.2' },
   ...sorted.map((w) => ({ loc: `${SITE}parole/${w.id}/`, priority: '0.6' })),
 ]
 writeFileSync(

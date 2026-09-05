@@ -1,10 +1,15 @@
+import { Capacitor } from '@capacitor/core'
 import { Purchases, LOG_LEVEL, PURCHASES_ERROR_CODE } from '@revenuecat/purchases-capacitor'
 import type { CustomerInfo, PurchasesError, PurchasesPackage } from '@revenuecat/purchases-capacitor'
 import type { IapClient, PurchaseResult } from './types'
 
 /** Must match the entitlement identifier configured in the RevenueCat dashboard. */
 const ENTITLEMENT_ID = import.meta.env.VITE_REVENUECAT_ENTITLEMENT_ID || 'pro'
-const API_KEY = import.meta.env.VITE_REVENUECAT_API_KEY_ANDROID as string | undefined
+const API_KEY = (
+  Capacitor.getPlatform() === 'ios'
+    ? import.meta.env.VITE_REVENUECAT_API_KEY_IOS
+    : import.meta.env.VITE_REVENUECAT_API_KEY_ANDROID
+) as string | undefined
 
 let pro = false
 let priceLabel: string | null = null
@@ -29,7 +34,7 @@ async function bestPackage(): Promise<PurchasesPackage | null> {
 export const revenueCatIapClient: IapClient = {
   async init() {
     if (!API_KEY) {
-      console.warn('[iap] VITE_REVENUECAT_API_KEY_ANDROID non impostata: acquisti disattivati.')
+      console.warn('[iap] chiave RevenueCat non impostata per questa piattaforma: acquisti disattivati.')
       return
     }
     await Purchases.setLogLevel({ level: import.meta.env.DEV ? LOG_LEVEL.DEBUG : LOG_LEVEL.ERROR })

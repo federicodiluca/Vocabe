@@ -1,4 +1,4 @@
-import { AdMob, RewardAdPluginEvents } from '@capacitor-community/admob'
+import { AdMob, AdmobConsentStatus, RewardAdPluginEvents } from '@capacitor-community/admob'
 import type { AdsClient, RewardResult } from './types'
 
 /** Google's public test unit — always safe to ship; swap via env before release. */
@@ -7,10 +7,28 @@ const REWARDED_UNIT_ID =
 
 let initialized = false
 
+/** iOS App Tracking Transparency + Google UMP consent (required in the EU). Best-effort. */
+async function requestConsent() {
+  try {
+    await AdMob.requestTrackingAuthorization()
+  } catch {
+    /* iOS < 14 or not available */
+  }
+  try {
+    const info = await AdMob.requestConsentInfo()
+    if (info.isConsentFormAvailable && info.status === AdmobConsentStatus.REQUIRED) {
+      await AdMob.showConsentForm()
+    }
+  } catch {
+    /* consent SDK unavailable — Google serves non-personalized ads by default */
+  }
+}
+
 export const admobAdsClient: AdsClient = {
   async init() {
     if (initialized) return
     initialized = true
+    await requestConsent()
     await AdMob.initialize({ initializeForTesting: import.meta.env.DEV })
   },
 
