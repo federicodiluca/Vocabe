@@ -60,6 +60,8 @@ export type ProgressState = {
   badges: string[]
   /** ISO dates (local) on which the reader did something that counts — for the activity heatmap */
   activeDays: string[]
+  /** true once the reader has seen (or skipped) the first-run intro */
+  onboarded: boolean
   settings: Settings
   /** ISO date (local) the app was first opened */
   startedOn: string

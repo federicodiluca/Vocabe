@@ -8,6 +8,7 @@ export type ProgressContextValue = {
   unmarkLearned: (wordId: string) => void
   recordRecall: (wordId: string, correct: boolean) => void
   updateSettings: (patch: Partial<Settings>) => void
+  completeOnboarding: () => void
   replaceState: (next: ProgressState) => void
   resetAll: () => void
 }

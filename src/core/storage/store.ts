@@ -18,6 +18,7 @@ export function defaultState(): ProgressState {
     streak: { current: 0, longest: 0, lastActiveOn: null },
     badges: [],
     activeDays: [],
+    onboarded: false,
     settings: { ...DEFAULT_SETTINGS },
     startedOn: today,
   }
@@ -76,6 +77,11 @@ export function normalize(input: unknown): ProgressState {
     streak,
     badges: Array.isArray(s.badges) ? s.badges : base.badges,
     activeDays,
+    // Existing users (any learned words or activity) shouldn't suddenly see the intro.
+    onboarded:
+      typeof s.onboarded === 'boolean'
+        ? s.onboarded
+        : Object.keys(learned).length > 0 || activeDays.length > 0,
     settings: { ...base.settings, ...(s.settings ?? {}) },
     startedOn: typeof s.startedOn === 'string' ? s.startedOn : base.startedOn,
   }

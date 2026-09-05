@@ -4,6 +4,7 @@ import { displayStreak } from '@/core/streak/streak'
 import { isDue } from '@/core/srs/leitner'
 import { Icon, type IconName } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
+import { Onboarding } from './Onboarding'
 
 const tabs: { to: string; label: string; icon: IconName; end?: boolean }[] = [
   { to: '/', label: 'Oggi', icon: 'book', end: true },
@@ -17,6 +18,8 @@ export function Layout() {
   const { state } = useProgress()
   const streak = displayStreak(state.streak)
   const dueCount = Object.values(state.learned).filter((e) => isDue(e)).length
+
+  if (!state.onboarded) return <Onboarding />
 
   return (
     <div className="mx-auto flex min-h-full w-full max-w-md flex-col">

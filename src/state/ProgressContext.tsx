@@ -76,6 +76,10 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     setState((s) => ({ ...s, settings: { ...s.settings, ...patch } }))
   }, [])
 
+  const completeOnboarding = useCallback(() => {
+    setState((s) => (s.onboarded ? s : { ...s, onboarded: true }))
+  }, [])
+
   const replaceState = useCallback((next: ProgressState) => setState(withBadges(next)), [])
   const resetAll = useCallback(() => setState(defaultState()), [])
 
@@ -87,10 +91,21 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       unmarkLearned,
       recordRecall,
       updateSettings,
+      completeOnboarding,
       replaceState,
       resetAll,
     }),
-    [state, isLearned, markLearned, unmarkLearned, recordRecall, updateSettings, replaceState, resetAll],
+    [
+      state,
+      isLearned,
+      markLearned,
+      unmarkLearned,
+      recordRecall,
+      updateSettings,
+      completeOnboarding,
+      replaceState,
+      resetAll,
+    ],
   )
 
   return <ProgressCtx.Provider value={value}>{children}</ProgressCtx.Provider>
