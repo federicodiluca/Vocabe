@@ -13,11 +13,16 @@ Branch `feature/store-release`. Qui `MONETIZATION` è `true` (`src/core/features
 - Pagina **privacy** statica: `public/privacy/` → `/vocabe/privacy/`, linkata dalle opzioni
   e nel sitemap.
 - `.gitignore`: `key.properties`, `*.keystore`, `*.jks`, i file dei servizi Google.
+- **Consenso AdMob**: `src/core/ads/admob.ts` fa ATT (iOS) + UMP (Google) prima di
+  `initialize()`. Chiave RevenueCat scelta per piattaforma in `revenuecat.ts`
+  (`VITE_REVENUECAT_API_KEY_IOS` / `_ANDROID`).
+- `ios/App/App/Info.plist`: `NSUserTrackingUsageDescription`, `GADApplicationIdentifier`
+  (id di test), un `SKAdNetworkItems` con la sola rete Google.
 
 ## Da fare — comune
 
 - [ ] Account **RevenueCat** + Stripe collegato; prodotto one-time + entitlement `pro`.
-- [ ] Chiavi in `.env`: `VITE_REVENUECAT_API_KEY_ANDROID`, `VITE_REVENUECAT_API_KEY_WEB`.
+- [ ] Chiavi in `.env`: `VITE_REVENUECAT_API_KEY_ANDROID`, `_IOS`, `_WEB`.
 - [ ] Verificare il testo della privacy con i servizi realmente attivati.
 
 ## Da fare — Android
@@ -38,6 +43,8 @@ Branch `feature/store-release`. Qui `MONETIZATION` è `true` (`src/core/features
 
 - [ ] `sudo gem install cocoapods`, poi `npx cap sync ios`.
 - [ ] Xcode: team di sviluppo, bundle id `app.vocabe.mobile`, signing.
+- [ ] `Info.plist`: sostituire `GADApplicationIdentifier` con quello reale e incollare
+      la lista completa `SKAdNetworkItems` di Google.
 - [ ] Chiave RevenueCat iOS + prodotto su App Store Connect.
 - [ ] App Store Connect: scheda, screenshot, privacy nutrition labels, revisione.
 
