@@ -154,7 +154,11 @@ export function SettingsPage() {
       </section>
 
       <p className="pt-4 text-center text-xs text-ink-soft">
-        Vocabe · i tuoi dati restano su questo dispositivo
+        <a href={`${import.meta.env.BASE_URL}parole/`} className="underline">
+          Glossario completo
+        </a>
+        <span className="mx-2">·</span>
+        i tuoi dati restano su questo dispositivo
       </p>
 
       <PaywallSheet open={paywallOpen} onClose={() => setPaywallOpen(false)} />
