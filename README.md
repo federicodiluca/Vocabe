@@ -73,4 +73,4 @@ quasi invisibile ai motori di ricerca.
 
 ## Autore
 
-Un progetto di [Federico Di Luca](https://federicodiluca.github.io/chi-sono/).
+Un progetto di [Federico Di Luca](https://federicodiluca.github.io/).

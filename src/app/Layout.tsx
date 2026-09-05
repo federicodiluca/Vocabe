@@ -8,8 +8,9 @@ import { cn } from '@/ui/cn'
 const tabs: { to: string; label: string; icon: IconName; end?: boolean }[] = [
   { to: '/', label: 'Oggi', icon: 'book', end: true },
   { to: '/ripasso', label: 'Ripasso', icon: 'cards' },
+  { to: '/esplora', label: 'Esplora', icon: 'compass' },
   { to: '/progressi', label: 'Progressi', icon: 'chart' },
-  { to: '/impostazioni', label: 'Impostazioni', icon: 'sliders' },
+  { to: '/impostazioni', label: 'Opzioni', icon: 'sliders' },
 ]
 
 export function Layout() {

@@ -164,7 +164,7 @@ export function SettingsPage() {
       <p className="text-center text-xs text-ink-soft">
         Un progetto di{' '}
         <a
-          href="https://federicodiluca.github.io/chi-sono/"
+          href="https://federicodiluca.github.io/"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
