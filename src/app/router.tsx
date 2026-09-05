@@ -5,15 +5,19 @@ import { RecallPage } from '@/features/recall/RecallPage'
 import { ProgressPage } from '@/features/progress/ProgressPage'
 import { SettingsPage } from '@/features/settings/SettingsPage'
 
-export const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Layout />,
-    children: [
-      { index: true, element: <DailyPage /> },
-      { path: 'ripasso', element: <RecallPage /> },
-      { path: 'progressi', element: <ProgressPage /> },
-      { path: 'impostazioni', element: <SettingsPage /> },
-    ],
-  },
-])
+export const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Layout />,
+      children: [
+        { index: true, element: <DailyPage /> },
+        { path: 'ripasso', element: <RecallPage /> },
+        { path: 'progressi', element: <ProgressPage /> },
+        { path: 'impostazioni', element: <SettingsPage /> },
+      ],
+    },
+  ],
+  // Vite's BASE_URL is "/" in dev and "/vocabe/" when built for GitHub Pages.
+  { basename: import.meta.env.BASE_URL },
+)
