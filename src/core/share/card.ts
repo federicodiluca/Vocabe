@@ -1,6 +1,6 @@
 import type { ProgressState, Word } from '@/core/types'
 import { displayStreak } from '@/core/streak/streak'
-import { dayNumber } from '@/core/date'
+import { SITE_LABEL } from '@/core/site'
 
 /** Share image size — Instagram feed portrait (4:5). */
 const W = 1080
@@ -99,11 +99,10 @@ export async function renderShareCard(word: Word, state: ProgressState): Promise
   drawTracked(ctx, 'VOCABE', 6)
   ctx.restore()
 
-  const n = dayNumber() - 20_000
   ctx.fillStyle = COLORS.soft
-  ctx.font = `600 30px ${SANS}`
+  ctx.font = `500 28px ${SANS}`
   ctx.textAlign = 'right'
-  ctx.fillText(`#${n}`, W - pad, 132)
+  ctx.fillText('parola del giorno', W - pad, 132)
   ctx.textAlign = 'left'
 
   // term
@@ -161,13 +160,16 @@ export async function renderShareCard(word: Word, state: ProgressState): Promise
   const learned = Object.keys(state.learned).length
   ctx.fillStyle = COLORS.ink
   ctx.font = `700 32px ${SANS}`
-  ctx.fillText('vocabe.app', pad, H - 110)
+  ctx.fillText('Vocabe', pad, H - 116)
+  ctx.fillStyle = COLORS.soft
+  ctx.font = `500 24px ${SANS}`
+  ctx.fillText(SITE_LABEL, pad, H - 82)
 
   ctx.fillStyle = COLORS.soft
-  ctx.font = `500 30px ${SANS}`
+  ctx.font = `500 28px ${SANS}`
   ctx.textAlign = 'right'
   const tag = streak > 0 ? `serie di ${streak} giorni` : `${learned} parole imparate`
-  ctx.fillText(tag, W - pad, H - 110)
+  ctx.fillText(tag, W - pad, H - 100)
   ctx.textAlign = 'left'
 
   return await new Promise<Blob>((resolve, reject) =>

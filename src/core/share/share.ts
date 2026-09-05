@@ -1,18 +1,16 @@
 import type { ProgressState, Word } from '@/core/types'
 import { displayStreak } from '@/core/streak/streak'
-import { dayNumber } from '@/core/date'
+import { siteUrl } from '@/core/site'
 
-/** Wordle-style shareable line — no spoiler of the meaning. */
+/** Short shareable text — no spoiler of the meaning. */
 export function shareText(word: Word, state: ProgressState): string {
-  const n = dayNumber() - 20_000 // small, friendly running number
   const streak = displayStreak(state.streak)
   const learned = Object.keys(state.learned).length
-  const serie = streak > 0 ? ` — serie di ${streak} giorni` : ''
-  return [
-    `Vocabe #${n}: oggi ho imparato «${word.term}»${serie}`,
-    `${learned} parole imparate finora.`,
-    'https://vocabe.app',
-  ].join('\n')
+  const stats =
+    streak > 0
+      ? `${learned} parole imparate, serie di ${streak} giorni.`
+      : `${learned} parole imparate finora.`
+  return [`Oggi su Vocabe ho imparato «${word.term}».`, stats, siteUrl()].join('\n')
 }
 
 export type ImageShareResult = 'shared' | 'unsupported' | 'cancelled' | 'failed'
