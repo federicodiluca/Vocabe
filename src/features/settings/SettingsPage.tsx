@@ -161,6 +161,18 @@ export function SettingsPage() {
         i tuoi dati restano su questo dispositivo
       </p>
 
+      <p className="text-center text-xs text-ink-soft">
+        Un progetto di{' '}
+        <a
+          href="https://federicodiluca.github.io/chi-sono/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          Federico Di Luca
+        </a>
+      </p>
+
       <PaywallSheet open={paywallOpen} onClose={() => setPaywallOpen(false)} />
     </div>
   )

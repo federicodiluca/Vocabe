@@ -1,31 +1,43 @@
 # Vocabe 📖
 
-Una **parola italiana al giorno**: significato, esempi, etimologia e curiosità.
-Poche cose ogni giorno, un piccolo ripasso, e la vista di quanto hai imparato — senza account, senza database.
+**Una parola italiana al giorno**: significato, esempi d'uso, etimologia e una curiosità.
+Il giorno dopo un piccolo quiz ti aiuta a non dimenticarla.
 
-App **freemium** (rewarded ads + sblocco "Pro" una tantum) pensata per **Google Play Store** e **web** (PWA).
-`src/core` e `src/ui` sono il template riutilizzabile per le prossime app.
+**→ [Prova Vocabe](https://federicodiluca.github.io/vocabe/)**
+
+Gratis, senza registrazione, funziona offline. I progressi restano sul tuo dispositivo:
+nessun account, nessun database, nessun tracciamento.
+
+## Cosa fa
+
+- **Oggi** — la parola del giorno, deterministica per data; la scopri con un tocco e la segni come imparata
+- **Ripasso** — quiz a scelta multipla sulle parole in scadenza, con ripetizione spaziata (mini algoritmo di Leitner)
+- **Progressi** — streak, obiettivi/badge, storico con ricerca
+- **Impostazioni** — tema chiaro/scuro, esporta/importa i progressi come file JSON
+- **Condivisione** — genera un'immagine della parola pronta per i social
+- **[Glossario](https://federicodiluca.github.io/vocabe/parole/)** — pagine statiche per tutte le 386 parole (anche per la SEO)
 
 ## Stack
 
-- **Vite + React 19 + TypeScript**
-- **Tailwind CSS v4**
-- **vite-plugin-pwa** (offline, installabile)
+- **Vite + React 19 + TypeScript**, **Tailwind CSS v4**
+- **vite-plugin-pwa** — installabile, offline
 - **react-router**
-- Stato utente in un unico blob JSON `vocabe:v1` — `localStorage` sul web, Capacitor Preferences nell'app Android (adapter in `src/core/storage`)
-- Ripasso: mini algoritmo di Leitner (`src/core/srs`)
+- Stato in un unico blob JSON `vocabe:v1` — `localStorage` sul web, dietro un adapter (`src/core/storage`)
+- `src/core` e `src/ui` sono pensati come base riutilizzabile per altre micro-app dello stesso tipo
 
 ## Struttura
 
 ```
 src/
   app/        shell, routing, tema
-  core/       logica pura e riusabile: content, storage, srs, streak, badges, share, date
+  core/       logica pura: content, storage, srs, streak, badges, share, date, ads, iap, notifications
   state/      ProgressContext (stato + azioni + persistenza)
-  features/   daily · recall · progress · settings
+  features/   daily · recall · progress · settings · paywall
   ui/         componenti condivisi
-  data/       words.json (dataset curato, 386 parole)
-scripts/      validate-words.ts
+  data/       words.json — dataset curato (386 parole)
+scripts/
+  validate-words.ts   controlla il dataset
+  build-seo.mjs        genera le pagine statiche + sitemap dopo la build
 ```
 
 ## Sviluppo
@@ -35,58 +47,30 @@ Node `20.19.1`.
 ```bash
 npm install
 npm run dev
-npm run words:validate   # controlla il dataset
+npm run words:validate      # valida src/data/words.json
 npm run build && npm run preview
 ```
 
-## App Android (Capacitor)
+## Deploy
 
-Richiede **Android Studio** (con Android SDK) installato e avviato almeno una volta.
+Pubblicato su **GitHub Pages** a ogni push su `main` tramite GitHub Actions
+(`.github/workflows/deploy.yml`). La build imposta `base: /vocabe/` solo quando la variabile
+`GITHUB_PAGES=true` è presente, così `npm run dev` resta su `/`.
 
-```bash
-npm run cap:sync   # build web + copia in android/ + sincronizza i plugin
-npm run cap:open   # apre il progetto in Android Studio (Run ▶ per lanciarlo su device/emulatore)
-```
-
-Su Android: storage in `Preferences` nativo (non `localStorage`) e promemoria giornaliero reale via `LocalNotifications`
-(l'utente deve concedere il permesso la prima volta — gestito automaticamente quando attiva il promemoria in Impostazioni).
-Le icone in `android/app/src/main/res/mipmap-*` sono ancora quelle di default di Capacitor: da rifare con
-[`@capacitor/assets`](https://github.com/ionic-team/capacitor-assets) prima della pubblicazione.
-
-**Nota versioni**: Capacitor 8 richiede Node ≥22; il progetto è fissato a Node 20.19.1, quindi si usa **Capacitor 7**
-(supportato fino a fine 2025). Da valutare l'aggiornamento di Node quando si passa a Capacitor 8.
-
-## Monetizzazione
-
-**IAP "Pro"** (`src/core/iap`) usa **RevenueCat** su entrambe le piattaforme, con client diversi dietro la stessa
-interfaccia: `web.ts` (RevenueCat Web Billing, via Stripe) sul browser, `revenuecat.ts` (plugin Capacitor) nell'app
-Android — stesso entitlement `pro`, stesso `PaywallSheet.tsx`. Sul web l'utente è anonimo (un id generato e salvato
-in `localStorage`, chiave `vocabe:rc-uid`): l'acquisto resta legato a quel browser finché non collegherà un account
-(RevenueCat gestisce da solo l'email di checkout e il possibile recupero).
-
-Configurazione in `.env` (copia `.env.example`):
-
-```bash
-VITE_ADMOB_REWARDED_UNIT_ID_ANDROID=   # vuoto = id di test pubblico di Google (va bene in sviluppo)
-VITE_REVENUECAT_API_KEY_ANDROID=       # chiave pubblica Android dal dashboard RevenueCat
-VITE_REVENUECAT_API_KEY_WEB=           # chiave pubblica Web Billing dal dashboard RevenueCat
-VITE_REVENUECAT_ENTITLEMENT_ID=pro     # deve combaciare con l'entitlement configurato su RevenueCat
-```
-
-- **Rewarded ad** (`src/core/ads`, solo Android/AdMob): "Parola bonus" su Oggi, sbloccata guardando un video —
-  saltata per chi ha Pro. Nessun equivalente ads sul web per ora (deciso: prima IAP, ads eventualmente dopo).
-- Senza le chiavi `VITE_REVENUECAT_API_KEY_*` l'acquisto resta disattivato ovunque (nessun crash, il bottone
-  semplicemente non fa nulla).
-- L'SDK Web Billing (~230 KB gzip) **non** è nel bundle iniziale né nel precache della PWA: si carica in idle dopo
-  il primo render e viene messo in cache solo alla prima apertura reale del paywall (`vite.config.ts`, chunk
-  `iap-web-sdk`).
-- Prima del rilascio: creare un account **RevenueCat**, collegare **Stripe** per il Web Billing, creare il prodotto
-  e l'entitlement `pro`; per Android servirà in più un account **AdMob** (unità rewarded reale) e sostituire il
-  valore di default in `android/app/build.gradle` (`manifestPlaceholders.admobAppId`) con l'App ID AdMob reale.
+Dopo `vite build`, `scripts/build-seo.mjs` genera contenuti statici indicizzabili
+(`dist/parole/<parola>/`, glossario, `sitemap.xml`, `robots.txt`) — la SPA da sola sarebbe
+quasi invisibile ai motori di ricerca.
 
 ## Roadmap
 
-- **Fase 1 — MVP** ✅ parola del giorno · segna come imparata · storico con ricerca
-- **Fase 2 — retention** ✅ streak · badge · tema chiaro/scuro · quiz di ripasso · notifiche native (Android)
-- **Fase 3 — viralità** ✅ condivisione con grafica (immagine PNG generata) · ⏳ sfida amici · curiosità
-- **Fase 4 — premium** ✅ IAP Pro (RevenueCat, web + Android) + AdMob rewarded (Android) · ⏳ categorie premium · quiz avanzati · chatbot IA
+- **MVP** ✅ parola del giorno · imparata · storico con ricerca
+- **Retention** ✅ streak · badge · tema · quiz di ripasso
+- **Viralità** ✅ condivisione con immagine · ⏳ sfida tra amici · più curiosità
+- **Contenuti** ⏳ pagina "Esplora" per categoria/difficoltà dentro l'app
+- **App nativa** (in pausa) — wrapper **Capacitor** per Android già presente in `android/`, non ancora pubblicato
+- **Monetizzazione** (in pausa) — struttura pronta per IAP "Pro" via **RevenueCat** (web + Android) e rewarded ads
+  **AdMob** su Android; disattivata finché le chiavi in `.env` non sono configurate (vedi `.env.example`)
+
+## Autore
+
+Un progetto di [Federico Di Luca](https://federicodiluca.github.io/chi-sono/).
