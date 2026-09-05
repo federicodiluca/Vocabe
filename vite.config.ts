@@ -37,11 +37,20 @@ export default defineConfig({
         // The RevenueCat Web Billing SDK is a large, rarely-needed chunk (only paying
         // customers ever fetch it) — skip it at install time and cache it on first use.
         globIgnores: ['**/iap-web-sdk-*.js'],
+        // The static SEO pages (/parole/*) and files like sitemap.xml / robots.txt are
+        // generated after the build, so they aren't precached — keep the SPA's
+        // navigation fallback from hijacking them for returning visitors.
+        navigateFallbackDenylist: [/\/parole\//, /\.[a-z0-9]+$/i],
         runtimeCaching: [
           {
             urlPattern: /iap-web-sdk-.*\.js$/,
             handler: 'CacheFirst',
             options: { cacheName: 'iap-web-sdk' },
+          },
+          {
+            urlPattern: ({ url }) => url.pathname.includes('/parole/'),
+            handler: 'NetworkFirst',
+            options: { cacheName: 'seo-pages' },
           },
         ],
       },
