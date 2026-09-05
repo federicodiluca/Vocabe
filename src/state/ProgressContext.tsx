@@ -72,6 +72,26 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     })
   }, [])
 
+  const isFavorite = useCallback((wordId: string) => state.favorites.includes(wordId), [state.favorites])
+
+  const toggleFavorite = useCallback((wordId: string) => {
+    setState((s) => ({
+      ...s,
+      favorites: s.favorites.includes(wordId)
+        ? s.favorites.filter((id) => id !== wordId)
+        : [...s.favorites, wordId],
+    }))
+  }, [])
+
+  const setNote = useCallback((wordId: string, text: string) => {
+    setState((s) => {
+      const notes = { ...s.notes }
+      if (text.trim()) notes[wordId] = text
+      else delete notes[wordId]
+      return { ...s, notes }
+    })
+  }, [])
+
   const updateSettings = useCallback((patch: Partial<Settings>) => {
     setState((s) => ({ ...s, settings: { ...s.settings, ...patch } }))
   }, [])
@@ -90,6 +110,9 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       markLearned,
       unmarkLearned,
       recordRecall,
+      isFavorite,
+      toggleFavorite,
+      setNote,
       updateSettings,
       completeOnboarding,
       replaceState,
@@ -101,6 +124,9 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       markLearned,
       unmarkLearned,
       recordRecall,
+      isFavorite,
+      toggleFavorite,
+      setNote,
       updateSettings,
       completeOnboarding,
       replaceState,

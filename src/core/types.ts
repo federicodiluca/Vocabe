@@ -57,11 +57,17 @@ export type ProgressState = {
     longest: number
     /** ISO date (local) of the last day an action counted toward the streak */
     lastActiveOn: string | null
+    /** "salvagenti": each covers one missed day so the streak doesn't reset */
+    freezes: number
   }
   /** earned badge ids */
   badges: string[]
   /** ISO dates (local) on which the reader did something that counts — for the activity heatmap */
   activeDays: string[]
+  /** word ids the reader starred */
+  favorites: string[]
+  /** wordId -> free-text personal note */
+  notes: Record<string, string>
   /** true once the reader has seen (or skipped) the first-run intro */
   onboarded: boolean
   settings: Settings

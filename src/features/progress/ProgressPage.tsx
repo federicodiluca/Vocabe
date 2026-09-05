@@ -50,6 +50,12 @@ export function ProgressPage() {
         <Stat value={state.streak.longest} label="record" />
       </div>
 
+      <p className="flex items-center justify-center gap-1.5 text-xs text-ink-soft">
+        <Icon name="shield" size={14} className="text-brand" />
+        {state.streak.freezes} {state.streak.freezes === 1 ? 'salvagente' : 'salvagenti'} — un giorno
+        saltato non azzera la serie
+      </p>
+
       <Button variant="outline" className="w-full" onClick={() => setChallengeOpen(true)}>
         <Icon name="share" size={18} /> Sfida un amico
       </Button>

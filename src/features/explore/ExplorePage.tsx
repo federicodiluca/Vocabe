@@ -26,21 +26,24 @@ const DIFFICULTIES = [
 const SORTED = [...WORDS].sort((a, b) => a.term.localeCompare(b.term, 'it'))
 
 export function ExplorePage() {
-  const { isLearned } = useProgress()
+  const { isLearned, isFavorite, state } = useProgress()
   const [category, setCategory] = useState<WordCategory | 'tutte'>('tutte')
   const [difficulty, setDifficulty] = useState(0)
+  const [favOnly, setFavOnly] = useState(false)
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState<string | null>(null)
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
+    const favs = new Set(state.favorites)
     return SORTED.filter((w) => {
+      if (favOnly && !favs.has(w.id)) return false
       if (category !== 'tutte' && w.category !== category) return false
       if (difficulty && w.difficulty !== difficulty) return false
       if (q && !w.term.toLowerCase().includes(q) && !w.meaning.toLowerCase().includes(q)) return false
       return true
     })
-  }, [category, difficulty, query])
+  }, [category, difficulty, favOnly, query, state.favorites])
 
   return (
     <div className="space-y-4 pt-2">
@@ -56,6 +59,15 @@ export function ExplorePage() {
       />
 
       <div className="-mx-5 flex gap-2 overflow-x-auto px-5 pb-1">
+        <button
+          onClick={() => setFavOnly((v) => !v)}
+          className={cn(
+            'flex shrink-0 items-center gap-1 rounded-full border px-3 py-1.5 text-xs font-medium transition',
+            favOnly ? 'border-brand bg-brand-soft text-brand' : 'border-line text-ink-soft',
+          )}
+        >
+          <Icon name={favOnly ? 'star-filled' : 'star'} size={14} /> Preferiti
+        </button>
         {CATEGORIES.map((c) => (
           <button
             key={c.value}
@@ -95,13 +107,23 @@ export function ExplorePage() {
 
       {results.length === 0 ? (
         <div className="animate-fade py-10 text-center">
-          <Icon name="compass" size={36} className="mx-auto text-ink-soft" strokeWidth={1.3} />
-          <p className="mt-3 text-sm text-ink-soft">Nessuna parola con questi filtri.</p>
+          <Icon
+            name={favOnly ? 'star' : 'compass'}
+            size={36}
+            className="mx-auto text-ink-soft"
+            strokeWidth={1.3}
+          />
+          <p className="mt-3 text-sm text-ink-soft">
+            {favOnly && state.favorites.length === 0
+              ? 'Nessun preferito. Tocca la stella su una parola per aggiungerla.'
+              : 'Nessuna parola con questi filtri.'}
+          </p>
           <button
             className="mt-2 text-sm text-brand underline"
             onClick={() => {
               setCategory('tutte')
               setDifficulty(0)
+              setFavOnly(false)
               setQuery('')
             }}
           >
@@ -120,9 +142,10 @@ export function ExplorePage() {
                   <span className="font-serif text-lg font-semibold">{word.term}</span>
                   <span className="block truncate text-xs text-ink-soft">{word.meaning}</span>
                 </span>
-                {isLearned(word.id) && (
-                  <Icon name="check" size={16} className="shrink-0 text-brand" />
-                )}
+                <span className="flex shrink-0 items-center gap-1.5 text-brand">
+                  {isFavorite(word.id) && <Icon name="star-filled" size={15} />}
+                  {isLearned(word.id) && <Icon name="check" size={16} />}
+                </span>
               </button>
               {open === word.id && (
                 <div className="border-t border-line px-4 py-4">

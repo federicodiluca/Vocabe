@@ -87,6 +87,33 @@ const ICONS: Record<string, ReactNode> = {
       <path d="M8 10V7.2a4 4 0 0 1 8 0V10" />
     </>
   ),
+  speaker: (
+    <>
+      <path d="M4 9v6h4l5 4V5L8 9H4Z" />
+      <path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" />
+    </>
+  ),
+  star: (
+    <path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9 6.8 19.6l1-5.8L3.5 9.7l5.9-.9L12 3.5Z" />
+  ),
+  'star-filled': (
+    <path
+      d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9 6.8 19.6l1-5.8L3.5 9.7l5.9-.9L12 3.5Z"
+      fill="currentColor"
+    />
+  ),
+  note: (
+    <>
+      <path d="M5 4h11l3 3v13H5V4Z" />
+      <path d="M15 4v4h4M8 12h8M8 16h5" />
+    </>
+  ),
+  shield: (
+    <>
+      <path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6l-7-3Z" />
+      <path d="M9 12l2 2 4-4" />
+    </>
+  ),
 }
 
 export type IconName = keyof typeof ICONS

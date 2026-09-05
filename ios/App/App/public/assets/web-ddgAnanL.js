@@ -1,0 +1,1 @@
+import"./iap-web-sdk-wCiyN-Ag.js";let r=!1,n=null;const t=new Set,i={async init(){{console.warn("[iap] VITE_REVENUECAT_API_KEY_WEB non impostata: acquisti disattivati.");return}},isPro:()=>r,proPriceLabel:()=>n,async purchasePro(){return"failed"},async restore(){return"failed"},onChange(e){return t.add(e),()=>t.delete(e)}};export{i as webIapClient};
