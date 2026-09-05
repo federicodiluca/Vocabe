@@ -70,7 +70,8 @@
     ],
     "etymology": "Dal latino tardo 'prolificus', da 'proles' «prole» e 'facere' «fare».",
     "category": "comune",
-    "difficulty": 1
+    "difficulty": 1,
+    "curiosity": "Condivide la radice latina 'proles' («prole») con 'proletario': nell'antica Roma il proletarius era il cittadino così povero da poter contribuire allo Stato solo con i figli."
   },
   {
     "id": "ostico",
@@ -143,7 +144,8 @@
     ],
     "etymology": "Dal latino 'superfluus' «che trabocca», da 'super' e 'fluere' «scorrere».",
     "category": "comune",
-    "difficulty": 1
+    "difficulty": 1,
+    "curiosity": "La radice 'fluere' («scorrere») è la stessa di 'fluido', 'influenza', 'affluente' e 'profluvio': il superfluo è ciò che «trabocca»."
   },
   {
     "id": "meticoloso",
@@ -233,7 +235,8 @@
     ],
     "etymology": "Dal latino 'lapidarius', relativo alle iscrizioni sulla pietra ('lapis'), per forza brevi.",
     "category": "letteraria",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Le capitali lapidarie romane, come quelle incise sulla Colonna Traiana, sono ancora oggi il modello di molti caratteri tipografici con grazie."
   },
   {
     "id": "cavillo",
@@ -269,7 +272,8 @@
     ],
     "etymology": "Dal latino 'procrastinare', da 'cras' «domani».",
     "category": "comune",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Alla parola si contrappone «precrastinare», termine coniato dagli psicologi nel 2014 per chi al contrario porta a termine i compiti troppo in anticipo, con inutile fatica."
   },
   {
     "id": "flemma",
@@ -287,7 +291,8 @@
     ],
     "etymology": "Dal greco 'phlégma' «umore», uno dei quattro umori della medicina antica.",
     "category": "comune",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "La flemma era uno dei quattro umori della medicina ippocratica: chi ne aveva in eccesso risultava di temperamento «flemmatico», calmo e lento."
   },
   {
     "id": "acume",
@@ -305,7 +310,8 @@
     ],
     "etymology": "Dal latino 'acumen' «punta», da 'acus' «ago».",
     "category": "comune",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Dal latino 'acumen', «punta»: la stessa immagine dell'ingegno appuntito è passata di peso all'inglese 'acumen'."
   },
   {
     "id": "caustico",
@@ -323,7 +329,8 @@
     ],
     "etymology": "Dal greco 'kaustikós' «che brucia», da 'kaíein' «bruciare».",
     "category": "comune",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Stessa radice greca 'kaíein', «bruciare», della soda caustica: una critica caustica «brucia» come un acido."
   },
   {
     "id": "empatia",
@@ -340,7 +347,8 @@
     ],
     "etymology": "Dal greco 'empátheia' «sentire dentro», calco del tedesco 'Einfühlung'.",
     "category": "comune",
-    "difficulty": 1
+    "difficulty": 1,
+    "curiosity": "Il termine fu introdotto in inglese nel 1909 da Edward Titchener come traduzione del tedesco 'Einfühlung', «sentire dentro»."
   },
   {
     "id": "nostalgia",
@@ -377,7 +385,8 @@
     ],
     "etymology": "Dal latino 'abnegare' «negare, rifiutare» (a sé stessi).",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "Da 'abnegare', «negare»: l'abnegazione è letteralmente il negare sé stessi in favore di altri."
   },
   {
     "id": "peculiare",
@@ -431,7 +440,8 @@
     ],
     "etymology": "Dal greco 'epígonos' «nato dopo»; nel mito, i figli dei Sette contro Tebe.",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "Nel mito gli Epigoni erano i figli dei Sette contro Tebe: tornarono a combattere e conquistarono la città dove i padri avevano fallito."
   },
   {
     "id": "dirimere",
@@ -449,7 +459,8 @@
     ],
     "etymology": "Dal latino 'dirimere' «separare, dividere», da 'dis-' ed 'emere' «prendere».",
     "category": "comune",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "Da 'dirimere', «separare»: la radice 'emere' («prendere») è condivisa con 'redimere', 'perimere' ed 'esempio' (ex-emere)."
   },
   {
     "id": "sardonico",
@@ -467,7 +478,8 @@
     ],
     "etymology": "Dal greco 'sardónios', legato a un'erba di Sardegna che, ingerita, contraeva il volto in un ghigno.",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "Il «riso sardonico» prende nome da un'erba sarda che, ingerita, contraeva i muscoli del volto in un ghigno; 'risus sardonicus' è ancora un termine clinico per lo spasmo da tetano."
   },
   {
     "id": "aleatorio",
@@ -504,7 +516,8 @@
     ],
     "etymology": "Dal latino 'corroborare', da 'robur' «forza, quercia».",
     "category": "comune",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Il latino 'robur' vuol dire sia «forza» sia «quercia»: corroborare una tesi è renderla salda come una quercia, come in 'robusto' e 'roborante'."
   },
   {
     "id": "esiziale",
@@ -522,7 +535,8 @@
     ],
     "etymology": "Dal latino 'exitialis', da 'exitium' «rovina, fine».",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "Dal latino 'exitium', «rovina, fine»: la stessa radice di 'esito', che però in italiano ha conservato solo il senso neutro di «risultato»."
   },
   {
     "id": "propedeutico",
@@ -540,7 +554,8 @@
     ],
     "etymology": "Dal greco 'propaideúō' «istruisco prima».",
     "category": "comune",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "La radice greca 'paidéia' («educazione») è la stessa di 'pedagogia', 'enciclopedia' e 'ortopedia'."
   },
   {
     "id": "coacervo",
@@ -558,7 +573,8 @@
     ],
     "etymology": "Dal latino 'coacervus', da 'acervus' «mucchio».",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "Dal latino 'acervus', «mucchio»: lo stesso della locuzione giuridica «coacervo dei redditi», la loro somma ai fini fiscali."
   },
   {
     "id": "blando",
@@ -594,7 +610,8 @@
     ],
     "etymology": "Dal latino 'eximere' «togliere fuori», da 'ex-' ed 'emere' «prendere».",
     "category": "comune",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Da 'eximere', «togliere fuori»: la stessa radice di 'esimio' (chi è tolto dalla massa perché eccezionale) e di 'esempio'."
   },
   {
     "id": "acclive",
@@ -612,7 +629,8 @@
     ],
     "etymology": "Dal latino 'acclivis', da 'clivus' «pendio». Il contrario è 'declive'.",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "Ha come contrario 'declive'; entrambi da 'clivus', «pendio», che sopravvive nei nomi di antiche strade romane come il Clivo Capitolino."
   },
   {
     "id": "esaustivo",
@@ -648,7 +666,8 @@
     ],
     "etymology": "Dal latino 'vacuus' «vuoto».",
     "category": "letteraria",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Stessa radice di 'vacuum', 'vacanza' (tempo vuoto) ed 'evacuare'."
   },
   {
     "id": "prodromo",
@@ -666,7 +685,8 @@
     ],
     "etymology": "Dal greco 'pródromos' «che corre avanti».",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "In medicina la «fase prodromica» è quella dei primi sintomi vaghi, prima che una malattia si manifesti pienamente."
   },
   {
     "id": "annoverare",
@@ -684,7 +704,8 @@
     ],
     "etymology": "Da 'a-' e 'novero' «conto, elenco», dal latino 'numerus'.",
     "category": "comune",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Contiene 'novero', dal latino 'numerus': è parente di 'numero' ed 'enumerare'."
   },
   {
     "id": "leggiadro",
@@ -793,7 +814,8 @@
     ],
     "etymology": "Dal latino scientifico 'collimare', errore di lettura per 'collineare' «mirare in linea retta».",
     "category": "comune",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "In ottica il collimatore produce fasci di raggi paralleli: strumenti come telescopi e spettrometri ne montano uno."
   },
   {
     "id": "esimio",
@@ -811,7 +833,8 @@
     ],
     "etymology": "Dal latino 'eximius' «scelto, eccezionale», da 'eximere' «togliere fuori (dalla massa)».",
     "category": "letteraria",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Dal latino 'eximius', da 'eximere' «togliere fuori»: l'esimio è letteralmente chi viene tirato fuori dalla massa."
   },
   {
     "id": "connivente",
@@ -847,7 +870,8 @@
     ],
     "etymology": "Dal greco 'diaphanḗs' «che traspare», da 'diá' «attraverso» e 'phaínō' «mostro».",
     "category": "letteraria",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Dal greco «che traspare»: dà il nome alla diafania, la proprietà dei corpi di lasciar passare la luce senza essere del tutto trasparenti."
   },
   {
     "id": "vieppiu",
@@ -1185,7 +1209,8 @@
     ],
     "etymology": "Dalle Sibille, sacerdotesse dell'antichità che pronunciavano oracoli oscuri.",
     "category": "letteraria",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "I Libri Sibillini, raccolte di oracoli oscuri, venivano consultati dal Senato romano nei momenti di crisi."
   },
   {
     "id": "impellente",
@@ -1904,7 +1929,8 @@
     ],
     "etymology": "Dalla Chimera, mostro mitologico ibrido e impossibile.",
     "category": "letteraria",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "La Chimera del mito aveva testa di leone, corpo di capra e coda di serpente: fu uccisa da Bellerofonte in groppa a Pegaso."
   },
   {
     "id": "avallare",
@@ -1940,7 +1966,8 @@
     ],
     "etymology": "Dal manicheismo, dottrina religiosa di Mani basata sul dualismo bene/male.",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "Sant'Agostino aderì al manicheismo per circa nove anni, prima della conversione al cristianesimo raccontata nelle 'Confessioni'."
   },
   {
     "id": "sofisma",
@@ -1958,7 +1985,8 @@
     ],
     "etymology": "Dal greco 'sophisma', da 'sophízesthai' «escogitare».",
     "category": "comune",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "Prende nome dai Sofisti, i maestri di retorica dell'antica Grecia che Platone accusa nei suoi dialoghi di insegnare a far apparire vera qualsiasi tesi."
   },
   {
     "id": "tetro",
@@ -2210,7 +2238,8 @@
     ],
     "etymology": "Dal greco 'diatribḗ' «discussione», da 'tríbein' «logorare».",
     "category": "comune",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "In greco 'diatribḗ' indicava una lezione o conversazione filosofica; il senso di «disputa aspra» è arrivato molto più tardi."
   },
   {
     "id": "immarcescibile",
@@ -2659,7 +2688,8 @@
     ],
     "etymology": "Dal greco 'hyperbolḗ' «eccesso», da 'hyper' «sopra» e 'bállein' «lanciare».",
     "category": "letteraria",
-    "difficulty": 2
+    "difficulty": 2,
+    "curiosity": "La stessa parola greca, «gettare oltre», dà il nome all'iperbole della geometria, una delle sezioni coniche."
   },
   {
     "id": "asettico",
@@ -2983,7 +3013,8 @@
     ],
     "etymology": "Dal latino 'exhaustus', participio di 'exhaurire' «vuotare completamente».",
     "category": "comune",
-    "difficulty": 1
+    "difficulty": 1,
+    "curiosity": "Stessa radice di 'esaurire' e dell'inglese 'exhaust' (lo scarico dell'auto): tutto da 'exhaurire', «vuotare fino in fondo»."
   },
   {
     "id": "aulico",
@@ -3786,7 +3817,8 @@
     ],
     "etymology": "Dal greco 'hēdonḗ' «piacere».",
     "category": "comune",
-    "difficulty": 1
+    "difficulty": 1,
+    "curiosity": "La ricerca del piacere come fine era già al centro della scuola cirenaica di Aristippo, nel IV secolo a.C."
   },
   {
     "id": "effluvio",
@@ -4754,7 +4786,8 @@
     ],
     "etymology": "Dal greco 'lēthargikós', da 'lḗthē' «oblio».",
     "category": "comune",
-    "difficulty": 1
+    "difficulty": 1,
+    "curiosity": "Da 'letargo': il greco 'léthe' significa «oblio», ed è il nome del fiume infernale la cui acqua faceva dimenticare la vita passata."
   },
   {
     "id": "lezioso",
@@ -4970,7 +5003,8 @@
     ],
     "etymology": "Dal latino 'nefandus', da 'ne-' e 'fari' «dire»: che non si può dire.",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "Letteralmente «che non si può dire» (ne + fari): la stessa radice 'fari' («parlare») è in 'favola', 'fato' e 'infante', chi non parla ancora."
   },
   {
     "id": "negletto",
@@ -5204,7 +5238,8 @@
     ],
     "etymology": "Dal greco 'paroxysmós', da 'paroxýnein' «esasperare».",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "In medicina indica l'improvvisa intensificazione di un sintomo: si parla per esempio di tachicardia parossistica."
   },
   {
     "id": "pedante",
@@ -6193,7 +6228,8 @@
     ],
     "etymology": "Dagli spartani, popolo dell'antica Grecia noto per l'austerità.",
     "category": "comune",
-    "difficulty": 1
+    "difficulty": 1,
+    "curiosity": "Dalla stessa regione di Sparta, la Laconia, viene 'laconico': gli Spartani erano noti per rispondere con poche parole essenziali."
   },
   {
     "id": "spudorato",
@@ -6247,7 +6283,8 @@
     ],
     "etymology": "Da Stentore, araldo omerico dalla voce potentissima come cinquanta uomini.",
     "category": "letteraria",
-    "difficulty": 3
+    "difficulty": 3,
+    "curiosity": "Stentore è l'araldo dell'Iliade la cui voce, dice Omero, era potente come quella di cinquanta uomini insieme."
   },
   {
     "id": "stigmatizzare",
