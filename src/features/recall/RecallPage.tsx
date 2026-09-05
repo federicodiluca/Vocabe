@@ -8,7 +8,14 @@ import { Icon } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
 import type { Word } from '@/core/types'
 
-type Question = { word: Word; options: string[]; answer: number }
+type Direction = 'forward' | 'inverse'
+type Question = {
+  word: Word
+  direction: Direction
+  prompt: string
+  options: string[]
+  answer: number
+}
 
 function pick<T>(arr: T[], n: number): T[] {
   const copy = arr.slice()
@@ -19,27 +26,45 @@ function pick<T>(arr: T[], n: number): T[] {
   return copy.slice(0, n)
 }
 
-function buildQuiz(dueIds: string[]): Question[] {
-  return pick(dueIds, Math.min(dueIds.length, 8)).flatMap((id) => {
-    const word = getWord(id)
-    if (!word) return []
+function makeQuestion(word: Word, direction: Direction): Question {
+  if (direction === 'inverse') {
+    // Show the definition, pick the word.
     const distractors = pick(
-      WORDS.filter((w) => w.id !== id).map((w) => w.meaning),
+      WORDS.filter((w) => w.id !== word.id).map((w) => w.term),
       3,
     )
-    const options = pick([word.meaning, ...distractors], 4)
-    return [{ word, options, answer: options.indexOf(word.meaning) }]
+    const options = pick([word.term, ...distractors], 4)
+    return { word, direction, prompt: word.meaning, options, answer: options.indexOf(word.term) }
+  }
+  // Show the word, pick the definition.
+  const distractors = pick(
+    WORDS.filter((w) => w.id !== word.id).map((w) => w.meaning),
+    3,
+  )
+  const options = pick([word.meaning, ...distractors], 4)
+  return { word, direction, prompt: word.term, options, answer: options.indexOf(word.meaning) }
+}
+
+function buildQuiz(due: { id: string; box: number }[]): Question[] {
+  return pick(due, Math.min(due.length, 8)).flatMap(({ id, box }) => {
+    const word = getWord(id)
+    if (!word) return []
+    // Once a word is well known (box 3+) the harder "definition → word" direction kicks in.
+    return [makeQuestion(word, box >= 3 ? 'inverse' : 'forward')]
   })
 }
 
 export function RecallPage() {
   const { state, recordRecall } = useProgress()
-  const dueIds = useMemo(
-    () => Object.entries(state.learned).filter(([, e]) => isDue(e)).map(([id]) => id),
+  const due = useMemo(
+    () =>
+      Object.entries(state.learned)
+        .filter(([, e]) => isDue(e))
+        .map(([id, e]) => ({ id, box: e.box })),
     [state.learned],
   )
   // Build once per mount so answering (which changes state) doesn't reshuffle mid-quiz.
-  const [quiz] = useState(() => buildQuiz(dueIds))
+  const [quiz] = useState(() => buildQuiz(due))
   const [i, setI] = useState(0)
   const [choice, setChoice] = useState<number | null>(null)
   const [score, setScore] = useState(0)
@@ -86,17 +111,29 @@ export function RecallPage() {
 
   return (
     <div className="space-y-5 pt-2">
-      <p className="text-sm text-ink-soft">
-        Domanda {i + 1} di {quiz.length}
-      </p>
+      <div className="flex items-center justify-between text-sm text-ink-soft">
+        <span>
+          Domanda {i + 1} di {quiz.length}
+        </span>
+        <span className="rounded-full bg-line/60 px-2.5 py-0.5 text-xs">
+          {q.direction === 'inverse' ? 'Indovina la parola' : 'Riconosci il significato'}
+        </span>
+      </div>
+
       <Card>
-        <p className="text-sm text-ink-soft">Cosa significa</p>
-        <h2 className="font-serif text-3xl font-semibold">{q.word.term}</h2>
+        <p className="text-sm text-ink-soft">
+          {q.direction === 'inverse' ? 'Quale parola significa…' : 'Cosa significa'}
+        </p>
+        {q.direction === 'inverse' ? (
+          <h2 className="mt-1 font-serif text-xl leading-snug">{q.prompt}</h2>
+        ) : (
+          <h2 className="font-serif text-3xl font-semibold">{q.prompt}</h2>
+        )}
       </Card>
 
       <div className="space-y-2">
         {q.options.map((opt, idx) => {
-          const state =
+          const s =
             !answered ? 'idle'
             : idx === q.answer ? 'correct'
             : idx === choice ? 'wrong'
@@ -107,11 +144,12 @@ export function RecallPage() {
               onClick={() => choose(idx)}
               disabled={answered}
               className={cn(
-                'w-full rounded-2xl border px-4 py-3 text-left text-sm transition',
-                state === 'idle' && 'border-line hover:bg-line/40',
-                state === 'correct' && 'border-good bg-good/10 text-good',
-                state === 'wrong' && 'border-bad bg-bad/10 text-bad',
-                state === 'dim' && 'border-line opacity-50',
+                'w-full rounded-2xl border px-4 py-3 text-left transition',
+                q.direction === 'inverse' ? 'font-serif text-base' : 'text-sm',
+                s === 'idle' && 'border-line hover:bg-line/40',
+                s === 'correct' && 'border-good bg-good/10 text-good',
+                s === 'wrong' && 'border-bad bg-bad/10 text-bad',
+                s === 'dim' && 'border-line opacity-50',
               )}
             >
               {opt}
