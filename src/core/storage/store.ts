@@ -8,6 +8,7 @@ export const DEFAULT_SETTINGS: Settings = {
   theme: 'system',
   reminderTime: '08:30',
   reminderEnabled: false,
+  name: '',
 }
 
 export function defaultState(): ProgressState {

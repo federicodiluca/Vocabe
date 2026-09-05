@@ -1,7 +1,10 @@
-import { NavLink, Outlet } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useProgress } from '@/state/context'
 import { displayStreak } from '@/core/streak/streak'
 import { isDue } from '@/core/srs/leitner'
+import { decodeChallenge, type Challenge } from '@/core/challenge'
+import { ChallengeSheet } from '@/features/challenge/ChallengeSheet'
 import { Icon, type IconName } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
 import { Onboarding } from './Onboarding'
@@ -16,8 +19,25 @@ const tabs: { to: string; label: string; icon: IconName; end?: boolean }[] = [
 
 export function Layout() {
   const { state } = useProgress()
+  const { pathname } = useLocation()
   const streak = displayStreak(state.streak)
   const dueCount = Object.values(state.learned).filter((e) => isDue(e)).length
+
+  const [incoming, setIncoming] = useState<Challenge | null>(null)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const token = params.get('sfida')
+    if (!token) return
+    const parsed = decodeChallenge(token)
+    params.delete('sfida')
+    const qs = params.toString()
+    window.history.replaceState(
+      null,
+      '',
+      window.location.pathname + (qs ? `?${qs}` : '') + window.location.hash,
+    )
+    if (parsed) setIncoming(parsed)
+  }, [])
 
   if (!state.onboarded) return <Onboarding />
 
@@ -38,7 +58,9 @@ export function Layout() {
       </header>
 
       <main className="flex-1 px-5 pb-28">
-        <Outlet />
+        <div key={pathname} className="animate-fade">
+          <Outlet />
+        </div>
       </main>
 
       <nav className="fixed inset-x-0 bottom-0 z-10 border-t border-line bg-paper/95 backdrop-blur">
@@ -66,6 +88,13 @@ export function Layout() {
           ))}
         </div>
       </nav>
+
+      <ChallengeSheet
+        key={incoming ? 'incoming' : 'none'}
+        open={!!incoming}
+        incoming={incoming}
+        onClose={() => setIncoming(null)}
+      />
     </div>
   )
 }

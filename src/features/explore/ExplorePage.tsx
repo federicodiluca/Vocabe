@@ -94,7 +94,20 @@ export function ExplorePage() {
       </p>
 
       {results.length === 0 ? (
-        <p className="py-8 text-center text-sm text-ink-soft">Nessun risultato con questi filtri.</p>
+        <div className="animate-fade py-10 text-center">
+          <Icon name="compass" size={36} className="mx-auto text-ink-soft" strokeWidth={1.3} />
+          <p className="mt-3 text-sm text-ink-soft">Nessuna parola con questi filtri.</p>
+          <button
+            className="mt-2 text-sm text-brand underline"
+            onClick={() => {
+              setCategory('tutte')
+              setDifficulty(0)
+              setQuery('')
+            }}
+          >
+            Azzera i filtri
+          </button>
+        </div>
       ) : (
         <ul className="space-y-2">
           {results.map((word) => (

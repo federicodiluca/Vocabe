@@ -71,7 +71,7 @@ export function RecallPage() {
 
   if (quiz.length === 0) {
     return (
-      <Card className="mt-6 text-center">
+      <Card className="mt-6 animate-rise text-center">
         <Icon name="bulb" size={40} className="mx-auto text-brand" strokeWidth={1.4} />
         <p className="mt-3 font-semibold">Nessun ripasso in sospeso</p>
         <p className="mt-1 text-sm text-ink-soft">
@@ -83,8 +83,8 @@ export function RecallPage() {
 
   if (i >= quiz.length) {
     return (
-      <Card className="mt-6 text-center">
-        <Icon name="trophy" size={40} className="mx-auto text-brand" strokeWidth={1.4} />
+      <Card className="mt-6 animate-rise text-center">
+        <Icon name="trophy" size={40} className="mx-auto animate-pop text-brand" strokeWidth={1.4} />
         <p className="mt-3 font-semibold">
           Ripasso completato: {score}/{quiz.length}
         </p>
@@ -159,7 +159,7 @@ export function RecallPage() {
       </div>
 
       {answered && (
-        <Button className="w-full" onClick={next}>
+        <Button className="w-full animate-rise" onClick={next}>
           {i + 1 === quiz.length ? 'Vedi risultato' : 'Prossima'}
         </Button>
       )}

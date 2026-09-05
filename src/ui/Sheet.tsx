@@ -28,11 +28,11 @@ export function Sheet({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-end justify-center bg-black/40 backdrop-blur-sm"
+      className="animate-fade fixed inset-0 z-50 flex items-end justify-center bg-black/40 backdrop-blur-sm"
       onClick={onClose}
     >
       <div
-        className="w-full max-w-md rounded-t-3xl border border-line bg-paper p-5 pb-[calc(env(safe-area-inset-bottom)+1.25rem)] shadow-2xl"
+        className="animate-rise w-full max-w-md rounded-t-3xl border border-line bg-paper p-5 pb-[calc(env(safe-area-inset-bottom)+1.25rem)] shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="mx-auto mb-4 h-1.5 w-10 rounded-full bg-line" />

@@ -3,9 +3,11 @@ import { getWord } from '@/core/content/words'
 import { useProgress } from '@/state/context'
 import { displayStreak } from '@/core/streak/streak'
 import { BADGES } from '@/core/badges/badges'
+import { Button } from '@/ui/Button'
 import { Icon } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
 import { WordDetails } from '@/features/daily/WordDetails'
+import { ChallengeSheet } from '@/features/challenge/ChallengeSheet'
 import { Heatmap } from './Heatmap'
 
 function Stat({ value, label }: { value: string | number; label: string }) {
@@ -21,6 +23,7 @@ export function ProgressPage() {
   const { state } = useProgress()
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState<string | null>(null)
+  const [challengeOpen, setChallengeOpen] = useState(false)
 
   const entries = useMemo(() => {
     return Object.entries(state.learned)
@@ -46,6 +49,10 @@ export function ProgressPage() {
         <Stat value={displayStreak(state.streak)} label="streak" />
         <Stat value={state.streak.longest} label="record" />
       </div>
+
+      <Button variant="outline" className="w-full" onClick={() => setChallengeOpen(true)}>
+        <Icon name="share" size={18} /> Sfida un amico
+      </Button>
 
       <section>
         <h2 className="mb-3 text-sm font-semibold text-ink-soft">Attività</h2>
@@ -89,9 +96,14 @@ export function ProgressPage() {
         />
 
         {filtered.length === 0 ? (
-          <p className="py-8 text-center text-sm text-ink-soft">
-            {entries.length === 0 ? 'Nessuna parola ancora. Inizia da “Oggi”.' : 'Nessun risultato.'}
-          </p>
+          <div className="animate-fade py-10 text-center">
+            <Icon name="book" size={36} className="mx-auto text-ink-soft" strokeWidth={1.3} />
+            <p className="mt-3 text-sm text-ink-soft">
+              {entries.length === 0
+                ? 'Ancora nessuna parola imparata. Inizia da “Oggi”.'
+                : 'Nessun risultato per questa ricerca.'}
+            </p>
+          </div>
         ) : (
           <ul className="space-y-2">
             {filtered.map(({ id, entry, word }) => (
@@ -116,6 +128,8 @@ export function ProgressPage() {
           </ul>
         )}
       </section>
+
+      <ChallengeSheet open={challengeOpen} onClose={() => setChallengeOpen(false)} />
     </div>
   )
 }

@@ -15,6 +15,7 @@ export function DailyPage() {
   const word = useMemo(() => wordForDay(), [])
   const { isLearned, markLearned, unmarkLearned } = useProgress()
   const [revealed, setRevealed] = useState(() => isLearned(word.id))
+  const [justRevealed, setJustRevealed] = useState(false)
   const [shareOpen, setShareOpen] = useState(false)
 
   const learned = isLearned(word.id)
@@ -25,7 +26,14 @@ export function DailyPage() {
 
       <Card
         className={revealed ? undefined : 'cursor-pointer'}
-        onClick={revealed ? undefined : () => setRevealed(true)}
+        onClick={
+          revealed
+            ? undefined
+            : () => {
+                setRevealed(true)
+                setJustRevealed(true)
+              }
+        }
       >
         <div className="mb-4 flex items-baseline gap-2">
           <h1 className="font-serif text-4xl font-semibold tracking-tight">{word.term}</h1>
@@ -33,7 +41,9 @@ export function DailyPage() {
         </div>
 
         {revealed ? (
-          <WordDetails word={word} />
+          <div className={justRevealed ? 'animate-rise' : undefined}>
+            <WordDetails word={word} />
+          </div>
         ) : (
           <p className="py-6 text-center text-ink-soft">Tocca per scoprire il significato</p>
         )}
