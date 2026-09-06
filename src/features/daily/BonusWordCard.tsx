@@ -42,7 +42,7 @@ export function BonusWordCard() {
 
       {revealed || isPro || !MONETIZATION ? (
         <>
-          <h2 className="mb-4 font-serif text-2xl font-semibold">{bonusWord.term}</h2>
+          <h2 className="mb-4 font-reading text-2xl font-semibold">{bonusWord.term}</h2>
           <WordDetails word={bonusWord} />
           <div className="mt-4">
             {learned ? (

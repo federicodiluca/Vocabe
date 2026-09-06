@@ -35,7 +35,7 @@ export function DailyPage() {
         }
       >
         <div className="mb-4 flex items-baseline gap-2">
-          <h1 className="font-serif text-4xl font-semibold tracking-tight">{word.term}</h1>
+          <h1 className="font-reading text-4xl font-semibold tracking-tight">{word.term}</h1>
           {word.pos && <span className="text-sm italic text-ink-soft">{word.pos}</span>}
         </div>
 

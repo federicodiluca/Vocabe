@@ -2,10 +2,13 @@ import type { ProgressState, Settings } from '@/core/types'
 import { localDateKey } from '@/core/date'
 
 export const KEY = 'vocabe:v1'
-export const STATE_VERSION = 1
+/** Bump together with a new entry in MIGRATIONS below. */
+export const STATE_VERSION = 2
 
 export const DEFAULT_SETTINGS: Settings = {
   theme: 'system',
+  readingFont: 'serif',
+  textSize: 'normale',
   reminderTime: '08:30',
   reminderEnabled: false,
   name: '',
@@ -58,35 +61,69 @@ export function setStorageAdapter(a: StorageAdapter) {
   adapter = a
 }
 
-/** Fill in any missing fields and run version migrations. */
+type RawState = Record<string, unknown>
+
+/**
+ * One step per schema change, keyed by the version it upgrades *from*. Add a new
+ * entry and bump STATE_VERSION whenever the shape changes in a way that stored
+ * data can't satisfy on its own.
+ *
+ * Version 1 covers everything shipped up to the heatmap: those saves may be
+ * missing `activeDays`, `onboarded`, `favorites`, `notes`, `streak.freezes` and
+ * `settings.name`, because the version was never bumped while they were added.
+ * Anything that is only a new field with a sane default is handled by
+ * `normalize` instead — migrations are for data that has to be *derived*.
+ */
+const MIGRATIONS: Record<number, (s: RawState) => RawState> = {
+  1: (s) => {
+    const learned = (s.learned ?? {}) as Record<string, { learnedOn?: string }>
+    const streak = (s.streak ?? {}) as { lastActiveOn?: string | null }
+
+    // The heatmap didn't exist, so reconstruct the active days from what we know.
+    const days = new Set<string>()
+    for (const entry of Object.values(learned)) {
+      if (entry?.learnedOn) days.add(entry.learnedOn)
+    }
+    if (streak.lastActiveOn) days.add(streak.lastActiveOn)
+
+    return {
+      ...s,
+      activeDays: Array.isArray(s.activeDays) && s.activeDays.length ? s.activeDays : [...days].sort(),
+      // Someone with progress already knows the app — don't show them the intro.
+      onboarded: typeof s.onboarded === 'boolean' ? s.onboarded : days.size > 0,
+    }
+  },
+}
+
+/** Walk a stored blob up to the current schema version. */
+function migrate(input: RawState): RawState {
+  let s = input
+  let version = typeof s.version === 'number' ? s.version : 1
+  while (version < STATE_VERSION) {
+    const step = MIGRATIONS[version]
+    if (step) s = step(s)
+    version += 1
+  }
+  return { ...s, version: STATE_VERSION }
+}
+
+/** Run migrations, then coerce anything missing or malformed to a safe default. */
 export function normalize(input: unknown): ProgressState {
   const base = defaultState()
   if (!input || typeof input !== 'object') return base
-  const s = input as Partial<ProgressState>
-  const learned = s.learned && typeof s.learned === 'object' ? s.learned : base.learned
-  const streak = { ...base.streak, ...(s.streak ?? {}) }
 
-  let activeDays = Array.isArray(s.activeDays) ? s.activeDays : []
-  if (activeDays.length === 0) {
-    // Backfill for pre-heatmap saves: the days words were learned, plus the last active day.
-    const days = new Set(Object.values(learned).map((e) => e.learnedOn))
-    if (streak.lastActiveOn) days.add(streak.lastActiveOn)
-    activeDays = [...days].sort()
-  }
+  const s = migrate(input as RawState) as Partial<ProgressState>
+  const learned = s.learned && typeof s.learned === 'object' ? s.learned : base.learned
 
   return {
     version: STATE_VERSION,
     learned,
-    streak,
+    streak: { ...base.streak, ...(s.streak ?? {}) },
     badges: Array.isArray(s.badges) ? s.badges : base.badges,
-    activeDays,
+    activeDays: Array.isArray(s.activeDays) ? s.activeDays : base.activeDays,
     favorites: Array.isArray(s.favorites) ? s.favorites : base.favorites,
     notes: s.notes && typeof s.notes === 'object' ? s.notes : base.notes,
-    // Existing users (any learned words or activity) shouldn't suddenly see the intro.
-    onboarded:
-      typeof s.onboarded === 'boolean'
-        ? s.onboarded
-        : Object.keys(learned).length > 0 || activeDays.length > 0,
+    onboarded: typeof s.onboarded === 'boolean' ? s.onboarded : base.onboarded,
     settings: { ...base.settings, ...(s.settings ?? {}) },
     startedOn: typeof s.startedOn === 'string' ? s.startedOn : base.startedOn,
   }

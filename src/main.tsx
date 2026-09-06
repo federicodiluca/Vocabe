@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
 import { Capacitor } from '@capacitor/core'
 import { initProgress } from '@/state/store'
-import { ThemeEffect } from '@/app/ThemeEffect'
+import { AppearanceEffect } from '@/app/AppearanceEffect'
 import { ReminderEffect } from '@/app/ReminderEffect'
 import { router } from '@/app/router'
 import { setStorageAdapter } from '@/core/storage/store'
@@ -22,7 +22,7 @@ async function bootstrap() {
 
   createRoot(document.getElementById('root')!).render(
     <StrictMode>
-      <ThemeEffect />
+      <AppearanceEffect />
       <ReminderEffect />
       <RouterProvider router={router} />
     </StrictMode>,

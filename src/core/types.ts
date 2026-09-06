@@ -38,9 +38,14 @@ export type LearnedEntry = {
 }
 
 export type ThemeSetting = 'system' | 'light' | 'dark'
+/** Typeface used for the words themselves, not the interface chrome. */
+export type ReadingFont = 'serif' | 'sans'
+export type TextSize = 'normale' | 'grande'
 
 export type Settings = {
   theme: ThemeSetting
+  readingFont: ReadingFont
+  textSize: TextSize
   /** local reminder time "HH:mm" — used by native notifications later */
   reminderTime: string
   reminderEnabled: boolean

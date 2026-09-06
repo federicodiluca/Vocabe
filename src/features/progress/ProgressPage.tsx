@@ -119,7 +119,7 @@ export function ProgressPage() {
                   onClick={() => setOpen(open === id ? null : id)}
                 >
                   <span>
-                    <span className="font-serif text-lg font-semibold">{word!.term}</span>
+                    <span className="font-reading text-lg font-semibold">{word!.term}</span>
                     <span className="ml-2 text-xs text-ink-soft">{entry.learnedOn}</span>
                   </span>
                   <span className="text-xs text-ink-soft">{'●'.repeat(entry.box)}</span>

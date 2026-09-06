@@ -80,9 +80,9 @@ export function RecallPage() {
           {q.direction === 'inverse' ? 'Quale parola significa…' : 'Cosa significa'}
         </p>
         {q.direction === 'inverse' ? (
-          <h2 className="mt-1 font-serif text-xl leading-snug">{q.prompt}</h2>
+          <h2 className="mt-1 font-reading text-xl leading-snug">{q.prompt}</h2>
         ) : (
-          <h2 className="font-serif text-3xl font-semibold">{q.prompt}</h2>
+          <h2 className="font-reading text-3xl font-semibold">{q.prompt}</h2>
         )}
       </Card>
 
@@ -100,7 +100,7 @@ export function RecallPage() {
               disabled={answered}
               className={cn(
                 'w-full rounded-2xl border px-4 py-3 text-left transition',
-                q.direction === 'inverse' ? 'font-serif text-base' : 'text-sm',
+                q.direction === 'inverse' ? 'font-reading text-base' : 'text-sm',
                 s === 'idle' && 'border-line hover:bg-line/40',
                 s === 'correct' && 'border-good bg-good/10 text-good',
                 s === 'wrong' && 'border-bad bg-bad/10 text-bad',

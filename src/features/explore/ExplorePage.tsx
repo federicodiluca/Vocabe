@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { WORDS } from '@/core/content/words'
 import { useProgressSlice } from '@/state/hooks'
 import type { WordCategory } from '@/core/types'
@@ -25,6 +25,9 @@ const DIFFICULTIES = [
 
 const SORTED = [...WORDS].sort((a, b) => a.term.localeCompare(b.term, 'it'))
 
+/** Rendering all 386 rows at once is the slowest thing in the app on a phone. */
+const PAGE = 40
+
 export function ExplorePage() {
   const favorites = useProgressSlice((s) => s.favorites)
   const learned = useProgressSlice((s) => s.learned)
@@ -46,6 +49,22 @@ export function ExplorePage() {
       return true
     })
   }, [category, difficulty, favOnly, query, favs])
+
+  // Reveal the list a page at a time as the reader scrolls to the bottom.
+  const [visible, setVisible] = useState(PAGE)
+  const sentinel = useRef<HTMLDivElement>(null)
+
+  useEffect(() => setVisible(PAGE), [category, difficulty, favOnly, query])
+
+  useEffect(() => {
+    const node = sentinel.current
+    if (!node || visible >= results.length) return
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) setVisible((v) => v + PAGE)
+    })
+    observer.observe(node)
+    return () => observer.disconnect()
+  }, [visible, results.length])
 
   return (
     <div className="space-y-4 pt-2">
@@ -134,14 +153,14 @@ export function ExplorePage() {
         </div>
       ) : (
         <ul className="space-y-2">
-          {results.map((word) => (
+          {results.slice(0, visible).map((word) => (
             <li key={word.id} className="rounded-2xl border border-line bg-paper-raised">
               <button
                 className="flex w-full items-center justify-between gap-2 px-4 py-3 text-left"
                 onClick={() => setOpen(open === word.id ? null : word.id)}
               >
                 <span className="min-w-0">
-                  <span className="font-serif text-lg font-semibold">{word.term}</span>
+                  <span className="font-reading text-lg font-semibold">{word.term}</span>
                   <span className="block truncate text-xs text-ink-soft">{word.meaning}</span>
                 </span>
                 <span className="flex shrink-0 items-center gap-1.5 text-brand">
@@ -156,6 +175,7 @@ export function ExplorePage() {
               )}
             </li>
           ))}
+          {visible < results.length && <div ref={sentinel} className="h-8" aria-hidden />}
         </ul>
       )}
     </div>

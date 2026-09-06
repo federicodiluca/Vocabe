@@ -4,7 +4,7 @@ import { updateSettings, replaceProgress, resetProgress } from '@/state/store'
 import { exportState, parseImported } from '@/core/storage/store'
 import { useIsPro } from '@/core/iap/useIsPro'
 import { MONETIZATION } from '@/core/features'
-import type { ThemeSetting } from '@/core/types'
+import type { ReadingFont, TextSize, ThemeSetting } from '@/core/types'
 import { Button } from '@/ui/Button'
 import { Card } from '@/ui/Card'
 import { Icon } from '@/ui/Icon'
@@ -16,6 +16,44 @@ const THEMES: { value: ThemeSetting; label: string }[] = [
   { value: 'light', label: 'Chiaro' },
   { value: 'dark', label: 'Scuro' },
 ]
+
+const FONTS: { value: ReadingFont; label: string }[] = [
+  { value: 'serif', label: 'Classico' },
+  { value: 'sans', label: 'Moderno' },
+]
+
+const SIZES: { value: TextSize; label: string }[] = [
+  { value: 'normale', label: 'Normale' },
+  { value: 'grande', label: 'Grande' },
+]
+
+/** Segmented control shared by the three appearance settings. */
+function Choice<T extends string>({
+  options,
+  value,
+  onChange,
+}: {
+  options: { value: T; label: string }[]
+  value: T
+  onChange: (v: T) => void
+}) {
+  return (
+    <div className="flex gap-2">
+      {options.map((o) => (
+        <button
+          key={o.value}
+          onClick={() => onChange(o.value)}
+          className={cn(
+            'flex-1 rounded-2xl border py-2.5 text-sm font-medium transition',
+            value === o.value ? 'border-brand bg-brand-soft text-brand' : 'border-line text-ink-soft',
+          )}
+        >
+          {o.label}
+        </button>
+      ))}
+    </div>
+  )
+}
 
 export function SettingsPage() {
   const state = useProgressState()
@@ -73,23 +111,32 @@ export function SettingsPage() {
         </section>
       )}
 
-      <section>
-        <h2 className="mb-2 text-sm font-semibold text-ink-soft">Tema</h2>
-        <div className="flex gap-2">
-          {THEMES.map((t) => (
-            <button
-              key={t.value}
-              onClick={() => updateSettings({ theme: t.value })}
-              className={cn(
-                'flex-1 rounded-2xl border py-2.5 text-sm font-medium transition',
-                state.settings.theme === t.value
-                  ? 'border-brand bg-brand-soft text-brand'
-                  : 'border-line text-ink-soft',
-              )}
-            >
-              {t.label}
-            </button>
-          ))}
+      <section className="space-y-4">
+        <div>
+          <h2 className="mb-2 text-sm font-semibold text-ink-soft">Tema</h2>
+          <Choice
+            options={THEMES}
+            value={state.settings.theme}
+            onChange={(theme) => updateSettings({ theme })}
+          />
+        </div>
+
+        <div>
+          <h2 className="mb-2 text-sm font-semibold text-ink-soft">Carattere delle parole</h2>
+          <Choice
+            options={FONTS}
+            value={state.settings.readingFont}
+            onChange={(readingFont) => updateSettings({ readingFont })}
+          />
+        </div>
+
+        <div>
+          <h2 className="mb-2 text-sm font-semibold text-ink-soft">Dimensione del testo</h2>
+          <Choice
+            options={SIZES}
+            value={state.settings.textSize}
+            onChange={(textSize) => updateSettings({ textSize })}
+          />
         </div>
       </section>
 

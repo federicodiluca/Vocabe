@@ -5,6 +5,8 @@
 @theme {
   --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --font-serif: 'Lora', ui-serif, Georgia, 'Times New Roman', serif;
+  /* Typeface of the words themselves — the reader can switch it in Opzioni. */
+  --font-reading: 'Lora', ui-serif, Georgia, 'Times New Roman', serif;
 
   --color-paper: #faf7f2;
   --color-paper-raised: #ffffff;
@@ -19,6 +21,15 @@
 
 :root {
   color-scheme: light;
+}
+
+/* Reading preferences, toggled on <html> by AppearanceEffect. */
+:root.reading-sans {
+  --font-reading: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+:root.text-grande {
+  font-size: 112.5%;
 }
 
 .dark {

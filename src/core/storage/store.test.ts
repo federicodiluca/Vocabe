@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest'
-import { normalize, defaultState } from './store'
+import { normalize, defaultState, STATE_VERSION } from './store'
+
+const v1Entry = (learnedOn: string) => ({ learnedOn, box: 1, dueOn: learnedOn, correct: 0, wrong: 0 })
 
 describe('normalize', () => {
   it('falls back to a fresh state for junk input', () => {
@@ -18,32 +20,48 @@ describe('normalize', () => {
     expect(s.streak.current).toBe(3) // existing values survive
   })
 
-  it('backfills activeDays from the days words were learned', () => {
+  it('stamps the current schema version', () => {
+    expect(normalize({ version: 1, learned: {} }).version).toBe(STATE_VERSION)
+  })
+})
+
+describe('migration 1 → 2', () => {
+  it('rebuilds activeDays from the days words were learned', () => {
     const s = normalize({
-      learned: {
-        a: { learnedOn: '2026-03-02', box: 1, dueOn: '2026-03-03', correct: 0, wrong: 0 },
-        b: { learnedOn: '2026-03-01', box: 1, dueOn: '2026-03-02', correct: 0, wrong: 0 },
-      },
+      version: 1,
+      learned: { a: v1Entry('2026-03-02'), b: v1Entry('2026-03-01') },
       streak: { current: 1, longest: 1, lastActiveOn: '2026-03-05' },
     })
     expect(s.activeDays).toEqual(['2026-03-01', '2026-03-02', '2026-03-05'])
   })
 
-  it('keeps activeDays when already present', () => {
-    const s = normalize({ activeDays: ['2026-01-01'], learned: {} })
-    expect(s.activeDays).toEqual(['2026-01-01'])
+  it('keeps activeDays a v1 save already had', () => {
+    expect(normalize({ version: 1, activeDays: ['2026-01-01'], learned: {} }).activeDays).toEqual([
+      '2026-01-01',
+    ])
   })
 
-  it('does not show the intro to someone with existing progress', () => {
-    const withProgress = normalize({
-      learned: { a: { learnedOn: '2026-03-01', box: 1, dueOn: '2026-03-02', correct: 0, wrong: 0 } },
-    })
-    expect(withProgress.onboarded).toBe(true)
-    expect(normalize({ learned: {} }).onboarded).toBe(false)
+  it('does not show the intro to someone who already had progress', () => {
+    expect(normalize({ version: 1, learned: { a: v1Entry('2026-03-01') } }).onboarded).toBe(true)
+    expect(normalize({ version: 1, learned: {} }).onboarded).toBe(false)
   })
 
   it('respects an explicit onboarded flag', () => {
-    expect(normalize({ onboarded: false, learned: {}, activeDays: ['2026-01-01'] }).onboarded).toBe(false)
+    const s = normalize({ version: 1, onboarded: false, learned: { a: v1Entry('2026-03-01') } })
+    expect(s.onboarded).toBe(false)
+  })
+
+  it('leaves a current-version save alone', () => {
+    // A brand new v2 user has no activity: nothing to backfill, no intro to skip.
+    const s = normalize({ version: STATE_VERSION, learned: {}, activeDays: [], onboarded: false })
+    expect(s.activeDays).toEqual([])
+    expect(s.onboarded).toBe(false)
+  })
+
+  it('treats a save with no version at all as v1', () => {
+    const s = normalize({ learned: { a: v1Entry('2026-03-01') } })
+    expect(s.activeDays).toEqual(['2026-03-01'])
+    expect(s.onboarded).toBe(true)
   })
 
   it('round-trips a full state', () => {

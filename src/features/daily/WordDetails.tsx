@@ -54,7 +54,7 @@ export function WordDetails({ word }: { word: Word }) {
       {word.examples.length > 0 && (
         <ul className="space-y-2 border-l-2 border-brand/40 pl-4">
           {word.examples.map((ex, i) => (
-            <li key={i} className="font-serif italic text-ink-soft">
+            <li key={i} className="font-reading italic text-ink-soft">
               {ex}
             </li>
           ))}
