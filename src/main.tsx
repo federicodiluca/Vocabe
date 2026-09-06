@@ -28,6 +28,13 @@ async function bootstrap() {
     </StrictMode>,
   )
 
+  if (Capacitor.isNativePlatform()) {
+    // The splash stays up until the web view is ready (launchAutoHide: false).
+    import('@capacitor/splash-screen')
+      .then(({ SplashScreen }) => SplashScreen.hide())
+      .catch(() => {})
+  }
+
   // The web IAP SDK is a sizeable chunk (~230 KB gzip) — only load it, and only on
   // idle, when monetization is actually turned on.
   if (MONETIZATION) {

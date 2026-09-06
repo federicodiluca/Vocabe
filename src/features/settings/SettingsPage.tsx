@@ -159,10 +159,13 @@ export function SettingsPage() {
 
       <p className="pt-4 text-center text-xs text-ink-soft">
         <a href={`${import.meta.env.BASE_URL}parole/`} className="underline">
-          Glossario completo
+          Glossario
         </a>
         <span className="mx-2">·</span>
-        i tuoi dati restano su questo dispositivo
+        <a href={`${import.meta.env.BASE_URL}privacy/`} className="underline">
+          Privacy
+        </a>
+        <span className="mx-2">·</span>i tuoi dati restano su questo dispositivo
       </p>
 
       <p className="text-center text-xs text-ink-soft">
