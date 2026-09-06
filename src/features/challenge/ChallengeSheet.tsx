@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
-import { useProgress } from '@/state/context'
+import { useProgressState } from '@/state/hooks'
+import { updateSettings } from '@/state/store'
 import {
   challengeFromState,
   challengeText,
@@ -44,7 +45,7 @@ export function ChallengeSheet({
   onClose: () => void
   incoming?: Challenge | null
 }) {
-  const { state, updateSettings } = useProgress()
+  const state = useProgressState()
   const [mode, setMode] = useState<'view' | 'create'>(incoming ? 'view' : 'create')
   const [note, setNote] = useState<string | null>(null)
 

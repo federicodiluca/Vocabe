@@ -1,70 +1,25 @@
-import { useMemo, useState } from 'react'
-import { WORDS, getWord } from '@/core/content/words'
-import { useProgress } from '@/state/context'
+import { useState } from 'react'
+import { useProgressSlice } from '@/state/hooks'
+import { recordRecall } from '@/state/store'
 import { isDue } from '@/core/srs/leitner'
+import { buildQuiz } from '@/core/quiz'
 import { Button } from '@/ui/Button'
 import { Card } from '@/ui/Card'
 import { Icon } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
-import type { Word } from '@/core/types'
-
-type Direction = 'forward' | 'inverse'
-type Question = {
-  word: Word
-  direction: Direction
-  prompt: string
-  options: string[]
-  answer: number
-}
-
-function pick<T>(arr: T[], n: number): T[] {
-  const copy = arr.slice()
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[copy[i], copy[j]] = [copy[j], copy[i]]
-  }
-  return copy.slice(0, n)
-}
-
-function makeQuestion(word: Word, direction: Direction): Question {
-  if (direction === 'inverse') {
-    // Show the definition, pick the word.
-    const distractors = pick(
-      WORDS.filter((w) => w.id !== word.id).map((w) => w.term),
-      3,
-    )
-    const options = pick([word.term, ...distractors], 4)
-    return { word, direction, prompt: word.meaning, options, answer: options.indexOf(word.term) }
-  }
-  // Show the word, pick the definition.
-  const distractors = pick(
-    WORDS.filter((w) => w.id !== word.id).map((w) => w.meaning),
-    3,
-  )
-  const options = pick([word.meaning, ...distractors], 4)
-  return { word, direction, prompt: word.term, options, answer: options.indexOf(word.meaning) }
-}
-
-function buildQuiz(due: { id: string; box: number }[]): Question[] {
-  return pick(due, Math.min(due.length, 8)).flatMap(({ id, box }) => {
-    const word = getWord(id)
-    if (!word) return []
-    // Once a word is well known (box 3+) the harder "definition → word" direction kicks in.
-    return [makeQuestion(word, box >= 3 ? 'inverse' : 'forward')]
-  })
-}
 
 export function RecallPage() {
-  const { state, recordRecall } = useProgress()
-  const due = useMemo(
-    () =>
-      Object.entries(state.learned)
+  const learned = useProgressSlice((s) => s.learned)
+
+  // The round is fixed when the page opens: answering updates `learned`, and
+  // rebuilding from that would reshuffle the questions mid-quiz.
+  const [quiz] = useState(() =>
+    buildQuiz(
+      Object.entries(learned)
         .filter(([, e]) => isDue(e))
         .map(([id, e]) => ({ id, box: e.box })),
-    [state.learned],
+    ),
   )
-  // Build once per mount so answering (which changes state) doesn't reshuffle mid-quiz.
-  const [quiz] = useState(() => buildQuiz(due))
   const [i, setI] = useState(0)
   const [choice, setChoice] = useState<number | null>(null)
   const [score, setScore] = useState(0)

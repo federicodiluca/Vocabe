@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
-import { useProgress } from '@/state/context'
+import { useProgressState } from '@/state/hooks'
+import { updateSettings, replaceProgress, resetProgress } from '@/state/store'
 import { exportState, parseImported } from '@/core/storage/store'
 import { useIsPro } from '@/core/iap/useIsPro'
 import { MONETIZATION } from '@/core/features'
@@ -17,7 +18,7 @@ const THEMES: { value: ThemeSetting; label: string }[] = [
 ]
 
 export function SettingsPage() {
-  const { state, updateSettings, replaceState, resetAll } = useProgress()
+  const state = useProgressState()
   const isPro = useIsPro()
   const fileRef = useRef<HTMLInputElement>(null)
   const [msg, setMsg] = useState<string | null>(null)
@@ -40,7 +41,7 @@ export function SettingsPage() {
 
   async function onImportFile(file: File) {
     try {
-      replaceState(parseImported(await file.text()))
+      replaceProgress(parseImported(await file.text()))
       flash('Progressi importati')
     } catch {
       flash('File non valido')
@@ -145,7 +146,7 @@ export function SettingsPage() {
             className="w-full text-bad"
             onClick={() => {
               if (confirm('Cancellare tutti i progressi? Non si può annullare.')) {
-                resetAll()
+                resetProgress()
                 flash('Tutto azzerato')
               }
             }}

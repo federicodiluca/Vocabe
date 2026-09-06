@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Word } from '@/core/types'
-import { useProgress } from '@/state/context'
+import { useIsFavorite, useNote } from '@/state/hooks'
+import { toggleFavorite, setNote } from '@/state/store'
 import { speak, speechAvailable } from '@/core/speech'
 import { Icon } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
@@ -15,9 +16,8 @@ const CATEGORY_LABEL: Record<NonNullable<Word['category']>, string> = {
 }
 
 export function WordDetails({ word }: { word: Word }) {
-  const { state, isFavorite, toggleFavorite, setNote } = useProgress()
-  const fav = isFavorite(word.id)
-  const savedNote = state.notes[word.id] ?? ''
+  const fav = useIsFavorite(word.id)
+  const savedNote = useNote(word.id)
   const [noteOpen, setNoteOpen] = useState(Boolean(savedNote))
   const [draft, setDraft] = useState(savedNote)
 

@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { bonusWordForDay } from '@/core/content/words'
-import { useProgress } from '@/state/context'
+import { useIsLearned } from '@/state/hooks'
+import { markLearned, unmarkLearned } from '@/state/store'
 import { useIsPro } from '@/core/iap/useIsPro'
 import { MONETIZATION } from '@/core/features'
 import { ads, initAds } from '@/core/ads'
@@ -10,17 +11,15 @@ import { Icon } from '@/ui/Icon'
 import { WordDetails } from './WordDetails'
 
 export function BonusWordCard() {
-  const { state, isLearned, markLearned, unmarkLearned } = useProgress()
   const isPro = useIsPro()
-  const learnedIds = useMemo(() => new Set(Object.keys(state.learned)), [state.learned])
-  const bonusWord = useMemo(() => bonusWordForDay(learnedIds), [learnedIds])
+  const bonusWord = useMemo(() => bonusWordForDay(), [])
+  const learned = useIsLearned(bonusWord?.id ?? '')
 
   const [revealed, setRevealed] = useState(false)
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState<string | null>(null)
 
   if (!bonusWord) return null
-  const learned = isLearned(bonusWord.id)
 
   async function unlockWithAd() {
     setLoading(true)

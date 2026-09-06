@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { wordForDay } from '@/core/content/words'
-import { useProgress } from '@/state/context'
+import { useIsLearned } from '@/state/hooks'
+import { markLearned, unmarkLearned } from '@/state/store'
 import { Button } from '@/ui/Button'
 import { Card } from '@/ui/Card'
 import { Icon } from '@/ui/Icon'
@@ -13,12 +14,10 @@ const todayLabel = () =>
 
 export function DailyPage() {
   const word = useMemo(() => wordForDay(), [])
-  const { isLearned, markLearned, unmarkLearned } = useProgress()
-  const [revealed, setRevealed] = useState(() => isLearned(word.id))
+  const learned = useIsLearned(word.id)
+  const [revealed, setRevealed] = useState(learned)
   const [justRevealed, setJustRevealed] = useState(false)
   const [shareOpen, setShareOpen] = useState(false)
-
-  const learned = isLearned(word.id)
 
   return (
     <div className="space-y-6">

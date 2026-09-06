@@ -1,10 +1,9 @@
 import { useEffect } from 'react'
-import { useProgress } from '@/state/context'
+import { useProgressSlice } from '@/state/hooks'
 
 /** Applies the theme setting to <html>, tracking the OS preference when set to "system". */
 export function ThemeEffect() {
-  const { state } = useProgress()
-  const theme = state.settings.theme
+  const theme = useProgressSlice((s) => s.settings.theme)
 
   useEffect(() => {
     const mq = window.matchMedia('(prefers-color-scheme: dark)')

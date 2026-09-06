@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
-import { useProgress } from '@/state/context'
+import { useProgressSlice } from '@/state/hooks'
 import { displayStreak } from '@/core/streak/streak'
 import { isDue } from '@/core/srs/leitner'
 import { decodeChallenge, type Challenge } from '@/core/challenge'
@@ -18,10 +18,13 @@ const tabs: { to: string; label: string; icon: IconName; end?: boolean }[] = [
 ]
 
 export function Layout() {
-  const { state } = useProgress()
   const { pathname } = useLocation()
-  const streak = displayStreak(state.streak)
-  const dueCount = Object.values(state.learned).filter((e) => isDue(e)).length
+  const onboarded = useProgressSlice((s) => s.onboarded)
+  const streakBlock = useProgressSlice((s) => s.streak)
+  const learned = useProgressSlice((s) => s.learned)
+
+  const streak = displayStreak(streakBlock)
+  const dueCount = useMemo(() => Object.values(learned).filter((e) => isDue(e)).length, [learned])
 
   const [incoming, setIncoming] = useState<Challenge | null>(null)
   useEffect(() => {
@@ -39,7 +42,7 @@ export function Layout() {
     if (parsed) setIncoming(parsed)
   }, [])
 
-  if (!state.onboarded) return <Onboarding />
+  if (!onboarded) return <Onboarding />
 
   return (
     <div className="mx-auto flex min-h-full w-full max-w-md flex-col">

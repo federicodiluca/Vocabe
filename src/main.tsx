@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
 import { Capacitor } from '@capacitor/core'
-import { ProgressProvider } from '@/state/ProgressContext'
+import { initProgress } from '@/state/store'
 import { ThemeEffect } from '@/app/ThemeEffect'
 import { ReminderEffect } from '@/app/ReminderEffect'
 import { router } from '@/app/router'
@@ -17,13 +17,14 @@ async function bootstrap() {
     setStorageAdapter(createNativeAdapter(await preloadNativeValue()))
   }
 
+  // Load persisted progress only after the native storage adapter is in place.
+  initProgress()
+
   createRoot(document.getElementById('root')!).render(
     <StrictMode>
-      <ProgressProvider>
-        <ThemeEffect />
-        <ReminderEffect />
-        <RouterProvider router={router} />
-      </ProgressProvider>
+      <ThemeEffect />
+      <ReminderEffect />
+      <RouterProvider router={router} />
     </StrictMode>,
   )
 

@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { getWord } from '@/core/content/words'
-import { useProgress } from '@/state/context'
+import { useProgressState } from '@/state/hooks'
 import { displayStreak } from '@/core/streak/streak'
 import { BADGES } from '@/core/badges/badges'
 import { Button } from '@/ui/Button'
@@ -20,7 +20,7 @@ function Stat({ value, label }: { value: string | number; label: string }) {
 }
 
 export function ProgressPage() {
-  const { state } = useProgress()
+  const state = useProgressState()
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState<string | null>(null)
   const [challengeOpen, setChallengeOpen] = useState(false)

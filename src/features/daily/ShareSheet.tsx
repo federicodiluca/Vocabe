@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import type { Word } from '@/core/types'
-import { useProgress } from '@/state/context'
+import { useProgressState } from '@/state/hooks'
 import { renderShareCard } from '@/core/share/card'
 import { shareText, shareImageFile, downloadBlob, copyText } from '@/core/share/share'
 import { Button } from '@/ui/Button'
@@ -8,7 +8,7 @@ import { Icon } from '@/ui/Icon'
 import { Sheet } from '@/ui/Sheet'
 
 export function ShareSheet({ word, open, onClose }: { word: Word; open: boolean; onClose: () => void }) {
-  const { state } = useProgress()
+  const state = useProgressState()
   const [blob, setBlob] = useState<Blob | null>(null)
   const [url, setUrl] = useState<string | null>(null)
   const [error, setError] = useState(false)

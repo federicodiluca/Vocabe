@@ -11,7 +11,9 @@
     "words:validate": "tsx scripts/validate-words.ts",
     "cap:sync": "npm run build && npx cap sync android",
     "cap:open": "npx cap open android",
-    "icons:build": "node scripts/build-icons.mjs"
+    "icons:build": "node scripts/build-icons.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@capacitor-community/admob": "^7.2.0",
@@ -44,6 +46,7 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.5",
-    "vite-plugin-pwa": "^1.0.3"
+    "vite-plugin-pwa": "^1.0.3",
+    "vitest": "^4.1.11"
   }
 }

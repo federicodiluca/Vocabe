@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { WORDS } from '@/core/content/words'
-import { useProgress } from '@/state/context'
+import { useProgressSlice } from '@/state/hooks'
 import type { WordCategory } from '@/core/types'
 import { Icon } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
@@ -26,16 +26,18 @@ const DIFFICULTIES = [
 const SORTED = [...WORDS].sort((a, b) => a.term.localeCompare(b.term, 'it'))
 
 export function ExplorePage() {
-  const { isLearned, isFavorite, state } = useProgress()
+  const favorites = useProgressSlice((s) => s.favorites)
+  const learned = useProgressSlice((s) => s.learned)
   const [category, setCategory] = useState<WordCategory | 'tutte'>('tutte')
   const [difficulty, setDifficulty] = useState(0)
   const [favOnly, setFavOnly] = useState(false)
   const [query, setQuery] = useState('')
   const [open, setOpen] = useState<string | null>(null)
 
+  const favs = useMemo(() => new Set(favorites), [favorites])
+
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
-    const favs = new Set(state.favorites)
     return SORTED.filter((w) => {
       if (favOnly && !favs.has(w.id)) return false
       if (category !== 'tutte' && w.category !== category) return false
@@ -43,7 +45,7 @@ export function ExplorePage() {
       if (q && !w.term.toLowerCase().includes(q) && !w.meaning.toLowerCase().includes(q)) return false
       return true
     })
-  }, [category, difficulty, favOnly, query, state.favorites])
+  }, [category, difficulty, favOnly, query, favs])
 
   return (
     <div className="space-y-4 pt-2">
@@ -114,7 +116,7 @@ export function ExplorePage() {
             strokeWidth={1.3}
           />
           <p className="mt-3 text-sm text-ink-soft">
-            {favOnly && state.favorites.length === 0
+            {favOnly && favorites.length === 0
               ? 'Nessun preferito. Tocca la stella su una parola per aggiungerla.'
               : 'Nessuna parola con questi filtri.'}
           </p>
@@ -143,8 +145,8 @@ export function ExplorePage() {
                   <span className="block truncate text-xs text-ink-soft">{word.meaning}</span>
                 </span>
                 <span className="flex shrink-0 items-center gap-1.5 text-brand">
-                  {isFavorite(word.id) && <Icon name="star-filled" size={15} />}
-                  {isLearned(word.id) && <Icon name="check" size={16} />}
+                  {favs.has(word.id) && <Icon name="star-filled" size={15} />}
+                  {word.id in learned && <Icon name="check" size={16} />}
                 </span>
               </button>
               {open === word.id && (

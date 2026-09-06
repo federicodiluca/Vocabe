@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useProgress } from '@/state/context'
+import { completeOnboarding } from '@/state/store'
 import { Button } from '@/ui/Button'
 import { Icon, type IconName } from '@/ui/Icon'
 import { cn } from '@/ui/cn'
@@ -23,7 +23,6 @@ const SLIDES: { icon: IconName; title: string; body: string }[] = [
 ]
 
 export function Onboarding() {
-  const { completeOnboarding } = useProgress()
   const [i, setI] = useState(0)
   const last = i === SLIDES.length - 1
   const slide = SLIDES[i]
